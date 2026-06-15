@@ -1,0 +1,893 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AliFosche",
+				"abbreviation": "TAF",
+				"full": "TecnicheSegreteAliFosche",
+				"authors": [
+					"La Gilda delle Ali Fosche"
+				],
+				"convertedBy": [
+					"Simboli"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/Simboli-S/TecnicheSegreteAliFosche",
+				"targetSchema": "1.9.0"
+			}
+		],
+		"dateAdded": 1749942000,
+		"dateLastModified": 1749942000
+	},
+	"subclass": [
+		{
+			"name": "Path of the Storm",
+			"shortName": "Storm",
+			"source": "AliFosche",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"page": 1,
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"known": [
+								"elementalism|xphb"
+							]
+						}
+					},
+					"ability": "con"
+				}
+			],
+			"subclassFeatures": [
+				"Lesser Natural Control|Barbarian|XPHB|Storm|AliFosche|3",
+				"Storm Aura|Barbarian|XPHB|Storm|AliFosche|3",
+				"Storm Soul|Barbarian|XPHB|Storm|AliFosche|6",
+				"Raging Storm|Barbarian|XPHB|Storm|AliFosche|10",
+				"Shielding Aura|Barbarian|XPHB|Storm|AliFosche|14"
+			]
+		},
+		{
+			"name": "Path of the Giants",
+			"shortName": "Giant",
+			"source": "AliFosche",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"page": 1,
+			"subclassFeatures": [
+				"Giant's Power|Barbarian|XPHB|Giant|AliFosche|3",
+				"Giant's Havoc|Barbarian|XPHB|Giant|AliFosche|3",
+				"Elemental Cleaver|Barbarian|XPHB|Giant|AliFosche|6",
+				"Mighty Impel|Barbarian|XPHB|Giant|AliFosche|10",
+				"Demiurgic Colossus|Barbarian|XPHB|Giant|AliFosche|14"
+			]
+		},
+		{
+			"name": "College of Whispers",
+			"shortName": "Whispers",
+			"source": "AliFosche",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"page": 1,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"shadow blade|xge"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Psychic Blades|Bard|XPHB|Whispers|AliFosche|3",
+				"Words of Terror|Bard|XPHB|Whispers|AliFosche|3",
+				"Mantle of Whispers|Bard|XPHB|Whispers|AliFosche|6",
+				"Mischievous Afterimage|Bard|XPHB|Whispers|AliFosche|6",
+				"Shadow Lore|Bard|XPHB|Whispers|AliFosche|14"
+			]
+		},
+		{
+			"name": "Arcane Archer",
+			"shortName": "Arcane Archer",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"page": 1,
+			"subclassFeatures": [
+				"Arcane Lore|Fighter|XPHB|Arcane Archer|AliFosche|3",
+				"Arcane Shot|Fighter|XPHB|Arcane Archer|AliFosche|3",
+				"Arcane Shot Options|Fighter|XPHB|Arcane Archer|AliFosche|3",
+				"Curving Shot|Fighter|XPHB|Arcane Archer|AliFosche|7",
+				"Magical Ammunition|Fighter|XPHB|Arcane Archer|AliFosche|7",
+				"Ever-Ready Shot|Fighter|XPHB|Arcane Archer|AliFosche|10",
+				"Arcane Burst|Fighter|XPHB|Arcane Archer|AliFosche|15",
+				"Arcane Evasion|Fighter|XPHB|Arcane Archer|AliFosche|18"
+			]
+		},
+		{
+			"name": "Samurai",
+			"shortName": "Samurai",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"page": 1,
+			"subclassFeatures": [
+				"Elegant Courtier|Fighter|XPHB|Samurai|AliFosche|3",
+				"Fighting Spirit|Fighter|XPHB|Samurai|AliFosche|3",
+				"Focussed Fighter|Fighter|XPHB|Samurai|AliFosche|7",
+				"Rapid Strike|Fighter|XPHB|Samurai|AliFosche|10",
+				"Tireless Spirit|Fighter|XPHB|Samurai|AliFosche|15",
+				"Strength Before Death|Fighter|XPHB|Samurai|AliFosche|18"
+			]
+		},
+		{
+			"name": "Warrior of the Kensei",
+			"shortName": "Kensei",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"page": 1,
+			"subclassFeatures": [
+				"Kensei Weapon|Monk|XPHB|Kensei|AliFosche|3",
+				"Path of the Kensei|Monk|XPHB|Kensei|AliFosche|3",
+				"One with the Blade|Monk|XPHB|Kensei|AliFosche|6",
+				"Sharpen the Blade|Monk|XPHB|Kensei|AliFosche|11",
+				"Kensei Master|Monk|XPHB|Kensei|AliFosche|17"
+			]
+		},
+		{
+			"name": "Warrior of the Sun",
+			"shortName": "Sun",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"page": 1,
+			"subclassFeatures": [
+				"Radiant Awakening|Monk|XPHB|Sun|AliFosche|3",
+				"Searing Arc Strike|Monk|XPHB|Sun|AliFosche|6",
+				"Searing Sunburst|Monk|XPHB|Sun|AliFosche|11",
+				"Sun Avatar|Monk|XPHB|Sun|AliFosche|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Lesser Natural Control",
+			"source": "AliFosche",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"You learn the {@spell elementalism|xphb} cantrip. Constitution is your spellcasting modifier for it."
+			]
+		},
+		{
+			"name": "Storm Aura",
+			"source": "AliFosche",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"Whenever you activate your Rage, choose Desert, Sea, or Tundra. You extend an aura in a 10-foot Emanation originating from yourself for the duration of your Rage. Your aura has an effect that activates when a hostile creature enters the aura for the first time on a turn or starts its turn there.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Desert",
+							"entries": [
+								"Roll a number of d6s equal to your Rage damage bonus and add them together. Each creature of your choice in the aura must succeed on a Dexterity saving throw or take fire damage equal to the total."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Sea",
+							"entries": [
+								"Roll a number of d8s equal to your Rage damage bonus and add them together. One creature of your choice within your aura must make a Dexterity saving throw, taking lightning damage equal to the total on a failed save, or half as much on a successful one."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Tundra",
+							"entries": [
+								"Roll a number of d6s equal to your Rage damage bonus and add them together. One creature of your choice within your aura must succeed on a Strength saving throw or it subtracts the number rolled from the next attack roll it makes before the end of its next turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Storm Soul",
+			"source": "AliFosche",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm",
+			"subclassSource": "AliFosche",
+			"level": 6,
+			"entries": [
+				"When you finish a Long or Short rest, choose one of the following benefits that lasts until you use this feature again.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Desert",
+							"entries": [
+								"You gain Resistance to Fire damage, and as a Magic action you can touch a flammable object that isn't being worn or carried and cause it to start burning."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Sea",
+							"entries": [
+								"You gain Resistance to Lightning damage, can breathe underwater, and gain a Swim Speed equal to your Speed."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Tundra",
+							"entries": [
+								"You gain Resistance to Cold damage. As a Magic action you can touch water to turn an unoccupied 5-foot Cube of it into ice, which melts after 1 minute."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Raging Storm",
+			"source": "AliFosche",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm",
+			"subclassSource": "AliFosche",
+			"level": 10,
+			"entries": [
+				"The power of the storm you channel grows mightier, lashing out at your foes. The effect is based on the environment you choose for your Storm Aura.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Desert",
+							"entries": [
+								"When a creature fails its saving throw against your Storm Aura effect, it is engulfed with flames. For 1 minute the target takes {@damage 2d6} fire damage at the start of each of its turns, until it uses an action on one of its turns to extinguish the flames."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Sea",
+							"entries": [
+								"When you deal your Storm Aura effect damage, you can choose another creature within 30 feet of the original target. The new target makes the same Dexterity saving throw as the original."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Tundra",
+							"entries": [
+								"When a creature fails the saving throw against your Storm Aura effect, it takes {@damage 2d6} cold damage and its speed becomes 0 until the end of its next turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Shielding Aura",
+			"source": "AliFosche",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm",
+			"subclassSource": "AliFosche",
+			"level": 14,
+			"entries": [
+				"You gain immunity instead of resistance to the damage type of your Storm Soul feature. Moreover, each creature of your choice within a 15-foot Emanation from you gains the benefits of your Storm Soul feature."
+			]
+		},
+		{
+			"name": "Giant's Power",
+			"source": "AliFosche",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Giant",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"You know {@language Giant} or another language of your choice, if you already know it. You learn the {@spell druidcraft|xphb} or {@spell thaumaturgy|xphb} cantrip and Strength is your spellcasting modifier for it."
+			]
+		},
+		{
+			"name": "Giant's Havoc",
+			"source": "AliFosche",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Giant",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"Your rage channels the primal might of giants. While raging, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Improved Reach",
+							"entries": [
+								"The reach of your attacks is increased by 5 feet."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Mighty Stature",
+							"entries": [
+								"If you are smaller than Large, you become Large along with anything you are wearing. If you lack the room to become Large, your size doesn't change."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Cleaver",
+			"source": "AliFosche",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Giant",
+			"subclassSource": "AliFosche",
+			"level": 6,
+			"entries": [
+				"You bond with the elemental might of giants to infuse weapons with primordial energy. When you enter your rage, you can give the following benefits to a weapon you're holding.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Primal Power",
+							"entries": [
+								"Choose one of the following damage types: Cold, Fire, Lightning or Thunder. Once every turn, the weapon deals {@damage 1d12} extra damage of the chosen type."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Returning",
+							"entries": [
+								"The weapon gains the thrown property (20/60). If you throw the weapon, it reappears in your hand the instant after it hits or misses a target."
+							]
+						}
+					]
+				},
+				"The infused weapon's benefits are suppressed while a creature other than you wields it."
+			]
+		},
+		{
+			"name": "Mighty Impel",
+			"source": "AliFosche",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Giant",
+			"subclassSource": "AliFosche",
+			"level": 10,
+			"entries": [
+				"Your strength allows you to hurl creatures on the battlefield. While raging, you can use a Bonus Action to force a Large or smaller creature within your reach to make a Strength saving throw (DC equal to 8 + your Strength modifier + your proficiency bonus). On a failed save, you hurl it up to 15 feet away from you in a direction you choose."
+			]
+		},
+		{
+			"name": "Demiurgic Colossus",
+			"source": "AliFosche",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Giant",
+			"subclassSource": "AliFosche",
+			"level": 14,
+			"entries": [
+				"The primordial power of your rage intensifies. When you rage, your reach increases by 10 feet, your size can increase to Large or Huge (your choice) and the extra damage dealt by your Elemental Cleaver increases to {@damage 2d12}."
+			]
+		},
+		{
+			"name": "Psychic Blades",
+			"source": "AliFosche",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Whispers",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"Your mastery of psychic magic gives you the following benefits.",
+				"You learn the {@spell shadow blade|xge} spell and it counts as a Bard spell for you.",
+				"When you hit with a weapon attack or deal Psychic damage you can expend one use of your Bardic Inspiration to deal extra Psychic damage equal to three rolls of your Bardic Inspiration die."
+			]
+		},
+		{
+			"name": "Words of Terror",
+			"source": "AliFosche",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Whispers",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"If you speak for 1 minute to a creature with an Intelligence ability score of at least 6, you can attempt to seed paranoia in its mind. At the end of the conversation, the target must succeed on a Wisdom saving throw against your Bard spell DC or be {@condition frightened} of you. While {@condition frightened} this way, the creature is {@condition incapacitated} if it can see you."
+			]
+		},
+		{
+			"name": "Mantle of Whispers",
+			"source": "AliFosche",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Whispers",
+			"subclassSource": "AliFosche",
+			"level": 6,
+			"entries": [
+				"When a Medium or Small creature within 30 feet of you reaches 0 hit points, you steal its shadow. You can take a Bonus Action to spend the shadow and gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Dark Resilience",
+							"entries": [
+								"You gain temporary hit points equal to your Bard level."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Psychic Whispers",
+							"entries": [
+								"For 1 hour, you take the creature's appearance and learn general details on the creature's background and personal life."
+							]
+						}
+					]
+				},
+				"You can use this feature a number of times equal to your Charisma modifier (minimum of once) and regain all expended uses when you finish a Long rest."
+			]
+		},
+		{
+			"name": "Mischievous Afterimage",
+			"source": "AliFosche",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Whispers",
+			"subclassSource": "AliFosche",
+			"level": 6,
+			"entries": [
+				"Immediately after you deal damage with your Psychic Blades feature, you can teleport 15 feet to an unoccupied space you can see."
+			]
+		},
+		{
+			"name": "Shadow Lore",
+			"source": "AliFosche",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Whispers",
+			"subclassSource": "AliFosche",
+			"level": 14,
+			"entries": [
+				"As a Magic Action, you whisper in the mind of a creature within 30 feet of you. It must make a Wisdom saving throw against your spell DC. On a failed save, your whispers sound like the target's own thoughts for 1 minute. The creature has advantage on this save if it can hear you. While it fails, the creature must use its action on its next turn to make a melee attack against a creature of your choice that you can see."
+			]
+		},
+		{
+			"name": "Arcane Lore",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"You studied magical theory and secrets of nature, granting you the following benefits. You know either the {@spell druidcraft|xphb} or {@spell prestidigitation|xphb} cantrip. Intelligence is your spellcasting ability for this cantrip."
+			]
+		},
+		{
+			"name": "Arcane Shot",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"You learn to unleash special magical effects with your shots.",
+				"{@b Arcane Shot Options.} You learn two Arcane Shot options of your choice from the \"Arcane Shot Options\" of this subclass. You learn an additional Arcane Shot option of your choice when you reach 7th, 10th, 15th, and 18th level in this class.",
+				"{@b Using Arcane Shot.} Once per turn when you make a ranged attack using a weapon with the ammunition property, you can apply one Arcane Shot option to that attack. You decide to use the option when the arrow hits a creature, not when you make the attack roll.",
+				"{@b Arcane Shot Die.} The dice used by your Arcane Shot Options is a d6. The Arcane Shot Die becomes a d8 at level 10, a d10 at level 15 and a d12 at level 18.",
+				"{@b Saving Throws.} If an Arcane Shot option requires a saving throw, the DC equals 8 plus your Intelligence modifier and Proficiency Bonus."
+			]
+		},
+		{
+			"name": "Arcane Shot Options",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"The Arcane Shot options are presented here in alphabetical order.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Banishing Shot",
+							"entries": [
+								"The target of the attack takes Psychic damage equal to one roll of your Arcane Shot die and must succeed on a Charisma saving throw or be banished to the Ethereal Plane until the end of its next turn. While banished, the target is {@condition incapacitated}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Bursting Shot",
+							"entries": [
+								"The target of the attack and each creature within a 10-foot emanation originating from it takes Force damage equal to two rolls of your Arcane shot die."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Enfeebling Shot",
+							"entries": [
+								"The target of the attack takes Necrotic damage equal to two rolls of your Arcane shot die and must succeed on a Strength saving throw. On a failed save, each damage roll of the target is reduced by the number of damage dice rolled for this option."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Grasping Shot",
+							"entries": [
+								"The target of the attack takes Slashing damage equal to one roll of your Arcane Shot Die and must succeed on a Dexterity saving throw or have the {@condition restrained} condition for 1 minute. As a Bonus Action, the bound creature can attempt a Strength check to break free."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Piercing Shot",
+							"entries": [
+								"You don't make an attack roll for the attack. Each creature in a 30-foot long and 5-foot wide line originating from you must make a Dexterity saving throw. On a failed save, a creature takes Force damage equal to two rolls of your Arcane Shot die."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Curving Shot",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "AliFosche",
+			"level": 7,
+			"entries": [
+				"You learn how to direct an errant arrow toward a new target. If you make an attack roll with a weapon with the ammunition property and miss, you can cause the shot to ricochet as a Bonus Action. The arrow rebounds toward another creature of your choice within 30 feet of the original target and within range of the weapon. Make a new attack roll for the ricochet. On a hit, the new target takes damage as if it were hit by the original attack."
+			]
+		},
+		{
+			"name": "Magical Ammunition",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "AliFosche",
+			"level": 7,
+			"entries": [
+				"When you shoot an ammunition, you can imbue it with one of the following properties.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Darkening Shot",
+							"entries": [
+								"Magical darkness fills a 15-foot emanation originating from the ammunition for 1 minute."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Unlocking Shot",
+							"entries": [
+								"A burst of magic fills a 15-foot emanation originating from the ammunition. Any mundane lock in the emanation becomes unlocked."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Vine Shot",
+							"entries": [
+								"A 60-foot long vine grows from the ammunition. You and other creatures can then climb it. The vine withers away after 10 minutes."
+							]
+						}
+					]
+				},
+				"Once you use this feature, you can't do so again until you finish a Short or Long rest. You can also restore your use of this feature by expending a use of your Second Wind."
+			]
+		},
+		{
+			"name": "Ever-Ready Shot",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "AliFosche",
+			"level": 10,
+			"entries": [
+				"When you roll initiative you can regain one expended use of Arcane Shot."
+			]
+		},
+		{
+			"name": "Arcane Burst",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "AliFosche",
+			"level": 15,
+			"entries": [
+				"When you use your Indomitable feature, each creature of your choice within a 10-foot emanation originating from you must succeed on a Strength saving throw against your Arcane Shot DC or be pushed 10 feet away from you."
+			]
+		},
+		{
+			"name": "Arcane Evasion",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "AliFosche",
+			"level": 18,
+			"entries": [
+				"When a creature misses you with an attack, you can take a reaction to teleport up to 15 feet to an unoccupied space you can see. You can then make a ranged attack roll against the attacker as part of the same reaction. You can use this feature three times per combat. You regain expended uses when you finish a Short or Long rest."
+			]
+		},
+		{
+			"name": "Elegant Courtier",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Samurai",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"You gain proficiency in one of the following skills of your choice: {@skill History}, {@skill Insight}, {@skill Performance}, or {@skill Persuasion}. In addition, whenever you make a Charisma check, you gain a bonus to the check equal to your Intelligence modifier."
+			]
+		},
+		{
+			"name": "Fighting Spirit",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Samurai",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"When you take the {@action Attack} Action, you can give yourself advantage on every attack you make in this turn and gain a number of temporary hit points equal to your Fighter level. You can use this feature twice and regain all uses of it when you finish a Short or Long rest."
+			]
+		},
+		{
+			"name": "Focussed Fighter",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Samurai",
+			"subclassSource": "AliFosche",
+			"level": 7,
+			"entries": [
+				"You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)."
+			]
+		},
+		{
+			"name": "Rapid Strike",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Samurai",
+			"subclassSource": "AliFosche",
+			"level": 10,
+			"entries": [
+				"Once every turn, as part of the {@action Attack} Action, when you make an attack with advantage, you can forgo the advantage to make an additional weapon attack as part of the same action."
+			]
+		},
+		{
+			"name": "Tireless Spirit",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Samurai",
+			"subclassSource": "AliFosche",
+			"level": 15,
+			"entries": [
+				"When you roll initiative you regain expended uses of Fighting Spirit until you have 2, if you have 1 or fewer."
+			]
+		},
+		{
+			"name": "Strength Before Death",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Samurai",
+			"subclassSource": "AliFosche",
+			"level": 18,
+			"entries": [
+				"When you drop to 0 hit points, you can use your reaction to delay falling {@condition unconscious} and immediately take an extra turn. Taking damage causes death saves failure and can kill you. At the end of this extra turn, you fall {@condition unconscious}."
+			]
+		},
+		{
+			"name": "Kensei Weapon",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Kensei",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"Choose one melee and one ranged weapon to be your kensei weapons. They can be any weapon that lacks the heavy and special properties, or a Longbow. You are proficient in them, can use their properties with Martial Arts, and can use them as Martial Arts weapons. Your kensei weapons count as weapons with which you're proficient."
+			]
+		},
+		{
+			"name": "Path of the Kensei",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Kensei",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"You gain proficiency in calligrapher's supplies or painter's supplies. In addition, once every turn, you can gain one of the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Agile Parry",
+							"entries": [
+								"While you're holding a melee kensei weapon and are not {@condition incapacitated}, you gain a +2 bonus to AC."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Kensei's Shot",
+							"entries": [
+								"When you hit with a ranged kensei weapon as part of the {@action Attack} Action, you can deal extra damage equal to one roll of your Martial Arts die."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "One with the Blade",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Kensei",
+			"subclassSource": "AliFosche",
+			"level": 6,
+			"entries": [
+				"You extend your power into your kensei weapons, granting you the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Kensei Blow",
+							"entries": [
+								"You can make an attack with a kensei weapon as a Bonus Action."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Deft Strike",
+							"entries": [
+								"Once every turn, when you hit a target with a kensei weapon, you can spend 1 Focus Point to deal extra damage equal to a roll of your Martial Arts die."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sharpen the Blade",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Kensei",
+			"subclassSource": "AliFosche",
+			"level": 11,
+			"entries": [
+				"At the start of your turn, you can expend up to 3 Focus Points to empower one kensei weapon you touch. That weapon gains a bonus to attack and damage rolls equal the number of discipline points spent on it until the end of this turn."
+			]
+		},
+		{
+			"name": "Kensei Master",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Kensei",
+			"subclassSource": "AliFosche",
+			"level": 17,
+			"entries": [
+				"At the peak of your fighting prowess, you gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Kensei Flurry",
+							"entries": [
+								"You can expend 1 Focus Point to make two attacks with a Kensei Weapon as a Bonus Action."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Unerring Accuracy",
+							"entries": [
+								"Your mastery of weapons grants you extraordinary accuracy. If you miss with an attack roll using a monk weapon on your turn, you can reroll it. You can use this feature only once on each of your turns."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Radiant Awakening",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Sun",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"At the start of your turn, you can spend 1 discipline point to wreathe yourself in radiant energy for 10 minutes. For the duration you gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						"Once every turn, when you hit with an attack, you can deal extra radiant damage equal to one roll of your Martial Arts die.",
+						"Once every turn, you can replace an Unarmed Strike attack to make a ranged attack using Dexterity against a creature within 60 feet of you. If the attack hits, it deals radiant damage equal to a roll of your Martial Arts die."
+					]
+				}
+			]
+		},
+		{
+			"name": "Searing Arc Strike",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Sun",
+			"subclassSource": "AliFosche",
+			"level": 6,
+			"entries": [
+				"As a bonus action, you can spend 1 Focus Point to emit a 15-foot cone of light from your hand. Each creature in the area must make a Constitution saving throw. On a failed save it takes radiant damage equal to two rolls of your Martial Arts die, or half as much on a successful one."
+			]
+		},
+		{
+			"name": "Searing Sunburst",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Sun",
+			"subclassSource": "AliFosche",
+			"level": 11,
+			"entries": [
+				"As a Magic Action, you hurl a bolt of light at a point you can see within 60 feet of you. Each creature in that 20-foot radius sphere centered on that point must succeed on a Dexterity saving throw or take radiant damage equal to three rolls of your Martial Arts die, or half as much on a successful one."
+			]
+		},
+		{
+			"name": "Sun Avatar",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Sun",
+			"subclassSource": "AliFosche",
+			"level": 17,
+			"entries": [
+				"While your Radiant Awakening is active, you instead gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						"You gain Fly speed equal to your Speed.",
+						"Each attack you make as part of the {@action Attack} Action deals extra radiant damage equal to one roll of your Martial Arts die.",
+						"Each time you make an Unarmed Strike, you can instead make an attack using Dexterity against a creature within 60 feet of you. If the attack hits, the target suffers Radiant damage equal to one roll of your Martial Arts die."
+					]
+				}
+			]
+		}
+	]
+}
