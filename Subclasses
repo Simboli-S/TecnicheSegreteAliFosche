@@ -63,6 +63,30 @@
 			]
 		},
 		{
+			"name": "College of Whispers",
+			"shortName": "Whispers",
+			"source": "AliFosche",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"page": 1,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"shadow blade|xge"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Psychic Blades|Bard|XPHB|Whispers|AliFosche|3",
+				"Words of Terror|Bard|XPHB|Whispers|AliFosche|3",
+				"Mantle of Whispers|Bard|XPHB|Whispers|AliFosche|6",
+				"Mischievous Afterimage|Bard|XPHB|Whispers|AliFosche|6",
+				"Shadow Lore|Bard|XPHB|Whispers|AliFosche|14"
+			]
+		},
+		{
 			"name": "Arcane Archer",
 			"shortName": "Arcane Archer",
 			"source": "AliFosche",
@@ -94,6 +118,35 @@
 				"Rapid Strike|Fighter|XPHB|Samurai|AliFosche|10",
 				"Tireless Spirit|Fighter|XPHB|Samurai|AliFosche|15",
 				"Strength Before Death|Fighter|XPHB|Samurai|AliFosche|18"
+			]
+		},
+		{
+			"name": "Warrior of the Kensei",
+			"shortName": "Kensei",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"page": 1,
+			"subclassFeatures": [
+				"Kensei Weapon|Monk|XPHB|Kensei|AliFosche|3",
+				"Path of the Kensei|Monk|XPHB|Kensei|AliFosche|3",
+				"One with the Blade|Monk|XPHB|Kensei|AliFosche|6",
+				"Sharpen the Blade|Monk|XPHB|Kensei|AliFosche|11",
+				"Kensei Master|Monk|XPHB|Kensei|AliFosche|17"
+			]
+		},
+		{
+			"name": "Warrior of the Sun",
+			"shortName": "Sun",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"page": 1,
+			"subclassFeatures": [
+				"Radiant Awakening|Monk|XPHB|Sun|AliFosche|3",
+				"Searing Arc Strike|Monk|XPHB|Sun|AliFosche|6",
+				"Searing Sunburst|Monk|XPHB|Sun|AliFosche|11",
+				"Sun Avatar|Monk|XPHB|Sun|AliFosche|17"
 			]
 		}
 	],
@@ -336,6 +389,88 @@
 			]
 		},
 		{
+			"name": "Psychic Blades",
+			"source": "AliFosche",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Whispers",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"Your mastery of psychic magic gives you the following benefits.",
+				"You learn the {@spell shadow blade|xge} spell and it counts as a Bard spell for you.",
+				"When you hit with a weapon attack or deal Psychic damage you can expend one use of your Bardic Inspiration to deal extra Psychic damage equal to three rolls of your Bardic Inspiration die."
+			]
+		},
+		{
+			"name": "Words of Terror",
+			"source": "AliFosche",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Whispers",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"If you speak for 1 minute to a creature with an Intelligence ability score of at least 6, you can attempt to seed paranoia in its mind. At the end of the conversation, the target must succeed on a Wisdom saving throw against your spell save DC or be {@condition Frightened} by you. The target is frightened in this way for 1 hour, until it or one of its allies are harmed. If the target succeeds on its saving throw, the target has no hint that you tried to frighten it. Once you use this feature, you can't use it again until you finish a Short or Long rest."
+			]
+		},
+		{
+			"name": "Mantle of Whispers",
+			"source": "AliFosche",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Whispers",
+			"subclassSource": "AliFosche",
+			"level": 6,
+			"entries": [
+				"When a Medium or Small creature within 30 feet of you reaches 0 hit points, you steal its shadow. You can take a Bonus Action to spend the shadow and gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Dark Resilience",
+							"entries": [
+								"You gain temporary hit points equal to your Bard level."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Psychic Whispers",
+							"entries": [
+								"For 1 hour, you take the creature's appearance and learn general details on the creature's background and personal life."
+							]
+						}
+					]
+				},
+				"You can use this feature a number of times equal to your Charisma modifier (minimum of once) and regain all expended uses when you finish a Long rest."
+			]
+		},
+		{
+			"name": "Mischievous Afterimage",
+			"source": "AliFosche",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Whispers",
+			"subclassSource": "AliFosche",
+			"level": 6,
+			"entries": [
+				"Immediately you deal damage with your Psychic Blades feature, you can teleport 15 feet in an unoccupied space you can see."
+			]
+		},
+		{
+			"name": "Shadow Lore",
+			"source": "AliFosche",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Whispers",
+			"subclassSource": "AliFosche",
+			"level": 14,
+			"entries": [
+				"As a Magic Action, you whisper in the mind of a creature within 30 feet of you. It must make a Wisdom saving throw against your spell DC. On a failed save, your whispers sound like the target's most dark secrets and fears. It is {@condition Charmed} by you and obeys your commands for 8 hours or until you or your allies harm it. The target won't risk its life for you, but can grant you favors and gifts. When the effect ends, it has no understanding of this fear. On a successful save, your whisper sounds like unintelligible mumbling and has no effect. Once you use this feature, you can't use it again until you finish a Long rest."
+			]
+		},
+		{
 			"name": "Arcane Lore",
 			"source": "AliFosche",
 			"className": "Fighter",
@@ -572,6 +707,186 @@
 			"level": 18,
 			"entries": [
 				"When you drop to 0 hit points, you can use your reaction to delay falling {@condition unconscious} and immediately take an extra turn. Taking damage causes death saves failure and can kill you. At the end of this turn, you fall unconscious if you have 0 hit points. Once you use this feature, you can't use it again until you finish a Long Rest."
+			]
+		},
+		{
+			"name": "Kensei Weapon",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Kensei",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"Choose one melee and one ranged weapon to be your kensei weapons. They can be any weapon that lacks the heavy and special properties, or a Longbow. You are proficient in them, can use their weapon masteries and are monk weapons for you. When you reach Monk levels 6, 11, and 17 you choose another weapon to be a kensei weapon."
+			]
+		},
+		{
+			"name": "Path of the Kensei",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Kensei",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"You gain proficiency in calligrapher's supplies or painter's supplies. In addition, once every turn, you can gain one of the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Agile Parry",
+							"entries": [
+								"While you're holding a melee kensei weapon and are not {@condition incapacitated}, you gain a +2 bonus to AC."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Kensei's Shot",
+							"entries": [
+								"When hit with a ranged kensei weapon as part of the {@action Attack} Action, you can deal extra damage equal to one roll of your Martial Arts die."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "One with the Blade",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Kensei",
+			"subclassSource": "AliFosche",
+			"level": 6,
+			"entries": [
+				"You extend your power into your kensei weapons, granting you the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Kensei Blow",
+							"entries": [
+								"You can make an attack with a kensei weapon as a Bonus Action."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Deft Strike",
+							"entries": [
+								"Once every turn, when you hit a target with a kensei weapon, you can spend 1 Focus Point to deal extra damage equal to a roll of your Martial Arts die."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sharpen the Blade",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Kensei",
+			"subclassSource": "AliFosche",
+			"level": 11,
+			"entries": [
+				"At the start of your turn, you can expend up to 3 Focus Points to empower one kensei weapon you touch. That weapon gains a bonus to attack and damage rolls equal the number of discipline points you spent, unless it already has a higher bonus. This bonus lasts for 10 minutes or until you use this feature again."
+			]
+		},
+		{
+			"name": "Kensei Master",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Kensei",
+			"subclassSource": "AliFosche",
+			"level": 17,
+			"entries": [
+				"At the peak of your fighting prowess, you gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Kensei Flurry",
+							"entries": [
+								"You can expend 1 Focus Point to make two attacks with a Kensei Weapon as a Bonus Action."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Unerring Accuracy",
+							"entries": [
+								"Your mastery of weapons grants you extraordinary accuracy. If you miss with an attack roll using a monk weapon on your turn, you can reroll it. You can use this feature only once on each of your turns."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Radiant Awakening",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Sun",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"At the start of your turn, you can spend 1 discipline point to wreathe yourself in radiant energy for 10 minutes. For the duration you gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						"Once every turn, when you hit with an attack, you can deal extra radiant damage equal to one roll of your Martial Arts die.",
+						"Once every turn, you can replace an Unarmed Strike attack to make a ranged attack using Dexterity against a creature within 60 feet of you. If the attack hits, it deals radiant damage equal to one roll of your Martial Arts die plus your Dexterity modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Searing Arc Strike",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Sun",
+			"subclassSource": "AliFosche",
+			"level": 6,
+			"entries": [
+				"As a bonus action, you can spend 1 Focus Point to emit a 15-foot cone of light from your hand. Each creature in the area must make a Constitution saving throw. On a failed save it takes radiant damage equal to two rolls of your Martial Arts die and be {@condition Blinded} until the end of its next turn. On a successful save it only takes half that damage."
+			]
+		},
+		{
+			"name": "Searing Sunburst",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Sun",
+			"subclassSource": "AliFosche",
+			"level": 11,
+			"entries": [
+				"As a Magic Action, you hurl a bolt of light at a point you can see within 60 feet of you. Each creature in that 20-foot radius sphere centered on that point must succeed on a Dexterity saving throw. On a failed save, they take Radiant damage equal to two rolls of your Martial Arts die, or half as much on a successful one. You can spend up to 3 Focus Points, to increase the damage by one roll of your Martial Arts die for each Focus Point you spend."
+			]
+		},
+		{
+			"name": "Sun Avatar",
+			"source": "AliFosche",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Sun",
+			"subclassSource": "AliFosche",
+			"level": 17,
+			"entries": [
+				"While your Radiant Awakening is active, you instead gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						"You gain Fly speed equal to your Speed.",
+						"Each attack you make as part of the {@action Attack} Action deals extra radiant damage equal to one roll of your Martial Arts die.",
+						"Each time you make an Unarmed Strike, you can instead make an attack using Dexterity against a creature within 60 feet of you. If the attack hits, the target suffers Radiant damage equal to one roll of your Martial Arts die plus your Dexterity modifier."
+					]
+				}
 			]
 		}
 	]
