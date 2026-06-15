@@ -1,0 +1,209 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "PathOfTheStorm",
+				"abbreviation": "PoTS",
+				"full": "Path of the Storm",
+				"authors": [
+					"Homebrew"
+				],
+				"convertedBy": [
+					"Homebrew"
+				],
+				"version": "1.0.0",
+				"url": "",
+				"targetSchema": "1.9.0"
+			}
+		],
+		"dateAdded": 1749942000,
+		"dateLastModified": 1749942000
+	},
+	"subclass": [
+		{
+			"name": "Path of the Storm",
+			"shortName": "Storm",
+			"source": "PathOfTheStorm",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"page": 1,
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"known": [
+								"elementalism"
+							]
+						}
+					},
+					"ability": "con"
+				}
+			],
+			"subclassFeatures": [
+				"Lesser Natural Control|Barbarian|XPHB|Storm|PathOfTheStorm|3",
+				"Storm Soul|Barbarian|XPHB|Storm|PathOfTheStorm|6",
+				"Raging Storm|Barbarian|XPHB|Storm|PathOfTheStorm|10",
+				"Shielding Aura|Barbarian|XPHB|Storm|PathOfTheStorm|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Lesser Natural Control",
+			"source": "PathOfTheStorm",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm",
+			"subclassSource": "PathOfTheStorm",
+			"level": 3,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Lesser Natural Control",
+					"entries": [
+						"You learn the {@spell elementalism} cantrip. Constitution is your spellcasting modifier for it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Storm Aura",
+					"entries": [
+						"Whenever you activate your Rage, choose Desert, Sea, or Tundra. You extend an aura in a 10-foot Emanation originating from yourself for the duration of your Rage. Your aura has an effect that activates when you enter your Rage and again at the start of each of your turns. The effect depends on the chosen environment, as detailed below. If your Aura requires a saving throw, the DC equals 8 plus your Constitution modifier and your proficiency bonus.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Desert",
+									"entries": [
+										"Roll a number of d6s equal to your Rage damage bonus and add them together. Each creature of your choice in the aura must succeed on a Dexterity saving throw or take fire damage equal to the number rolled."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Sea",
+									"entries": [
+										"Roll a number of d8s equal to your Rage damage bonus and add them together. One creature of your choice within your aura must make a Dexterity saving throw, taking lightning damage equal to the number rolled on a failed save or half as much on a successful one."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Tundra",
+									"entries": [
+										"Roll a number of d6s equal to your Rage damage bonus and add them together. One creature of your choice within your aura must succeed on a Strength saving throw or it subtracts the number rolled from the next damage roll it makes before the start of your next turn."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Storm Soul",
+			"source": "PathOfTheStorm",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm",
+			"subclassSource": "PathOfTheStorm",
+			"level": 6,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Storm Soul",
+					"entries": [
+						"When you finish a Long or Short rest, choose one of the following benefits that lasts until you use this feature again.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Desert",
+									"entries": [
+										"You gain Resistance to Fire damage, and as a Magic action you can touch a flammable object that isn't being worn or carried and cause it to start burning."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Sea",
+									"entries": [
+										"You gain Resistance to Lightning damage, can breathe underwater, and gain a Swim Speed equal to your Speed."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Tundra",
+									"entries": [
+										"You gain Resistance to Cold damage. As a Magic action you can touch water to turn an unoccupied 5-foot Cube of it into ice, which melts after 1 minute."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Raging Storm",
+			"source": "PathOfTheStorm",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm",
+			"subclassSource": "PathOfTheStorm",
+			"level": 10,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Raging Storm",
+					"entries": [
+						"The power of the storm you channel grows mightier, lashing out at your foes. The effect is based on the environment you choose for your Storm Aura.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Desert",
+									"entries": [
+										"When a creature fails its saving throw against your Storm Aura effect, it is engulfed with flames. For 1 minute the target takes {@damage 2d6} fire damage at the start of each of its turns, unless it uses an action to stop the flames."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Sea",
+									"entries": [
+										"When you deal your Storm Aura effect damage, you can choose another creature within 30 feet of the original target. The new target makes the same Dexterity saving throw as the original."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Tundra",
+									"entries": [
+										"When a creature fails the saving throw against your Storm Aura effect, it takes {@damage 2d6} cold damage and its speed becomes 0 until the end of its next turn."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Shielding Aura",
+			"source": "PathOfTheStorm",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm",
+			"subclassSource": "PathOfTheStorm",
+			"level": 14,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Shielding Aura",
+					"entries": [
+						"You gain immunity instead of resistance to the damage type of your Storm Soul feature. Moreover, each creature of your choice within a 15-foot Emanation from you gains the benefits of your Storm Soul feature."
+					]
+				}
+			]
+		}
+	]
+}
