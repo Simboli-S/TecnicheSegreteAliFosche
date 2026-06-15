@@ -557,6 +557,22 @@
                 "Level 9: Runes of War|Artificer|AliFosche|Forge Adept|AliFosche|9",
                 "Level 15: Perfect Weapon|Artificer|AliFosche|Forge Adept|AliFosche|15"
             ]
+        },
+        {
+            "name": "Maverick",
+            "shortName": "Maverick",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "page": 1,
+            "subclassFeatures": [
+                "Level 3: Bonus Proficiency|Artificer|AliFosche|Maverick|AliFosche|3",
+                "Level 3: Arcane Breakthrough|Artificer|AliFosche|Maverick|AliFosche|3",
+                "Level 3: Cantrip Specialist|Artificer|AliFosche|Maverick|AliFosche|3",
+                "Level 5: Eccentric Versatility|Artificer|AliFosche|Maverick|AliFosche|5",
+                "Level 9: Superior Breakthrough|Artificer|AliFosche|Maverick|AliFosche|9",
+                "Level 15: Final Breakthrough|Artificer|AliFosche|Maverick|AliFosche|15"
+            ]
         }
     ],
     "classFeature": [
@@ -2506,6 +2522,85 @@
                         "When you hit with your Soul Weapon the target takes {@damage 1d6} extra Psychic damage."
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Level 3: Bonus Proficiency",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Maverick",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You gain proficiency in one skill or one tool of your choice."
+            ]
+        },
+        {
+            "name": "Level 3: Arcane Breakthrough",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Maverick",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You gain amazing insights into spell effects beyond the reach of most artificers. Choose one of the following classes: Cleric, Druid or Wizard. This class’s spells become part of your Breakthrough List. You can choose another class to add to your Breakthrough List at level 5 and level 9. When you prepare your spells, you can prepare one additional spell for each level and those spells must be chosen from your Breakthrough List. You can cast each of those spells once without expending a spell slot and regain the ability to do so when you finish a Long Rest. The spells of your Breakthrough List are considered to be Artificer spells for you, and Intelligence is your spellcasting ability for them."
+            ]
+        },
+        {
+            "name": "Level 3: Cantrip Specialist",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Maverick",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You studied the basics of spellcasting more than most, gaining the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "You learn one cantrip of your choice from your Breakthrough List. At the end of a Long rest, you can change that cantrip with another from your Breakthrough List.",
+                        "When you deal damage with a cantrip, you can roll one of its damage dice again and add it to the damage total."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 5: Eccentric Versatility",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Maverick",
+            "subclassSource": "AliFosche",
+            "level": 5,
+            "entries": [
+                "As a Bonus Action, you can cast one spell of your choice. This spell must be from your Breakthrough List and require an action to be cast. You can use this feature a number of times equal to your Intelligence modifier (minimum of once) and regain all expended uses when you finish a Long rest."
+            ]
+        },
+        {
+            "name": "Level 9: Superior Breakthrough",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Maverick",
+            "subclassSource": "AliFosche",
+            "level": 9,
+            "entries": [
+                "When you finish a Long rest, choose a spell from your Breakthrough List of a level equal to half your Artificer level (rounded up) up to level 7. You can cast the chosen spell once without expending a spell slot."
+            ]
+        },
+        {
+            "name": "Level 15: Final Breakthrough",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Maverick",
+            "subclassSource": "AliFosche",
+            "level": 15,
+            "entries": [
+                "When you cast one of your Artificer or Breakthrough spells, you can do so as if the spell was cast using a spell slot two levels higher than the spell slot you expend. You can use this feature a number of times equal to your Intelligence modifier (minimum of once) and regain all expended uses after you finish a Long rest."
             ]
         }
     ],
