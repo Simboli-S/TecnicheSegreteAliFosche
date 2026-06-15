@@ -295,7 +295,7 @@
 			"subclassSource": "AliFosche",
 			"level": 3,
 			"entries": [
-				"Whenever you activate your Rage, choose Desert, Sea, or Tundra. You extend an aura in a 10-foot Emanation originating from yourself for the duration of your Rage. Your aura has an effect that acts once per turn.",
+				"Whenever you activate your Rage, choose Desert, Sea, or Tundra. You extend an aura in a 10-foot Emanation originating from yourself for the duration of your Rage. Your aura has an effect based on your choice:",
 				{
 					"type": "list",
 					"items": [
@@ -303,21 +303,21 @@
 							"type": "item",
 							"name": "Desert",
 							"entries": [
-								"Roll a number of d6s equal to your Rage damage bonus and add them together. Each creature of your choice in the aura must succeed on a Dexterity saving throw or take fire damage equal to the result."
+								"Roll a number of d6s equal to your Rage damage bonus and add them together. Each creature of your choice in the aura must succeed on a Dexterity saving throw or take fire damage equal to the total."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Sea",
 							"entries": [
-								"Roll a number of d8s equal to your Rage damage bonus and add them together. One creature of your choice within your aura must make a Dexterity saving throw, taking lightning damage equal to the result."
+								"Roll a number of d8s equal to your Rage damage bonus and add them together. One creature of your choice within your aura must make a Dexterity saving throw, taking lightning damage equal to the total on a failed save."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Tundra",
 							"entries": [
-								"Roll a number of d6s equal to your Rage damage bonus and add them together. One creature of your choice within your aura must succeed on a Strength saving throw or it subtracts the number rolled from its next attack roll."
+								"Roll a number of d6s equal to your Rage damage bonus and add them together. One creature of your choice within your aura must succeed on a Strength saving throw or it subtracts the number rolled from the next attack roll or ability check it makes before the end of its next turn."
 							]
 						}
 					]
@@ -379,7 +379,7 @@
 							"type": "item",
 							"name": "Desert",
 							"entries": [
-								"When a creature fails its saving throw against your Storm Aura effect, it is engulfed with flames. For 1 minute the target takes {@damage 2d6} fire damage at the start of each of its turns, unless it uses an action to remove the effect."
+								"When a creature fails its saving throw against your Storm Aura effect, it is engulfed with flames. For 1 minute the target takes {@damage 2d6} fire damage at the start of each of its turns, or until it uses an action to make a Dexterity check against your Rage DC to extinguish the flames."
 							]
 						},
 						{
@@ -409,7 +409,7 @@
 			"subclassSource": "AliFosche",
 			"level": 14,
 			"entries": [
-				"You gain immunity instead of resistance to the damage type of your Storm Soul feature. Moreover, each creature of your choice within a 15-foot Emanation from you gains the benefits of your Storm Soul."
+				"You gain immunity instead of resistance to the damage type of your Storm Soul feature. Moreover, each creature of your choice within a 15-foot Emanation from you gains the benefits of your Storm Soul resistance."
 			]
 		},
 		{
@@ -496,7 +496,7 @@
 			"subclassSource": "AliFosche",
 			"level": 10,
 			"entries": [
-				"Your strength allows you to hurl creatures on the battlefield. While raging, you can use a Bonus Action to force a Large or smaller creature within your reach to make a Strength saving throw (DC equal to 8 plus your Strength modifier and your Proficiency Bonus). On a failed save, the creature is pushed up to 30 feet away from you."
+				"Your strength allows you to hurl creatures on the battlefield. While raging, you can use a Bonus Action to force a Large or smaller creature within your reach to make a Strength saving throw (DC equal to 8 + your Strength modifier + your Proficiency Bonus). On a failed save, you move the creature 5 feet in a direction of your choice, and you can move up to 5 feet in that direction immediately after."
 			]
 		},
 		{
@@ -508,7 +508,7 @@
 			"subclassSource": "AliFosche",
 			"level": 14,
 			"entries": [
-				"The primordial power of your rage intensifies. When you rage, your reach increases by 10 feet, your size can increase to Large or Huge (your choice) and the extra damage dealt by your Elemental Cleaver increases to {@damage 2d12}."
+				"The primordial power of your rage intensifies. When you rage, your reach increases by 10 feet, your size can increase to Large or Huge (your choice) and the extra damage dealt by your Elemental Cleaver becomes {@damage 2d12}."
 			]
 		},
 		{
@@ -534,7 +534,7 @@
 			"subclassSource": "AliFosche",
 			"level": 3,
 			"entries": [
-				"If you speak for 1 minute to a creature with an Intelligence ability score of at least 6, you can attempt to seed paranoia in its mind. At the end of the conversation, the target must succeed on a Wisdom saving throw or be frightened of you until the end of its next long rest."
+				"If you speak for 1 minute to a creature with an Intelligence ability score of at least 6, you can attempt to seed paranoia in its mind. At the end of the conversation, the target must succeed on a Wisdom saving throw against your spell DC or it takes {@damage 1d6} psychic damage and becomes {@condition frightened} of you. The {@condition frightened} effect ends if the target ends a turn without seeing you or experiencing harm from you."
 			]
 		},
 		{
@@ -590,7 +590,7 @@
 			"subclassSource": "AliFosche",
 			"level": 14,
 			"entries": [
-				"As a Magic Action, you whisper in the mind of a creature within 30 feet of you. It must make a Wisdom saving throw against your spell DC. On a failed save, your whispers sound like the target's own thoughts and you gain advantage on Deception and Insight checks against it."
+				"As a Magic Action, you whisper in the mind of a creature within 30 feet of you. It must make a Wisdom saving throw against your spell DC. On a failed save, your whispers sound like the target's own doubts and fears magnified. The target takes {@damage 8d6} psychic damage and becomes {@condition stunned} until the end of its next turn."
 			]
 		},
 		{
@@ -615,8 +615,8 @@
 			"level": 3,
 			"entries": [
 				"You learn to unleash special magical effects with your shots.",
-				"{@b Arcane Shot Options.} You learn two Arcane Shot options of your choice from the \"Arcane Shot Options\" of this subclass. You learn an additional Arcane Shot option of your choice when you reach 7th, 10th, 15th, and 18th level in this class.",
-				"{@b Using Arcane Shot.} Once per turn when you make a ranged attack using a weapon with the ammunition property, you can apply one Arcane Shot option to that attack. You decide to use the option when the attack hits, unless the option doesn't involve an attack roll.",
+				"{@b Arcane Shot Options.} You learn two Arcane Shot options of your choice from the \"Arcane Shot Options\" of this subclass. You learn an additional Arcane Shot option of your choice when you reach 7th, 10th, 15th, and 18th levels in this class.",
+				"{@b Using Arcane Shot.} Once per turn when you make a ranged attack using a weapon with the ammunition property, you can apply one Arcane Shot option to that attack. You decide to use the option when you hit or miss.",
 				"{@b Arcane Shot Die.} The dice used by your Arcane Shot Options is a d6. The Arcane Shot Die becomes a d8 at level 10, a d10 at level 15 and a d12 at level 18.",
 				"{@b Saving Throws.} If an Arcane Shot option requires a saving throw, the DC equals 8 plus your Intelligence modifier and Proficiency Bonus."
 			]
@@ -652,7 +652,7 @@
 							"type": "item",
 							"name": "Enfeebling Shot",
 							"entries": [
-								"The target of the attack takes Necrotic damage equal to two rolls of your Arcane shot die and must succeed on a Strength saving throw. On a failed save, each damage roll of the target is reduced by {@dice 1d6} until the end of its next turn."
+								"The target of the attack takes Necrotic damage equal to two rolls of your Arcane shot die and must succeed on a Strength saving throw. On a failed save, each damage roll of the target is reduced by the amount of Necrotic damage dealt until the end of its next turn."
 							]
 						},
 						{
@@ -666,7 +666,7 @@
 							"type": "item",
 							"name": "Piercing Shot",
 							"entries": [
-								"You don't make an attack roll for the attack. Each creature in a 30-foot long and 5-foot wide line originating from you must make a Dexterity saving throw. On a failed save, a creature takes Force damage equal to the roll of your Arcane Shot die."
+								"You don't make an attack roll for the attack. Each creature in a 30-foot long and 5-foot wide line originating from you must make a Dexterity saving throw. On a failed save, a creature takes Force damage equal to two rolls of your Arcane Shot die."
 							]
 						}
 					]
@@ -682,7 +682,7 @@
 			"subclassSource": "AliFosche",
 			"level": 7,
 			"entries": [
-				"You learn how to direct an errant arrow toward a new target. If you make an attack roll with a weapon with the ammunition property and miss, you can cause the shot to ricochet as a Bonus Action. Roll for the attack again, but choose a new target within 60 feet of the original target. On a hit, the new target takes damage as if the original attack roll had hit it."
+				"You learn how to direct an errant arrow toward a new target. If you make an attack roll with a weapon with the ammunition property and miss, you can cause the shot to ricochet as a Bonus Action. Select a new target within 60 feet of the original target and make a new attack roll. On a hit, the new target takes damage equal to one roll of your Arcane Shot die."
 			]
 		},
 		{
@@ -745,7 +745,7 @@
 			"subclassSource": "AliFosche",
 			"level": 15,
 			"entries": [
-				"When you use your Indomitable feature, each creature of your choice within a 10-foot emanation originating from you must succeed on a Strength saving throw against your Arcane Shot DC or be pushed 5 feet away from you."
+				"When you use your Indomitable feature, each creature of your choice within a 10-foot emanation originating from you must succeed on a Strength saving throw against your Arcane Shot DC or be pushed 15 feet away from you."
 			]
 		},
 		{
@@ -769,7 +769,7 @@
 			"subclassSource": "AliFosche",
 			"level": 3,
 			"entries": [
-				"You gain proficiency in one of the following skills of your choice: {@skill History}, {@skill Insight}, {@skill Performance}, or {@skill Persuasion}. In addition, whenever you make a Charisma check, you gain a bonus equal to your Wisdom modifier."
+				"You gain proficiency in one of the following skills of your choice: {@skill History}, {@skill Insight}, {@skill Performance}, or {@skill Persuasion}. In addition, whenever you make a Charisma check using a skill you are proficient in, you gain a bonus equal to your Wisdom modifier."
 			]
 		},
 		{
@@ -781,7 +781,7 @@
 			"subclassSource": "AliFosche",
 			"level": 3,
 			"entries": [
-				"When you take the {@action Attack} Action, you can give yourself advantage on every attack you make in this turn and gain a number of temporary hit points equal to your Fighter level. You can use this feature a number of times equal to your Wisdom modifier (minimum of once) and regain all expended uses when you finish a Long rest."
+				"When you take the {@action Attack} Action, you can give yourself advantage on every attack you make in this turn and gain a number of temporary hit points equal to your Fighter level. You can use this feature once, regaining expended uses when you finish a Long rest."
 			]
 		},
 		{
@@ -829,7 +829,7 @@
 			"subclassSource": "AliFosche",
 			"level": 18,
 			"entries": [
-				"When you drop to 0 hit points, you can use your reaction to delay falling {@condition unconscious} and immediately take an extra turn. Taking damage causes death saves failure and can kill you. At the end of your extra turn, you fall unconscious."
+				"When you drop to 0 hit points, you can use your reaction to delay falling {@condition unconscious} and immediately take an extra turn. Taking damage causes death saves failure and can kill you. At the end of this extra turn, you fall {@condition unconscious}."
 			]
 		},
 		{
@@ -841,7 +841,7 @@
 			"subclassSource": "AliFosche",
 			"level": 3,
 			"entries": [
-				"Choose one melee and one ranged weapon to be your kensei weapons. They can be any weapon that lacks the heavy and special properties, or a Longbow. You are proficient in them, can use their properties even if they aren't martial, and they count as monk weapons for you."
+				"Choose one melee and one ranged weapon to be your kensei weapons. They can be any weapon that lacks the heavy and special properties, or a Longbow. You are proficient in them, can use their properties with your martial arts features, and they count as monk weapons."
 			]
 		},
 		{
@@ -915,7 +915,7 @@
 			"subclassSource": "AliFosche",
 			"level": 11,
 			"entries": [
-				"At the start of your turn, you can expend up to 3 Focus Points to empower one kensei weapon you touch. That weapon gains a bonus to attack and damage rolls equal the number of discipline points spent until the end of this turn."
+				"At the start of your turn, you can expend up to 3 Focus Points to empower one kensei weapon you touch. That weapon gains a bonus to attack and damage rolls equal the number of discipline points spent until the end of your turn."
 			]
 		},
 		{
@@ -977,7 +977,7 @@
 			"subclassSource": "AliFosche",
 			"level": 6,
 			"entries": [
-				"As a bonus action, you can spend 1 Focus Point to emit a 15-foot cone of light from your hand. Each creature in the area must make a Constitution saving throw. On a failed save it takes radiant damage equal to one roll of your Martial Arts die."
+				"As a bonus action, you can spend 1 Focus Point to emit a 15-foot cone of light from your hand. Each creature in the area must make a Constitution saving throw. On a failed save it takes radiant damage equal to two rolls of your Martial Arts die, or half as much on a successful one."
 			]
 		},
 		{
@@ -989,7 +989,7 @@
 			"subclassSource": "AliFosche",
 			"level": 11,
 			"entries": [
-				"As a Magic Action, you hurl a bolt of light at a point you can see within 60 feet of you. Each creature in that 20-foot radius sphere centered on that point must succeed on a Dexterity saving throw, taking radiant damage equal to three rolls of your Martial Arts die on a failed save, or half as much on a successful one."
+				"As a Magic Action, you hurl a bolt of light at a point you can see within 60 feet of you. Each creature in that 20-foot radius sphere centered on that point must succeed on a Dexterity saving throw or take {@damage 6d6} radiant damage, or half as much on a successful one."
 			]
 		},
 		{
@@ -1001,857 +1001,7 @@
 			"subclassSource": "AliFosche",
 			"level": 17,
 			"entries": [
-				"While your Radiant Awakening is active, you instead gain the following benefits.",
-				{
-					"type": "list",
-					"items": [
-						"You gain Fly speed equal to your Speed.",
-						"Each attack you make as part of the {@action Attack} Action deals extra radiant damage equal to one roll of your Martial Arts die.",
-						"Each time you make an Unarmed Strike, you can instead make an attack using Dexterity against a creature within 60 feet of you. If the attack hits, the target suffers Radiant damage equal to one roll of your Martial Arts die."
-					]
-				}
-			]
-		},
-		{
-			"name": "Insightful Fighting",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Inquisitive",
-			"subclassSource": "AliFosche",
-			"level": 3,
-			"entries": [
-				"You can decipher a creature's tactics to counter them. When you deal your Sneak Attack damage to a creature, you gain the following benefits for 10 minutes.",
-				{
-					"type": "list",
-					"items": [
-						"When you deal Sneak Attack damage against the target, you deal {@damage 1d6} extra damage.",
-						"You know whether the target has any resistances or immunities and what they are."
-					]
-				},
-				"You can use this feature a number of times equal to your Dexterity modifier (minimum of once) and regain all expended uses when you finish a Long Rest."
-			]
-		},
-		{
-			"name": "Steady Senses",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Inquisitive",
-			"subclassSource": "AliFosche",
-			"level": 3,
-			"entries": [
-				"You developed a talent to unravel lies and secrets. You gain the following benefits.",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "item",
-							"name": "Adept Detective",
-							"entries": [
-								"You gain proficiency in {@skill Insight} or {@skill Investigation} checks."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Supernatural Perception",
-							"entries": [
-								"You can cast either {@spell detect magic|xphb} or {@spell identify|xphb} without expending a spell slot a number of times equal to your Dexterity modifier (minimum of once) and regain all expended uses when you finish a Long rest."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Insightful Strikes",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Inquisitive",
-			"subclassSource": "AliFosche",
-			"level": 9,
-			"entries": [
-				"The following effects are added to your Cunning Strike options.",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "item",
-							"name": "Bleed Out (Cost: 3d6)",
-							"entries": [
-								"For 1 minute, the target takes {@damage 3d4} Necrotic damage at the start of its turn. At the end of each of its turns, it must make a Constitution saving throw, ending the effect on a success."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Weaken (Costs: 2d6)",
-							"entries": [
-								"The target must succeed on a Dexterity saving throw. On a failed save, it has disadvantage on Strength-based D20 Tests and subtracts {@dice 1d6} from all its damage rolls until the end of its next turn."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Unerring Eye",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Inquisitive",
-			"subclassSource": "AliFosche",
-			"level": 13,
-			"entries": [
-				"As an action, you gain truesight with a range of 30 feet for 10 minutes. Once you use this feature, you can't do so again until you finish a Short or Long rest."
-			]
-		},
-		{
-			"name": "Eye for Weakness",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Inquisitive",
-			"subclassSource": "AliFosche",
-			"level": 17,
-			"entries": [
-				"You know how to exploit a creature's weaknesses by carefully studying its tactics. The extra damage dealt by Insightful Fighting increases to {@damage 3d6}."
-			]
-		},
-		{
-			"name": "Master of Intrigue",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Mastermind",
-			"subclassSource": "AliFosche",
-			"level": 3,
-			"entries": [
-				"You gain proficiency with the disguise kit and the forgery kit. Moreover, you gain proficiency in the {@skill Deception} skill and can unerringly mimic the voice and accent of a creature that you hear speak for 1 minute. A creature is able to know you're faking with a Wisdom ({@skill Insight}) check contested by your Charisma ({@skill Deception})."
-			]
-		},
-		{
-			"name": "Master of Tactics",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Mastermind",
-			"subclassSource": "AliFosche",
-			"level": 3,
-			"entries": [
-				"Once every turn, you can use one of the following options:",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "item",
-							"name": "Pawn's Opening",
-							"entries": [
-								"Immediately after you deal your Sneak Attack damage, you can take the {@action Help} action on a creature within 30 feet of you (no action required)."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Knight's Defense",
-							"entries": [
-								"Immediately after you deal your Sneak Attack damage, a creature of your choice within 30 feet of you can use its reaction to move up to half its speed without provoking opportunity attacks."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Superior Tactics",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Mastermind",
-			"subclassSource": "AliFosche",
-			"level": 9,
-			"entries": [
-				"The following effects are added to your Cunning Strike options.",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "item",
-							"name": "Rook's Castling (Cost: 1d6)",
-							"entries": [
-								"You push the target of the attack up to 10 feet away from you in a straight line, provided that it is up to one size larger than you."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Bishop's Check (Cost: 2d6)",
-							"entries": [
-								"The target has disadvantage on the first saving throw it makes before the end of its next turn."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Misdirection",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Mastermind",
-			"subclassSource": "AliFosche",
-			"level": 13,
-			"entries": [
-				"You've become the perfect schemer. You gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"When a creature reads your mind, you can present false thoughts by succeeding on a Charisma ({@skill Deception}) check contested by a Wisdom ({@skill Insight}) check.",
-						"When you use Uncanny Dodge, you can choose a creature within 5 feet of you and force it to take the same amount of damage you take."
-					]
-				}
-			]
-		},
-		{
-			"name": "Final Tactic",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Mastermind",
-			"subclassSource": "AliFosche",
-			"level": 17,
-			"entries": [
-				"The following effect is added to your Cunning Strike options.",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "item",
-							"name": "King's Gambit (Cost: 6d6)",
-							"entries": [
-								"Both you and the target of your Sneak Attack become vulnerable to the next instance of damage you take before the start of your next turn."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Skirmisher",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Scout",
-			"subclassSource": "AliFosche",
-			"level": 3,
-			"entries": [
-				"You are difficult to pin down. When an enemy ends its turn within 5 feet of you, you can take a Reaction to move up to your Speed without provoking opportunity attacks."
-			]
-		},
-		{
-			"name": "Survivalist",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Scout",
-			"subclassSource": "AliFosche",
-			"level": 3,
-			"entries": [
-				"You gain proficiency and expertise in the {@skill Nature} and {@skill Survival} skills."
-			]
-		},
-		{
-			"name": "Superior Mobility",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Scout",
-			"subclassSource": "AliFosche",
-			"level": 9,
-			"entries": [
-				"You move fast while surrounded and slash through your foes with every step. Your speed increases by 10 feet. Also, any creature of your choice takes {@damage 1d6} Slashing damage when you enter a space within 5 feet of it. A creature can take this damage only once per turn."
-			]
-		},
-		{
-			"name": "Ambush Master",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Scout",
-			"subclassSource": "AliFosche",
-			"level": 13,
-			"entries": [
-				"The following effects are added to your Cunning Strike options.",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "item",
-							"name": "Smoke Cloud (Cost: 1d6)",
-							"entries": [
-								"You create a 10-foot radius sphere centered on the target of your attack. The smoke lasts until the end of your next turn."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Ambush (Costs: 2d6)",
-							"entries": [
-								"Until the start of your next turn, each attack made against the target of your Sneak Attack gains advantage."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Sudden Strike",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Scout",
-			"subclassSource": "AliFosche",
-			"level": 17,
-			"entries": [
-				"You can strike with deadly speed. If you take the {@action Attack} Action on your turn, you can make one additional attack as a Bonus Action. This attack can benefit from your Sneak Attack even if you have already used it this turn, but you can't use your Sneak Attack against the same target more than once in a turn."
-			]
-		},
-		{
-			"name": "Fancy Footwork",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Swashbuckler",
-			"subclassSource": "AliFosche",
-			"level": 3,
-			"entries": [
-				"You learn how to land a strike and then slip away without reprisal. During your turn, if you make a melee attack against a creature, it can't make opportunity attacks against you until the end of your turn."
-			]
-		},
-		{
-			"name": "Rakish Audacity",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Swashbuckler",
-			"subclassSource": "AliFosche",
-			"level": 3,
-			"entries": [
-				"Your confidence propels you into battle. When you roll initiative, you can add your Charisma modifier to the roll. Also, you gain an additional way to use your Sneak Attack. You don't need advantage to use Sneak Attack against a creature if you are within 5 feet of it, no other creatures are within 5 feet of you, and you don't have disadvantage on the attack roll."
-			]
-		},
-		{
-			"name": "Panache",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Swashbuckler",
-			"subclassSource": "AliFosche",
-			"level": 9,
-			"entries": [
-				"Your charm becomes extremely beguiling. As a Bonus Action, you can force a creature within 30 feet to make a Wisdom saving throw (DC equals 8 plus your Dexterity modifier and your Proficiency Bonus). On a failed save the creature suffers one of the following effects.",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "item",
-							"name": "Awe",
-							"entries": [
-								"A friendly creature is {@condition Charmed} by you for 10 minutes."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Provoke",
-							"entries": [
-								"An hostile creature has disadvantage on all attack rolls against creatures other than you."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Dashing Strikes",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Swashbuckler",
-			"subclassSource": "AliFosche",
-			"level": 13,
-			"entries": [
-				"The following effects are added to your Cunning Strike options.",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "item",
-							"name": "Parrying Stance (Cost: 2d6)",
-							"entries": [
-								"You roll {@dice 1d6} and add its result as a bonus to your armor class until the start of your next turn."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Invigorate (Costs: 2d6)",
-							"entries": [
-								"A creature within 30 feet of you, can add {@dice 1d6} to its D20 tests until the end of its next turn."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Master Duelist",
-			"source": "AliFosche",
-			"className": "Rogue",
-			"classSource": "XPHB",
-			"subclassShortName": "Swashbuckler",
-			"subclassSource": "AliFosche",
-			"level": 17,
-			"entries": [
-				"Immediately after, you deal your Sneak Attack damage to a creature, you can make an attack with a melee weapon against that creature as part of the same action."
-			]
-		},
-		{
-			"name": "Benign Transposition",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Conjurer",
-			"subclassSource": "AliFosche",
-			"level": 3,
-			"entries": [
-				"As a Bonus Action, you teleport up to 30 feet to an unoccupied space that you can see. Alternatively, you can choose a willing creature 30 feet, you both teleport swapping places. You can use this feature a number of times equal to your Intelligence modifier (minimum of one) and regain all expended uses when you finish a Long rest."
-			]
-		},
-		{
-			"name": "Conjuration Savant",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Conjurer",
-			"subclassSource": "AliFosche",
-			"level": 3,
-			"entries": [
-				"Choose two Wizard spells from the Conjuration school, each of which must be no higher than level 1 or 2, and add them to your spellbook for free.",
-				"In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Conjuration school to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
-			]
-		},
-		{
-			"name": "Distant Transposition",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Conjurer",
-			"subclassSource": "AliFosche",
-			"level": 6,
-			"entries": [
-				"The range of your Benign Transposition feature increases to 60 feet. Additionally, you now regain all expended uses of it when you finish a Short or Long rest."
-			]
-		},
-		{
-			"name": "Durable Summons",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Conjurer",
-			"subclassSource": "AliFosche",
-			"level": 6,
-			"entries": [
-				"When you cast a Conjuration spell to summon or create a creature using a spell slot, that creature gains temporary hit points equal to twice your Wizard level when it first appears. While it has these temporary hit points, the creature has resistance to every damage type except Force, Necrotic, Psychic and Radiant."
-			]
-		},
-		{
-			"name": "Focussed Conjuration",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Conjurer",
-			"subclassSource": "AliFosche",
-			"level": 10,
-			"entries": [
-				"Taking damage can't break your concentration on Conjuration spells."
-			]
-		},
-		{
-			"name": "Splintered Summons",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Conjurer",
-			"subclassSource": "AliFosche",
-			"level": 14,
-			"entries": [
-				"When you cast {@spell Summon Construct}, {@spell Summon Dragon}, {@spell Summon Elemental} or {@spell Summon Fey} using a spell slot, you can modify the spell to summon two creatures instead of one. Each creature uses the stat block and rules denoted by the spell and appears in a different unoccupied space of your choice within the spell's range, but the summoned creatures' hit points are halved. If you lose concentration on the spell, both creatures disappear."
-			]
-		},
-		{
-			"name": "Enchanting Voice",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Enchanter",
-			"subclassSource": "AliFosche",
-			"level": 3,
-			"entries": [
-				"Whenever you make a Charisma check, you gain a bonus to the check equal to your Intelligence modifier (minimum of +1). You also gain proficiency in one of these skills of your choice: {@skill Deception}, {@skill Intimidation} or {@skill Persuasion}."
-			]
-		},
-		{
-			"name": "Enchantment Savant",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Enchanter",
-			"subclassSource": "AliFosche",
-			"level": 3,
-			"entries": [
-				"Choose two Wizard spells from the Enchantment school, each of which must be no higher than level 1 or 2, and add them to your spellbook for free.",
-				"In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Enchantment school to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
-			]
-		},
-		{
-			"name": "Hypnotic Presence",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Enchanter",
-			"subclassSource": "AliFosche",
-			"level": 3,
-			"entries": [
-				"As a Magic Action, choose one creature that you can see within 30 feet of yourself. If the target can see or hear you, it must succeed on a Wisdom saving throw against your spell save DC or have the {@condition Charmed} condition for 1 minute or until it takes damage. While Charmed in this way, the target has the {@condition Incapacitated} condition and a speed of 0. You can use this feature a number of times equal to your Intelligence modifier (minimum of once) and regain all expended uses when you finish a Long rest."
-			]
-		},
-		{
-			"name": "Split Enchantment",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Enchanter",
-			"subclassSource": "AliFosche",
-			"level": 6,
-			"entries": [
-				"When you use your Hypnotic Presence feature or cast an Enchantment spell that targets only one creature, you can target one additional creature with it. You can use this feature a number of times equal to your Intelligence modifier (minimum of once) and regain all expended uses when you finish a Long rest."
-			]
-		},
-		{
-			"name": "Instinctive Charm",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Enchanter",
-			"subclassSource": "AliFosche",
-			"level": 10,
-			"entries": [
-				"When a creature within 30 feet of you that you can see hits deals damage to you, you can take a Reaction to force it to make a Wisdom saving throw against your spell save DC. On a failed save, the damage you take is reduced to 0 and another creature of your choice within 30 feet takes the same amount of damage. Once you use this Reaction, you can't do so again until you finish a Long rest. You can restore your use of this feature by casting an Enchantment spell with a spell slot."
-			]
-		},
-		{
-			"name": "Superior Enchantment",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Enchanter",
-			"subclassSource": "AliFosche",
-			"level": 14,
-			"entries": [
-				"When you use your Hypnotic Presence feature or cast an Enchantment spell that causes the {@condition Charmed} condition, you can ignore immunities to the Charmed condition. Once you use this feature, you cannot do so again until you finish a Long rest."
-			]
-		},
-		{
-			"name": "Necromancy Savant",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Necromancer",
-			"subclassSource": "AliFosche",
-			"level": 3,
-			"entries": [
-				"Choose two Wizard spells from the Necromancy school, each of which must be no higher than level 1 or 2, and add them to your spellbook for free.",
-				"In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Necromancy school to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
-			]
-		},
-		{
-			"name": "Necromancy Spellbook",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Necromancer",
-			"subclassSource": "AliFosche",
-			"level": 3,
-			"entries": [
-				"Your mastery of necromantic lore grants you extra abilities.",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "item",
-							"name": "Necrotic Resistance",
-							"entries": [
-								"You gain resistance to Necrotic damage."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Grim Harvest",
-							"entries": [
-								"When you cast a Necromancy spell using a spell slot, you can choose an undead creature you can see within 60 feet of you and make it regain hit points equal to the level of the spell slot expended plus your Wizard level."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Undead Familiar",
-							"entries": [
-								"{@spell Find Familiar|xphb} is added to your spellbook. When you cast the spell, you can choose the Skeleton or Zombie forms in addition to the normal forms."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Undead Thralls",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Necromancer",
-			"subclassSource": "AliFosche",
-			"level": 6,
-			"entries": [
-				"{@spell Summon Undead|tce} is added to your spellbook and you always have it prepared. Whenever you cast the spell, the summoned creature gains the following benefits.",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "item",
-							"name": "Undead Fortitude",
-							"entries": [
-								"The creature's hit point maximum and current hit points increase by a number equal to the level of the spell slot used plus your Intelligence modifier."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Withering Strike",
-							"entries": [
-								"Whenever the creature hits with an attack roll, it deals extra damage equal to your Intelligence modifier (minimum of one)."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Harvest Undead",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Necromancer",
-			"subclassSource": "AliFosche",
-			"level": 10,
-			"entries": [
-				"You have learned more secrets about the nuances of life and death. Immediately after you become bloodied but not outright killed, you can take a Reaction to reduce an Undead creature under your control to 0 hit points. You then immediately regain a number of hit points equal to your Wizard level."
-			]
-		},
-		{
-			"name": "Death's Master",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Necromancer",
-			"subclassSource": "AliFosche",
-			"level": 14,
-			"entries": [
-				"Abstruse rituals within your spellbook allow you mastery over forces of death. While holding your spellbook you gain the following benefits.",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "item",
-							"name": "Bolster Undead",
-							"entries": [
-								"As a Bonus Action, an undead creature you have created or summoned within 60 feet of you gains temporary hit points equal to your Wizard level. A creature can gain these temporary hit points only once every 24 hours."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Burst Undead",
-							"entries": [
-								"When an undead creature under your control is reduced to 0 hit points, you can cause it to explode with necrotic energy. Roll a number of d6s equal to your Intelligence modifier and add them together. Each creature in a 10-foot emanation originating from the undead makes a Dexterity saving throw against your spell save DC. A target takes Necrotic damage equal to the number rolled on a failed save and half as much on a successful one."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Transmutation Savant",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Transmuter",
-			"subclassSource": "AliFosche",
-			"level": 3,
-			"entries": [
-				"Choose two Wizard spells from the Transmutation school, each of which must be no higher than level 1 or 2, and add them to your spellbook for free.",
-				"In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Transmutation school to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
-			]
-		},
-		{
-			"name": "Transmuter's Stone",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Transmuter",
-			"subclassSource": "AliFosche",
-			"level": 3,
-			"entries": [
-				"When you finish a Long rest, you can create a magic stone that lasts until you use this feature again. A creature carrying the stone gains proficiency in Constitution saving throws and one of the following benefits chosen when you create the stone.",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "item",
-							"name": "Darkvision",
-							"entries": [
-								"The bearer gains darkvision with a range of 60 feet or increases the range of its darkvision by 60 feet."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Resistance",
-							"entries": [
-								"The bearer gains resistance to Acid, Cold, Fire, Lightning, Poison or Thunder damage (you choose each time you choose this benefit)."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Speed",
-							"entries": [
-								"The bearer's speed increases by 10 feet."
-							]
-						}
-					]
-				},
-				"You can change the stone's benefit when you cast a Transmutation spell using a spell slot."
-			]
-		},
-		{
-			"name": "Empowered Transmutation",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Transmuter",
-			"subclassSource": "AliFosche",
-			"level": 6,
-			"entries": [
-				"When you cast a Transmutation spell using a spell slot, you can treat the spell as if it were cast using a spell slot 1 level above the slot expended. You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long rest."
-			]
-		},
-		{
-			"name": "Potent Stone",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Transmuter",
-			"subclassSource": "AliFosche",
-			"level": 6,
-			"entries": [
-				"Your Transmuter's Stone is more versatile. When you create it, you can choose up to two benefits. You can choose each option other than Resistance only once, and if you choose Resistance twice, you must choose different damage types. You can change either or both benefits when you cast a Transmutation spell using a spell slot. In addition, the following are now among your benefit options for Transmuter's Stone.",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "item",
-							"name": "Evasive",
-							"entries": [
-								"The bearer can take the {@action disengage} action as a Bonus Action."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Tremorsense",
-							"entries": [
-								"The bearer gains Tremorsense with a range of 30 feet."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Shapechanger",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Transmuter",
-			"subclassSource": "AliFosche",
-			"level": 10,
-			"entries": [
-				"You always have the {@spell Polymorph|xphb} spell prepared and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a Long Rest. In addition, when you target yourself with the spell, you can modify the spell to gain the benefits below.",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "item",
-							"name": "Game Statistics",
-							"entries": [
-								"You retain your personality, memories, and ability to speak. You also retain your Intelligence, Wisdom, and Charisma scores; class features; languages; and feats."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Transmute Spells",
-							"entries": [
-								"You can cast Transmutation spells while shapeshifted, except for any spell with a Material component that has a specified cost."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Master Transmuter",
-			"source": "AliFosche",
-			"className": "Wizard",
-			"classSource": "XPHB",
-			"subclassShortName": "Transmuter",
-			"subclassSource": "AliFosche",
-			"level": 14,
-			"entries": [
-				"While you carry your Transmuter's Stone, you can take a Magic Action to consume the reserve of transmutation magic stored inside and choose one of the following benefits. After you use your Transmuter's Stone in this way, the stone crumbles to dust. You can prevent the stone's destruction by expending a level 5+ spell slot.",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "item",
-							"name": "Major Transmutation",
-							"entries": [
-								"An object you touch— no larger than a 10-foot Cube or eight connected 5-foot Cubes —and transmute it into another nonmagical object of similar size and mass and of equal or lesser value."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Panacea",
-							"entries": [
-								"A creature you touch regains a number of Hit Points equal to half its Hit Point maximum (round down). Any curse affecting the target is lifted. If the target has the {@condition Poisoned} or {@condition Petrified} conditions, those conditions end."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Restore Life",
-							"entries": [
-								"You cast the {@spell Raise Dead|xphb} spell without expending a spell slot, using the stone in place of the required Material components."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Restore Youth",
-							"entries": [
-								"A willing creature you touch permanently appears {@dice 3d10} years younger, to a minimum of young adulthood."
-							]
-						}
-					]
-				}
+				"You become an avatar of radiant energy. You gain immunity to radiant damage and once per turn when you hit with an attack that deals radiant damage, you can force the target to make a Constitution saving throw. On a failed save, the target is {@condition blinded} until the end of its next turn."
 			]
 		}
 	]
