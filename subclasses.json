@@ -271,6 +271,44 @@
                 "Shapechanger|Wizard|XPHB|Transmuter|AliFosche|10",
                 "Master Transmuter|Wizard|XPHB|Transmuter|AliFosche|14"
             ]
+        },
+        {
+            "name": "Twilight Domain",
+            "shortName": "Twilight",
+            "source": "AliFosche",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "page": 1,
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "faerie fire|xphb",
+                            "moonbeam|xphb",
+                            "sleep|xphb",
+                            "see invisibility|xphb"
+                        ],
+                        "5": [
+                            "aura of vitality|xphb",
+                            "leomund's tiny hut|xphb"
+                        ],
+                        "7": [
+                            "aura of life|xphb",
+                            "greater invisibility|xphb"
+                        ],
+                        "9": [
+                            "circle of power|xphb",
+                            "mislead|xphb"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Eyes of Night|Cleric|XPHB|Twilight|AliFosche|3",
+                "Twilight Sanctuary|Cleric|XPHB|Twilight|AliFosche|3",
+                "Improved Sanctuary|Cleric|XPHB|Twilight|AliFosche|6",
+                "Twilight Shroud|Cleric|XPHB|Twilight|AliFosche|17"
+            ]
         }
     ],
     "subclassFeature": [
@@ -1445,6 +1483,61 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Eyes of Night",
+            "source": "AliFosche",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "subclassShortName": "Twilight",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "As a Magic action, you touch a creature and bless it with eyes that see through the deepest gloom. For 1 hour, it gains Darkvision with a range of 120 feet and can see through magical darkness. Once you use this feature, you can't do so again until you finish a Long rest, unless you expend a spell slot of 2+ level to restore the use of it."
+            ]
+        },
+        {
+            "name": "Twilight Sanctuary",
+            "source": "AliFosche",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "subclassShortName": "Twilight",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "As a Magic Action, you present your holy symbol and emanate a sphere of twilight. The sphere is a 30-foot radius emanation filled with dim light. It moves with you, and lasts for 1 minute or until you are {@condition incapacitated}. Whenever a creature ends its turn within the area, you can grant that creature temporary hit points equal to {@dice 1d6} + your Proficiency Bonus."
+            ]
+        },
+        {
+            "name": "Improved Sanctuary",
+            "source": "AliFosche",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "subclassShortName": "Twilight",
+            "subclassSource": "AliFosche",
+            "level": 6,
+            "entries": [
+                "While your Twilight Sanctuary is active, you gain the following additional benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain Fly speed equal to your Speed.",
+                        "Whenever a creature ends its turn within the area, you can choose to end one effect on it causing it to be {@condition charmed} or {@condition frightened}, instead of granting temporary hit points."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Twilight Shroud",
+            "source": "AliFosche",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "subclassShortName": "Twilight",
+            "subclassSource": "AliFosche",
+            "level": 17,
+            "entries": [
+                "The twilight that you summon offers a protective embrace. You and your allies have half cover while in the emanation created by your Twilight Sanctuary."
+            ]
         }
     ]
-}
+        }
