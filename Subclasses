@@ -63,27 +63,37 @@
 			]
 		},
 		{
-			"name": "College of Whispers",
-			"shortName": "Whispers",
+			"name": "Arcane Archer",
+			"shortName": "Arcane Archer",
 			"source": "AliFosche",
-			"className": "Bard",
+			"className": "Fighter",
 			"classSource": "XPHB",
 			"page": 1,
-			"additionalSpells": [
-				{
-					"known": {
-						"3": [
-							"shadow blade|xge"
-						]
-					}
-				}
-			],
 			"subclassFeatures": [
-				"Psychic Blades|Bard|XPHB|Whispers|AliFosche|3",
-				"Words of Terror|Bard|XPHB|Whispers|AliFosche|3",
-				"Mantle of Whispers|Bard|XPHB|Whispers|AliFosche|6",
-				"Mischievous Afterimage|Bard|XPHB|Whispers|AliFosche|6",
-				"Shadow Lore|Bard|XPHB|Whispers|AliFosche|14"
+				"Arcane Lore|Fighter|XPHB|Arcane Archer|AliFosche|3",
+				"Arcane Shot|Fighter|XPHB|Arcane Archer|AliFosche|3",
+				"Arcane Shot Options|Fighter|XPHB|Arcane Archer|AliFosche|3",
+				"Curving Shot|Fighter|XPHB|Arcane Archer|AliFosche|7",
+				"Magical Ammunition|Fighter|XPHB|Arcane Archer|AliFosche|7",
+				"Ever-Ready Shot|Fighter|XPHB|Arcane Archer|AliFosche|10",
+				"Arcane Burst|Fighter|XPHB|Arcane Archer|AliFosche|15",
+				"Arcane Evasion|Fighter|XPHB|Arcane Archer|AliFosche|18"
+			]
+		},
+		{
+			"name": "Samurai",
+			"shortName": "Samurai",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"page": 1,
+			"subclassFeatures": [
+				"Elegant Courtier|Fighter|XPHB|Samurai|AliFosche|3",
+				"Fighting Spirit|Fighter|XPHB|Samurai|AliFosche|3",
+				"Focussed Fighter|Fighter|XPHB|Samurai|AliFosche|7",
+				"Rapid Strike|Fighter|XPHB|Samurai|AliFosche|10",
+				"Tireless Spirit|Fighter|XPHB|Samurai|AliFosche|15",
+				"Strength Before Death|Fighter|XPHB|Samurai|AliFosche|18"
 			]
 		}
 	],
@@ -326,85 +336,242 @@
 			]
 		},
 		{
-			"name": "Psychic Blades",
+			"name": "Arcane Lore",
 			"source": "AliFosche",
-			"className": "Bard",
+			"className": "Fighter",
 			"classSource": "XPHB",
-			"subclassShortName": "Whispers",
+			"subclassShortName": "Arcane Archer",
 			"subclassSource": "AliFosche",
 			"level": 3,
 			"entries": [
-				"Your mastery of psychic magic gives you the following benefits.",
-				"You learn the {@spell shadow blade|xge} spell and it counts as a Bard spell for you.",
-				"When you hit with a weapon attack or deal Psychic damage you can expend one use of your Bardic Inspiration to deal extra Psychic damage equal to three rolls of your Bardic Inspiration die."
+				"You studied magical theory and secrets of nature, granting you the following benefits. You know either the {@spell druidcraft|xphb} or {@spell prestidigitation|xphb} cantrip. Intelligence is your spellcasting ability for it. In addition, you gain proficiency in the {@skill Arcana} and {@skill Nature} skills. If you already have one of these proficiencies, you gain proficiency in a different skill of your choice."
 			]
 		},
 		{
-			"name": "Words of Terror",
+			"name": "Arcane Shot",
 			"source": "AliFosche",
-			"className": "Bard",
+			"className": "Fighter",
 			"classSource": "XPHB",
-			"subclassShortName": "Whispers",
+			"subclassShortName": "Arcane Archer",
 			"subclassSource": "AliFosche",
 			"level": 3,
 			"entries": [
-				"If you speak for 1 minute to a creature with an Intelligence ability score of at least 6, you can attempt to seed paranoia in its mind. At the end of the conversation, the target must succeed on a Wisdom saving throw against your spell save DC or be {@condition Frightened} by you. The target is frightened in this way for 1 hour, until it or one of its allies are harmed. If the target succeeds on its saving throw, the target has no hint that you tried to frighten it. Once you use this feature, you can't use it again until you finish a Short or Long rest."
+				"You learn to unleash special magical effects with your shots.",
+				"{@b Arcane Shot Options.} You learn two Arcane Shot options of your choice from the \"Arcane Shot Options\" of this subclass. You learn an additional Arcane Shot option of your choice when you reach Fighter levels 7, 10 and 15.",
+				"{@b Using Arcane Shot.} Once per turn when you make a ranged attack using a weapon with the ammunition property, you can apply one Arcane Shot option to that attack. You decide to use the option when you hit a creature and deal damage to it. You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a Short or Long rest.",
+				"{@b Arcane Shot Die.} The dice used by your Arcane Shot Options is a d6. The Arcane Shot Die becomes a d8 at level 10, a d10 at level 15 and a d12 at level 18.",
+				"{@b Saving Throws.} If an Arcane Shot option requires a saving throw, the DC equals 8 plus your Intelligence modifier and Proficiency Bonus."
 			]
 		},
 		{
-			"name": "Mantle of Whispers",
+			"name": "Arcane Shot Options",
 			"source": "AliFosche",
-			"className": "Bard",
+			"className": "Fighter",
 			"classSource": "XPHB",
-			"subclassShortName": "Whispers",
+			"subclassShortName": "Arcane Archer",
 			"subclassSource": "AliFosche",
-			"level": 6,
+			"level": 3,
 			"entries": [
-				"When a Medium or Small creature within 30 feet of you reaches 0 hit points, you steal its shadow. You can take a Bonus Action to spend the shadow and gain the following benefits.",
+				"The Arcane Shot options are presented here in alphabetical order.",
 				{
 					"type": "list",
 					"items": [
 						{
 							"type": "item",
-							"name": "Dark Resilience",
+							"name": "Banishing Shot",
 							"entries": [
-								"You gain temporary hit points equal to your Bard level."
+								"The target of the attack takes Psychic damage equal to one roll of your Arcane Shot die and must succeed on a Charisma saving throw or be banished until the end of its next turn. While banished, the target has the {@condition incapacitated} condition and its speed is 0."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Psychic Whispers",
+							"name": "Bursting Shot",
 							"entries": [
-								"For 1 hour, you take the creature's appearance and learn general details on the creature's background and personal life."
+								"The target of the attack and each creature within a 10-foot emanation originating from it takes Force damage equal to two rolls of your Arcane shot die."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Enfeebling Shot",
+							"entries": [
+								"The target of the attack takes Necrotic damage equal to two rolls of your Arcane shot die and must succeed on a Strength saving throw. On a failed save, each damage roll of the target is reduced by an amount equal to one roll of your Arcane Shot Die."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Grasping Shot",
+							"entries": [
+								"The target of the attack takes Slashing damage equal to one roll of your Arcane Shot Die and must succeed on a Dexterity saving throw or have the {@condition restrained} condition for 1 minute. The target can take an action to remove the brambles ending the restrained condition."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Piercing Shot",
+							"entries": [
+								"You don't make an attack roll for the attack. Each creature in a 30-foot long and 5-foot wide line originating from you must make a Dexterity saving throw. On a failed save, a creature takes Piercing damage equal to four rolls of your Arcane Shot Die, half as much damage on a successful one."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Curving Shot",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "AliFosche",
+			"level": 7,
+			"entries": [
+				"You learn how to direct an errant arrow toward a new target. If you make an attack roll with a weapon with the ammunition property and miss, you can cause the shot to ricochet as a Bonus Action. Make a new attack roll against another creature you can see within 60 feet of the original target."
+			]
+		},
+		{
+			"name": "Magical Ammunition",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "AliFosche",
+			"level": 7,
+			"entries": [
+				"When you shoot an ammunition, you can imbue it with one of the following properties.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Darkening Shot",
+							"entries": [
+								"Magical darkness fills a 15-foot emanation originating from the ammunition for 1 minute."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Unlocking Shot",
+							"entries": [
+								"A burst of magic fills a 15-foot emanation originating from the ammunition. Any mundane lock in the emanation becomes unlocked."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Vine Shot",
+							"entries": [
+								"A 60-foot long vine grows from the ammunition. You and other creatures can then climb it. The vine withers away after 10 minutes."
 							]
 						}
 					]
 				},
-				"You can use this feature a number of times equal to your Charisma modifier (minimum of once) and regain all expended uses when you finish a Long rest."
+				"Once you use this feature, you can't do so again until you finish a Short or Long rest. You can also restore your use of this feature by expending a use of your Second Wind."
 			]
 		},
 		{
-			"name": "Mischievous Afterimage",
+			"name": "Ever-Ready Shot",
 			"source": "AliFosche",
-			"className": "Bard",
+			"className": "Fighter",
 			"classSource": "XPHB",
-			"subclassShortName": "Whispers",
+			"subclassShortName": "Arcane Archer",
 			"subclassSource": "AliFosche",
-			"level": 6,
+			"level": 10,
 			"entries": [
-				"Immediately you deal damage with your Psychic Blades feature, you can teleport 15 feet in an unoccupied space you can see."
+				"When you roll initiative you can regain one expended use of Arcane Shot."
 			]
 		},
 		{
-			"name": "Shadow Lore",
+			"name": "Arcane Burst",
 			"source": "AliFosche",
-			"className": "Bard",
+			"className": "Fighter",
 			"classSource": "XPHB",
-			"subclassShortName": "Whispers",
+			"subclassShortName": "Arcane Archer",
 			"subclassSource": "AliFosche",
-			"level": 14,
+			"level": 15,
 			"entries": [
-				"As a Magic Action, you whisper in the mind of a creature within 30 feet of you. It must make a Wisdom saving throw against your spell DC. On a failed save, your whispers sound like the target's most dark secrets and fears. It is {@condition Charmed} by you and obeys your commands for 8 hours or until you or your allies harm it. The target won't risk its life for you, but can grant you favors and gifts. When the effect ends, it has no understanding of this fear. On a successful save, your whisper sounds like unintelligible mumbling and has no effect. Once you use this feature, you can't use it again until you finish a Long rest."
+				"When you use your Indomitable feature, each creature of your choice within a 10-foot emanation originating from you must succeed on a Strength saving throw against your Arcane Shot DC or be pushed 20 feet straight away from you."
+			]
+		},
+		{
+			"name": "Arcane Evasion",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "AliFosche",
+			"level": 18,
+			"entries": [
+				"When a creature misses you with an attack, you can take a reaction to teleport up to 15 feet to an unoccupied space you can see. You can then make a ranged attack roll against the attacker as part of the same reaction if the attacker is within the weapon's range."
+			]
+		},
+		{
+			"name": "Elegant Courtier",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Samurai",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"You gain proficiency in one of the following skills of your choice: {@skill History}, {@skill Insight}, {@skill Performance}, or {@skill Persuasion}. In addition, whenever you make a Charisma check, you gain a bonus to the check equal to your Wisdom modifier (minimum of +1)."
+			]
+		},
+		{
+			"name": "Fighting Spirit",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Samurai",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"When you take the {@action Attack} Action, you can give yourself advantage on every attack you make in this turn and gain a number of temporary hit points equal to your Fighter level. You can use this feature two times and regain all expended uses when you finish a Long Rest. You gain one additional use of this feature when you reach Fighter levels 5, 9, 13 and 17."
+			]
+		},
+		{
+			"name": "Focussed Fighter",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Samurai",
+			"subclassSource": "AliFosche",
+			"level": 7,
+			"entries": [
+				"You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)."
+			]
+		},
+		{
+			"name": "Rapid Strike",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Samurai",
+			"subclassSource": "AliFosche",
+			"level": 10,
+			"entries": [
+				"Once every turn, as part of the {@action Attack} Action, when you make an attack with advantage, you can forgo the advantage to make an additional weapon attack as part of the same action."
+			]
+		},
+		{
+			"name": "Tireless Spirit",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Samurai",
+			"subclassSource": "AliFosche",
+			"level": 15,
+			"entries": [
+				"When you roll initiative you regain expended uses of Fighting Spirit until you have 2, if you have 1 or fewer."
+			]
+		},
+		{
+			"name": "Strength Before Death",
+			"source": "AliFosche",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Samurai",
+			"subclassSource": "AliFosche",
+			"level": 18,
+			"entries": [
+				"When you drop to 0 hit points, you can use your reaction to delay falling {@condition unconscious} and immediately take an extra turn. Taking damage causes death saves failure and can kill you. At the end of this turn, you fall unconscious if you have 0 hit points. Once you use this feature, you can't use it again until you finish a Long Rest."
 			]
 		}
 	]
