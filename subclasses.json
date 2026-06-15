@@ -19,6 +19,146 @@
         "dateAdded": 1749942000,
         "dateLastModified": 1750074345
     },
+    "class": [
+        {
+            "name": "Artificer",
+            "source": "AliFosche",
+            "hd": {
+                "number": 1,
+                "faces": 8
+            },
+            "proficiency": [
+                "con",
+                "int"
+            ],
+            "spellcastingAbility": "int",
+            "casterProgression": "half",
+            "startingProficiencies": {
+                "armor": [
+                    "light",
+                    "medium",
+                    "shield"
+                ],
+                "weapons": [
+                    "simple",
+                    "martial weapons that have the Loading property"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "arcana",
+                                "history",
+                                "investigation",
+                                "medicine",
+                                "nature",
+                                "perception",
+                                "sleight of hand"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ],
+                "tools": [
+                    "thieves' tools",
+                    "tinker's tools",
+                    "one type of artisan's tools of your choice"
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "Choose A or B: (A) Scale Mail, light crossbow and 20 bolts, Thieves' tools, Tools chosen for the tools proficiency above and Dungeoneer's Pack, 20 gp; (B) 150 GP"
+                ]
+            },
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "Infusions Known",
+                        "Infused Items",
+                        "Cantrips Known",
+                        "Prepared Spells"
+                    ],
+                    "rows": [
+                        [0, 0, 2, 2],
+                        [3, 2, 2, 3],
+                        [4, 2, 2, 4],
+                        [5, 2, 2, 5],
+                        [5, 2, 2, 6],
+                        [6, 3, 2, 6],
+                        [7, 3, 2, 7],
+                        [8, 4, 3, 7],
+                        [8, 4, 3, 9],
+                        [9, 4, 3, 9],
+                        [10, 5, 3, 10],
+                        [11, 5, 3, 10],
+                        [11, 5, 3, 11],
+                        [12, 6, 4, 11],
+                        [13, 6, 4, 12],
+                        [14, 7, 4, 12],
+                        [14, 7, 4, 14],
+                        [15, 7, 4, 14],
+                        [16, 8, 4, 15],
+                        [16, 8, 4, 15]
+                    ]
+                },
+                {
+                    "title": "Spell Slots per Spell Level",
+                    "colLabels": [
+                        "1st",
+                        "2nd",
+                        "3rd",
+                        "4th",
+                        "5th"
+                    ],
+                    "rows": [
+                        [2, 0, 0, 0, 0],
+                        [2, 0, 0, 0, 0],
+                        [3, 0, 0, 0, 0],
+                        [3, 0, 0, 0, 0],
+                        [4, 2, 0, 0, 0],
+                        [4, 2, 0, 0, 0],
+                        [4, 3, 0, 0, 0],
+                        [4, 3, 0, 0, 0],
+                        [4, 3, 2, 0, 0],
+                        [4, 3, 2, 0, 0],
+                        [4, 3, 3, 0, 0],
+                        [4, 3, 3, 0, 0],
+                        [4, 3, 3, 1, 0],
+                        [4, 3, 3, 1, 0],
+                        [4, 3, 3, 2, 0],
+                        [4, 3, 3, 2, 0],
+                        [4, 3, 3, 3, 1],
+                        [4, 3, 3, 3, 1],
+                        [4, 3, 3, 3, 2],
+                        [4, 3, 3, 3, 2]
+                    ]
+                }
+            ],
+            "classFeatures": [
+                "Magical Tinkering|Artificer|AliFosche|1",
+                "Spellcasting|Artificer|AliFosche|1",
+                "Artificer Infusions|Artificer|AliFosche|2",
+                "Artificer Restoration|Artificer|AliFosche|2",
+                "Artificer Subclass|Artificer|AliFosche|3",
+                "Ability Score Improvement|Artificer|AliFosche|4",
+                "Subclass Feature|Artificer|AliFosche|5",
+                "Tool Expertise|Artificer|AliFosche|6",
+                "Flash of Genius|Artificer|AliFosche|7",
+                "Ability Score Improvement|Artificer|AliFosche|8",
+                "Subclass Feature|Artificer|AliFosche|9",
+                "Magic Item Adept|Artificer|AliFosche|10",
+                "Spell-storing Item|Artificer|AliFosche|11",
+                "Ability Score Improvement|Artificer|AliFosche|12",
+                "Magic Item Savant|Artificer|AliFosche|14",
+                "Subclass Feature|Artificer|AliFosche|15",
+                "Ability Score Improvement|Artificer|AliFosche|16",
+                "Magic Item Master|Artificer|AliFosche|18",
+                "Epic Boon|Artificer|AliFosche|19",
+                "Soul of the Artifice|Artificer|AliFosche|20"
+            ]
+        }
+    ],
     "subclass": [
         {
             "name": "Path of the Storm",
@@ -248,6 +388,443 @@
                 "Level 3: Twilight Sanctuary|Cleric|XPHB|Twilight|AliFosche|3",
                 "Level 6: Improved Sanctuary|Cleric|XPHB|Twilight|AliFosche|6",
                 "Level 17: Twilight Shroud|Cleric|XPHB|Twilight|AliFosche|17"
+            ]
+        },
+        {
+            "name": "Alchemist",
+            "shortName": "Alchemist",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "page": 17,
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "healing word|xphb",
+                            "ray of sickness|xphb"
+                        ],
+                        "5": [
+                            "melf's acid arrow|xphb",
+                            "prayer of healing|xphb"
+                        ],
+                        "9": [
+                            "fireball|xphb",
+                            "mass healing word|xphb"
+                        ],
+                        "13": [
+                            "blight|xphb",
+                            "death ward|xphb"
+                        ],
+                        "17": [
+                            "cloudkill|xphb",
+                            "raise dead|xphb"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Level 3: Tool Proficiency|Artificer|AliFosche|Alchemist|AliFosche|3",
+                "Level 3: Experimental Elixir|Artificer|AliFosche|Alchemist|AliFosche|3",
+                "Level 5: Alchemical Savant|Artificer|AliFosche|Alchemist|AliFosche|5",
+                "Level 9: Restorative Reagents|Artificer|AliFosche|Alchemist|AliFosche|9",
+                "Level 15: Chemical Mastery|Artificer|AliFosche|Alchemist|AliFosche|15"
+            ]
+        },
+        {
+            "name": "Armorer",
+            "shortName": "Armorer",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "page": 1,
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "magic missile|xphb",
+                            "thunderwave|xphb"
+                        ],
+                        "5": [
+                            "mirror image|xphb",
+                            "shatter|xphb"
+                        ],
+                        "9": [
+                            "hypnotic pattern|xphb",
+                            "lightning bolt|xphb"
+                        ],
+                        "13": [
+                            "fire shield|xphb",
+                            "greater invisibility|xphb"
+                        ],
+                        "17": [
+                            "passwall|xphb",
+                            "wall of force|xphb"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Level 3: Tools of the Trade|Artificer|AliFosche|Armorer|AliFosche|3",
+                "Level 3: Arcane Armor|Artificer|AliFosche|Armorer|AliFosche|3",
+                "Level 3: Armor Model|Artificer|AliFosche|Armorer|AliFosche|3",
+                "Level 5: Extra Attack|Artificer|AliFosche|Armorer|AliFosche|5",
+                "Level 9: Armor Modifications|Artificer|AliFosche|Armorer|AliFosche|9",
+                "Level 15: Perfected Armor|Artificer|AliFosche|Armorer|AliFosche|15"
+            ]
+        },
+        {
+            "name": "Cartographer",
+            "shortName": "Cartographer",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "page": 1,
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "faerie fire|xphb",
+                            "guiding bolt|xphb",
+                            "healing word|xphb"
+                        ],
+                        "5": [
+                            "locate object|xphb",
+                            "mind spike|xge"
+                        ],
+                        "9": [
+                            "call lightning|xphb",
+                            "clairvoyance|xphb"
+                        ],
+                        "13": [
+                            "banishment|xphb",
+                            "locate creature|xphb"
+                        ],
+                        "17": [
+                            "scrying|xphb",
+                            "teleportation circle|xphb"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Level 3: Tools of the Trade|Artificer|AliFosche|Cartographer|AliFosche|3",
+                "Level 3: Adventurer's Atlas|Artificer|AliFosche|Cartographer|AliFosche|3",
+                "Level 3: Mapping Magic|Artificer|AliFosche|Cartographer|AliFosche|3",
+                "Level 5: Guided Precision|Artificer|AliFosche|Cartographer|AliFosche|5",
+                "Level 9: Ingenious Movement|Artificer|AliFosche|Cartographer|AliFosche|9",
+                "Level 15: Superior Atlas|Artificer|AliFosche|Cartographer|AliFosche|15"
+            ]
+        },
+        {
+            "name": "Forge Adept",
+            "shortName": "Forge Adept",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "page": 1,
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "armor of agathys|xphb",
+                            "wrathful smite|xphb"
+                        ],
+                        "5": [
+                            "spiritual weapon|xphb",
+                            "warding bond|xphb"
+                        ],
+                        "9": [
+                            "beacon of hope|xphb",
+                            "remove curse|xphb"
+                        ],
+                        "13": [
+                            "death ward|xphb",
+                            "fire shield|xphb"
+                        ],
+                        "17": [
+                            "banishing smite|xphb",
+                            "steel wind strike|xphb"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Level 3: Tool Proficiency|Artificer|AliFosche|Forge Adept|AliFosche|3",
+                "Level 3: Soul Weapon|Artificer|AliFosche|Forge Adept|AliFosche|3",
+                "Level 3: Battle Ready|Artificer|AliFosche|Forge Adept|AliFosche|3",
+                "Level 5: Extra Attack|Artificer|AliFosche|Forge Adept|AliFosche|5",
+                "Level 9: Runes of War|Artificer|AliFosche|Forge Adept|AliFosche|9",
+                "Level 15: Perfect Weapon|Artificer|AliFosche|Forge Adept|AliFosche|15"
+            ]
+        },
+        {
+            "name": "Maverick",
+            "shortName": "Maverick",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "page": 1,
+            "subclassFeatures": [
+                "Level 3: Bonus Proficiency|Artificer|AliFosche|Maverick|AliFosche|3",
+                "Level 3: Arcane Breakthrough|Artificer|AliFosche|Maverick|AliFosche|3",
+                "Level 3: Cantrip Specialist|Artificer|AliFosche|Maverick|AliFosche|3",
+                "Level 5: Eccentric Versatility|Artificer|AliFosche|Maverick|AliFosche|5",
+                "Level 9: Superior Breakthrough|Artificer|AliFosche|Maverick|AliFosche|9",
+                "Level 15: Final Breakthrough|Artificer|AliFosche|Maverick|AliFosche|15"
+            ]
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Magical Tinkering",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 1,
+            "entries": [
+                "You know how to repair or modify mundane items. You gain the following benefits.",
+                "{@b Fixing.} You learn the {@spell Mending} cantrip and it doesn't count against the number of your Artificer's cantrips.",
+                "{@b Modifying.} You learn the {@spell Prestidigitation} cantrip and it doesn't count against the number of your Artificer's cantrips. Also, you can use an action to infuse a nonmagical object with one of the effects of Prestidigitation. Each time a certain circumstance occurs, the object casts the Prestidigitation with the chosen effect. You describe that circumstance when you use this feature. Prestidigitation remains infused into the object for up to 8 hours."
+            ]
+        },
+        {
+            "name": "Spellcasting",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 1,
+            "entries": [
+                "You have learned to cast spells through your tools expertise. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Artificer spells, which appear in the Artificer spell list later in the class description.",
+                "{@b Cantrips.} You know two cantrips of your choice from the Artificer spell list. Whenever you gain an Artificer level, you can replace one of your cantrips with another cantrip of your choice from the Artificer spell list. When you reach Artificer levels 8 and 14, you learn another cantrip of your choice from the Artificer spell list, as shown in the cantrips column in the Artificer Features table.",
+                "{@b Spell Slots.} The Artificer Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long rest.",
+                "{@b Prepared Spells of Level 1+.} You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Artificer spells. The number of spells on your list increases as you gain Artificer levels, as shown in the Prepared Spells column of the Artificer Features table. Whenever that number increases, choose additional Artificer spells until the number of spells on your list matches the number in the Artificer Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Artificer, your list of prepared spells can include six Artificer spells of level 1 or 2 in any combination. If another Artificer feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Artificer spells for you.",
+                "{@b Changing your Prepared Spells.} Whenever you finish a Long rest, you can change one your list of prepared spells, replacing any of the spells there with other Artificer spells for which you have spell slots.",
+                "{@b Spellcasting Ability.} Intelligence is your spellcasting ability for your Artificer spells.",
+                "{@b Spellcasting Focus.} You can use a set of Artisan's Tools or one of your Artificer Infusions as a Spellcasting Focus for your Artificer spells.",
+                {
+                    "type": "table",
+                    "caption": "Artificer Expanded Spells",
+                    "colLabels": [
+                        "Spell Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-2 text-center",
+                        "col-10"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "{@spell Detect Poison and Disease}, {@spell Wardaway}"
+                        ],
+                        [
+                            "2",
+                            "{@spell Arcane Vigor}, {@spell Locate Objects}"
+                        ],
+                        [
+                            "3",
+                            "{@spell Aura of Vitality}, {@spell Stinking Cloud}"
+                        ],
+                        [
+                            "4",
+                            "{@spell Arcane Eye}, {@spell Greater Invisibility}"
+                        ],
+                        [
+                            "5",
+                            "{@spell Circle of Power}, {@spell Mass Cure Wounds}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Artificer Infusions",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 2,
+            "entries": [
+                "You've learnt to infuse magic in mundane items, thus you gain the following benefits.",
+                "{@b Infusions Known.} When you gain this feature, pick two Artificer Infusions to learn. You learn additional infusions when you reach certain levels in this class, as shown in the Infusions Known column of the Artificer Class table. Whenever you gain a level in this class, you can replace one of the Artificer Infusions you learned with a new one.",
+                "{@b Artificer Infusions.} The description of each Artificer Infusion is detailed at the end of this class description. The Infusion's description details its prerequisites. You can't learn an infusion if you lack its prerequisites and can't learn an infusion more than once.",
+                "{@b Infusing an Item.} When you finish a Long rest, you can touch a nonmagical object and imbue it with one of your Artificer Infusions. When you reach certain levels in this class, you can infuse more items at a time. The number of infusions you can activate is shown in the Infused Items column of the Artificer Features table. If the item requires attunement, you can attune yourself to it the instant you infuse the item. An infusion lasts until you replace it with another, or until you die. If you infuse an object when you've already reached your Infused Items' maximum, the oldest infusion immediately ends."
+            ]
+        },
+        {
+            "name": "Artificer Restoration",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 2,
+            "entries": [
+                "Working with your tools for 1 minute you restore part of your items' energy. You regain a spell slot which level is up to half the number of your Infused Items (rounded up) and you can replace one of your active infusions with another infusion you know. Once you use this feature you cannot do so again until you finish a Short or Long rest."
+            ]
+        },
+        {
+            "name": "Artificer Subclass",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You choose your Artificer subclass. Your choice grants you features at 3rd level and again at 5th, 9th, and 15th level."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 4,
+            "entries": [
+                "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 5,
+            "entries": [
+                "You gain a feature granted by your Artificer subclass."
+            ]
+        },
+        {
+            "name": "Tool Expertise",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 6,
+            "entries": [
+                "You can add your Intelligence modifier to each ability check made to use a Tool."
+            ]
+        },
+        {
+            "name": "Flash of Genius",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 7,
+            "entries": [
+                "You can come up with solutions under pressure. When a creature you can see within 30 feet of you makes a D20 Test, you can use your reaction to add your Intelligence modifier (minimum of 1) to it. You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and regain all expended uses when you finish a Long rest."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 8,
+            "entries": [
+                "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 9,
+            "entries": [
+                "You gain a feature granted by your Artificer subclass."
+            ]
+        },
+        {
+            "name": "Magic Item Adept",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 10,
+            "entries": [
+                "You achieve a profound understanding of magic items. You gain the following benefits.",
+                "You can attune to up to four magic items at once.",
+                "When you craft a magic item of common or uncommon rarity, it takes you a quarter of the normal time and it costs you half as much of the usual gold."
+            ]
+        },
+        {
+            "name": "Spell-storing Item",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 11,
+            "entries": [
+                "You can now store a spell in an object. When you finish a Long Rest, you can touch an item and store a spell in it, choose a level 1 or 2 spell from the Artificer spell list that requires 1 action to cast. A creature holding the object can take a magic action to cast the spell, using your spellcasting ability modifier. This object can be used a number of times equal to twice your Intelligence modifier or until you use this feature again to store a spell in another object."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 12,
+            "entries": [
+                "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+            ]
+        },
+        {
+            "name": "Magic Item Savant",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 14,
+            "entries": [
+                "Your skill with magic items deepens. You gain the following benefits.",
+                "You can attune to up to five magic items at once.",
+                "You ignore all requirements on attuning to or using a magic item."
+            ]
+        },
+        {
+            "name": "Subclass Feature",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 15,
+            "entries": [
+                "You gain a feature granted by your Artificer subclass."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 16,
+            "entries": [
+                "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+            ]
+        },
+        {
+            "name": "Magic Item Master",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 18,
+            "entries": [
+                "Your bond with magic items has reached its pinnacle. You gain the following benefits.",
+                "You can attune to up to six magic items at once.",
+                "You gain a +1 bonus to all saving throws per magic item you are currently attuned to."
+            ]
+        },
+        {
+            "name": "Epic Boon",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 19,
+            "entries": [
+                "You gain an Epic Boon feat of your choice for which you qualify."
+            ]
+        },
+        {
+            "name": "Soul of the Artifice",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "level": 20,
+            "entries": [
+                "You develop a protective connection to your magic items. If you drop to 0 Hit Points and don't die outright, you can take a Reaction to end one of your Artificer Infusions and instead change your hit points to a number equal to your Artificer level."
             ]
         }
     ],
@@ -1478,6 +2055,685 @@
             "entries": [
                 "The twilight that you summon offers a protective embrace. You and your allies have half cover while in the emanation created by your Twilight Sanctuary."
             ]
+        },
+        {
+            "name": "Level 3: Tool Proficiency",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Alchemist",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You gain proficiency with {@item alchemist's supplies|xphb} or another type of artisan's tools of your choice."
+            ]
+        },
+        {
+            "name": "Level 3: Experimental Elixir",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Alchemist",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You can prepare special vials to contain powerful potions called Experimental Elixirs. You can only have a number of vials up to your Intelligence modifier. When you finish a Long rest, you can fill your vials with elixirs rolling on the Experimental Elixir Table. At the start of your turn spend a spell slot and fill a number of vials equal to the spell slot level spent with Experimental Elixirs of your choice. A creature holding a vial can drink the elixir or administer it to a willing creature as a Bonus Action.",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "1d6",
+                        "Experimental Elixir Table"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "{@b Healing.} The drinker regains a number of hit points equal to {@dice 2d8} plus your Intelligence modifier. The number of Hit Points restored increases by {@dice 1d8} when you reach Artificer levels 9 ({@dice 3d8}) and 15 ({@dice 4d8})."
+                        ],
+                        [
+                            "2",
+                            "{@b Swiftness.} The drinker's Speed increases by 10 feet for 1 hour. This extra speed increases when you reach Artificer levels 9 (15 feet) and 15 (20 feet)."
+                        ],
+                        [
+                            "3",
+                            "{@b Resilience.} The drinker gains a +1 bonus to AC for 10 minutes. The duration increases when you reach Artificer levels 9 (1 hour) and 15 (8 hours)."
+                        ],
+                        [
+                            "4",
+                            "{@b Boldness.} The drinker can roll {@dice 1d4} and add the number rolled to every attack roll and saving throw they make for the next minute. The duration increases when you reach Artificer levels 9 (10 minutes) and 15 (1 hour)."
+                        ],
+                        [
+                            "5",
+                            "{@b Flight.} The drinker gains 15 feet of Fly Speed for 10 minutes. The Fly Speed increases when you reach Artificer levels 9 (20 feet) and 15 (30 feet)."
+                        ],
+                        [
+                            "6",
+                            "{@b Transformation.} The drinker gains the effect of {@spell Alter Self} for 10 minutes. The duration increases when you reach Artificer levels 9 (1 hour) and 15 (8 hours)."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 5: Alchemical Savant",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Alchemist",
+            "subclassSource": "AliFosche",
+            "level": 5,
+            "entries": [
+                "You're an expert in the use of chemicals to heal or harm. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Empowered Alchemy",
+                            "entries": [
+                                "You can add your Intelligence modifier to one roll of your Artificer spells that restore hit points or deal acid, fire or poison damage."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Chemical Toss",
+                            "entries": [
+                                "As a Bonus Action, make a spell attack against a creature within 30 feet of you. On a hit, the attack deals {@damage 2d6} + your Intelligence modifier acid damage."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 9: Restorative Reagents",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Alchemist",
+            "subclassSource": "AliFosche",
+            "level": 9,
+            "entries": [
+                "Your potions gain restorative properties. When a creature gains the effect of one of your Experimental Elixirs, it gains temporary hit points equal to {@dice 2d6} + your Intelligence modifier. Also, you can end one effect causing it to be {@condition Blinded}, {@condition Paralyzed}, or {@condition Poisoned}."
+            ]
+        },
+        {
+            "name": "Level 15: Chemical Mastery",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Alchemist",
+            "subclassSource": "AliFosche",
+            "level": 15,
+            "entries": [
+                "Your neverending research on alchemy grants you the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Chemical Resistance",
+                            "entries": [
+                                "You gain Resistance to Acid damage and Poison damage. You also gain Immunity to the {@condition Poisoned} condition."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Conjured Cauldron",
+                            "entries": [
+                                "You can cast {@spell Tasha's Bubbling Cauldron} without expending a spell slot, without preparing the spell, and without Material components, provided you use Alchemist's Supplies as the Spellcasting Focus. Once you use this feature, you can't use it again until you finish a Long rest."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Tools of the Trade",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Armorer",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You gain proficiency with heavy armor. You also gain proficiency with {@item smith's tools|xphb} or another type of artisan's tools of your choice."
+            ]
+        },
+        {
+            "name": "Level 3: Arcane Armor",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Armorer",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "When you don a suit of armor you can transform it into your Arcane Armor. You gain the following benefits while wearing this armor.",
+                {
+                    "type": "list",
+                    "items": [
+                        "You ignore the armor’s Strength requirement.",
+                        "You can don or doff the armor as a {@action Utilize} action. The armor can't be removed against your will.",
+                        "You can use the Arcane Armor as a Spellcasting Focus for your Artificer spells."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Armor Model",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Armorer",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "When you don your arcane armor, choose one of the following armor models: Guardian or Infiltrator. The model you choose gives you special benefits while you wear it.",
+                {
+                    "type": "entries",
+                    "name": "Guardian",
+                    "entries": [
+                        "{@b Thunder Gauntlets.} You can use Intelligence instead of Strength for the attack and damage rolls of your unarmed strikes. You can roll {@damage 1d8} in place of their normal damage and you can deal thunder or bludgeoning damage (your choice) when you deal damage with your unarmed strikes. Also, a creature you hit has disadvantage on attack rolls against targets other than you until the start of your next turn.",
+                        "{@b Defensive Field.} As a bonus action, you can gain temporary hit points equal to your Artificer level. You can use this feature a number of times equal to your Intelligence modifier and you regain all expended uses when you finish a Long Rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Infiltrator",
+                    "entries": [
+                        "{@b Lightning Launcher.} A gemlike node appears on one of your armored fists or on the chest. It is a simple ranged weapon (range 100/300) that uses your Intelligence for attack and damage rolls. On a hit, it deals {@damage 2d6} lightning damage and applies the Vex mastery. Once every turn, on a hit you can deal {@damage 1d6} extra lightning damage.",
+                        "{@b Powered Steps.} Your walking speed increases by 10 feet and you gain advantage on Dexterity ({@skill Stealth}) ability checks."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 5: Extra Attack",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Armorer",
+            "subclassSource": "AliFosche",
+            "level": 5,
+            "entries": [
+                "You can attack twice, rather than once, whenever you take the {@action Attack} action."
+            ]
+        },
+        {
+            "name": "Level 9: Armor Modifications",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Armorer",
+            "subclassSource": "AliFosche",
+            "level": 9,
+            "entries": [
+                "Your Arcane Armor counts as separate items for the purposes of your Infuse Items feature: armor, boots, helmet and weapon. Each of those items can bear one of your infusions, and the infusions transfer over if you change your armor's model. Moreover, the number of items you can infuse increases by 2, but those extra items must be part of your Arcane Armor."
+            ]
+        },
+        {
+            "name": "Level 15: Perfected Armor",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Armorer",
+            "subclassSource": "AliFosche",
+            "level": 15,
+            "entries": [
+                "Your Arcane Armor gains additional benefits based on its model, as shown below.",
+                {
+                    "type": "entries",
+                    "name": "Guardian",
+                    "entries": [
+                        "When a Huge or smaller creature you can see ends its turn within 30 feet of you, you can use your reaction to pull it up to 25 feet directly to an unoccupied space. If you pull the target to a space within 5 feet of you, you can make a melee weapon attack against it as part of this reaction."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Infiltrator",
+                    "entries": [
+                        "A creature hit by your Lightning Launcher has disadvantage on attack rolls against you. Also, the next attack roll against it has advantage, and deals {@damage 2d6} extra lightning damage on a hit."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Tools of the Trade",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Cartographer",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You gain proficiency with {@item calligrapher's supplies|xphb} and {@item cartographer's tools|xphb}."
+            ]
+        },
+        {
+            "name": "Level 3: Adventurer's Atlas",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Cartographer",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "Whenever you finish a Long Rest, you can create a set of magical maps by touching a number of creatures equal to 1 plus your Intelligence modifier. Each target receives a magical map that lasts until you die or until you use this feature again. While carrying the map, a creature gains the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Awareness",
+                            "entries": [
+                                "The creature adds {@dice 1d4} to its Initiative rolls."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Positioning",
+                            "entries": [
+                                "The creature knows the location of all other map holders that are on the same plane of existence as itself. When casting a spell or creating an effect that requires seeing the target, a map holder can target another map holder regardless of sight or cover, so long as it is still within the effect's range."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Mapping Magic",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Cartographer",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Illuminated Cartography",
+                            "entries": [
+                                "You can cast {@spell Guiding Bolt} without expending a spell slot. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long rest."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Portal Jump",
+                            "entries": [
+                                "On your turn, you can spend an amount of movement equal to half your Speed (round down) to teleport to an unoccupied space you can see within 15 feet of yourself or within 5 feet of a creature that is within 30 feet of you and holding one of your Adventurer's Atlas maps. You can't use this benefit if your Speed is 0."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 5: Guided Precision",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Cartographer",
+            "subclassSource": "AliFosche",
+            "level": 5,
+            "entries": [
+                "Once per turn, whenever you deal damage with a spell from your Cartographer Spells list, you can add your Intelligence modifier to one damage roll of the spell."
+            ]
+        },
+        {
+            "name": "Level 9: Ingenious Movement",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Cartographer",
+            "subclassSource": "AliFosche",
+            "level": 9,
+            "entries": [
+                "When you use your Flash of Genius, you or a willing creature of your choice that you can see within 30 feet of yourself can teleport up to 30 feet to an unoccupied space you can see as part of that same Reaction."
+            ]
+        },
+        {
+            "name": "Level 15: Superior Atlas",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Cartographer",
+            "subclassSource": "AliFosche",
+            "level": 15,
+            "entries": [
+                "Your Adventurer's Atlas improves, gaining the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Safe Haven",
+                            "entries": [
+                                "When a map holder would be reduced to 0 hit points but not killed outright, that creature can destroy its map. The creature's hit points instead change to a number equal to twice your Artificer level, and the creature is teleported to an unoccupied space within 5 feet of you or another map holder of its choice."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Unerring Path",
+                            "entries": [
+                                "You can cast {@spell Find the Path} without expending a spell slot, without preparing the spell, and without needing spell components. Once you use this benefit, you can't use it again until you finish a Long Rest."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Tool Proficiency",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Forge Adept",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You gain proficiency with {@item smith's tools|xphb} or another type of artisan's tools of your choice."
+            ]
+        },
+        {
+            "name": "Level 3: Soul Weapon",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Forge Adept",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You learn to imbue a weapon with a fraction of your spirit. When you finish a Long Rest, you can touch a weapon and make it your Soul Weapon, thus gaining the following features.",
+                {
+                    "type": "list",
+                    "items": [
+                        "You can use its Weapon Mastery property.",
+                        "It gains a +1 bonus to attack and damage rolls, unless it already grants a higher bonus. This bonus increases to +2 at Artificer level 9 and increases to +3 at level 14.",
+                        "The weapon loses its attributes if you use this feature again."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Battle Ready",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Forge Adept",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "Your combat training and your experiments with magic have paid off in two ways:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain proficiency with martial weapons.",
+                        "When you attack with a magic weapon, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 5: Extra Attack",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Forge Adept",
+            "subclassSource": "AliFosche",
+            "level": 5,
+            "entries": [
+                "You can attack twice, rather than once, whenever you take the {@action Attack} action."
+            ]
+        },
+        {
+            "name": "Level 9: Runes of War",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Forge Adept",
+            "subclassSource": "AliFosche",
+            "level": 9,
+            "entries": [
+                "As a Bonus Action, you can create an aura in a 30-foot emanation that lasts for 10 minutes. The attacks of each ally in the emanation deal {@damage 1d4} extra Psychic damage. You can use this feature a number of times equal to your Intelligence modifier (minimum of once) and you regain all expended uses after a Long rest."
+            ]
+        },
+        {
+            "name": "Level 15: Perfect Weapon",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Forge Adept",
+            "subclassSource": "AliFosche",
+            "level": 15,
+            "entries": [
+                "When you take the {@action Attack} action, you can transfer some of your Soul Weapon’s bonus to your AC. For every 1 you reduce your attack and damage rolls by (maximum of 3), you gain +1 to your AC. This effect lasts until the start of your next turn. Also, when you finish a Long rest, you gain one of the following benefits until the end of your next long rest.",
+                {
+                    "type": "list",
+                    "items": [
+                        "You have resistance to Psychic damage, and you can’t be {@condition charmed} or {@condition frightened}.",
+                        "When you hit with your Soul Weapon the target takes {@damage 1d6} extra Psychic damage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Bonus Proficiency",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Maverick",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You gain proficiency in one skill or one tool of your choice."
+            ]
+        },
+        {
+            "name": "Level 3: Arcane Breakthrough",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Maverick",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You gain amazing insights into spell effects beyond the reach of most artificers. Choose one of the following classes: Cleric, Druid or Wizard. This class’s spells become part of your Breakthrough List. You can choose another class to add to your Breakthrough List at level 5 and level 9. When you prepare your spells, you can prepare one additional spell for each level and those spells must be chosen from your Breakthrough List. You can cast each of those spells once without expending a spell slot and regain the ability to do so when you finish a Long Rest. The spells of your Breakthrough List are considered to be Artificer spells for you, and Intelligence is your spellcasting ability for them."
+            ]
+        },
+        {
+            "name": "Level 3: Cantrip Specialist",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Maverick",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You studied the basics of spellcasting more than most, gaining the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "You learn one cantrip of your choice from your Breakthrough List. At the end of a Long rest, you can change that cantrip with another from your Breakthrough List.",
+                        "When you deal damage with a cantrip, you can roll one of its damage dice again and add it to the damage total."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 5: Eccentric Versatility",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Maverick",
+            "subclassSource": "AliFosche",
+            "level": 5,
+            "entries": [
+                "As a Bonus Action, you can cast one spell of your choice. This spell must be from your Breakthrough List and require an action to be cast. You can use this feature a number of times equal to your Intelligence modifier (minimum of once) and regain all expended uses when you finish a Long rest."
+            ]
+        },
+        {
+            "name": "Level 9: Superior Breakthrough",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Maverick",
+            "subclassSource": "AliFosche",
+            "level": 9,
+            "entries": [
+                "When you finish a Long rest, choose a spell from your Breakthrough List of a level equal to half your Artificer level (rounded up) up to level 7. You can cast the chosen spell once without expending a spell slot."
+            ]
+        },
+        {
+            "name": "Level 15: Final Breakthrough",
+            "source": "AliFosche",
+            "className": "Artificer",
+            "classSource": "AliFosche",
+            "subclassShortName": "Maverick",
+            "subclassSource": "AliFosche",
+            "level": 15,
+            "entries": [
+                "When you cast one of your Artificer or Breakthrough spells, you can do so as if the spell was cast using a spell slot two levels higher than the spell slot you expend. You can use this feature a number of times equal to your Intelligence modifier (minimum of once) and regain all expended uses after you finish a Long rest."
+            ]
+        }
+    ],
+    "optionalfeature": [
+        {
+            "name": "Artificer Goggles",
+            "source": "AliFosche",
+            "featureType": [
+                "AI"
+            ],
+            "entries": [
+                "{@i Prerequisite: a pair of goggles}",
+                "These goggles have 4 charges. The wearer can expend 1 charge to cast the {@spell Darkvision} or {@spell Detect Magic} spell. The goggles regain {@dice 1d4} expended charges daily at dawn."
+            ]
+        },
+        {
+            "name": "Bane Weapon",
+            "source": "AliFosche",
+            "featureType": [
+                "AI"
+            ],
+            "entries": [
+                "{@i Prerequisites: Level 6+; A simple or martial weapon (requires attunement)}",
+                "The weapon has 4 charges. This weapon grants a +1 bonus on attack and damage rolls made with it. When you infuse this item, choose one of these creature types: aberration, dragon, fiend or undead. When the wielder hits a creature of this type with the weapon, they can expend 1 charge to deal {@damage 2d6} extra force damage. The weapon's bonus increases to +2 when you reach Artificer level 10. The weapon regains {@dice 1d4} charges daily at dawn."
+            ]
+        },
+        {
+            "name": "Blasting Focus",
+            "source": "AliFosche",
+            "featureType": [
+                "AI"
+            ],
+            "entries": [
+                "{@i Prerequisite: Alchemist, Artillerist or Maverick subclasses (requires attunement)}",
+                "This focus has 4 charges. Once every turn, when you cast an Artificer spell that deals cold, fire or lightning, you can expend 1 charge to gain one of the following benefits.",
+                "One roll of the spell deals extra damage equal to your Artificer level.",
+                "The spell ignores damage resistances.",
+                "The focus regains {@dice 1d4} expended charges daily at dawn."
+            ]
+        },
+        {
+            "name": "Bracer of Magical Strength",
+            "source": "AliFosche",
+            "featureType": [
+                "AI"
+            ],
+            "entries": [
+                "{@i Prerequisite: A bracelet or similar garment (requires attunement)}",
+                "This bracer has 6 charges that can be expended in the following ways:",
+                "When the wearer makes a Strength check or a Strength saving throw, it can expend 1 charge to add a bonus to the roll equal to your Intelligence modifier.",
+                "When the wearer attempts a grapple or shove, it can expend 1 charge to make so the DC is based on its Intelligence instead of its Strength.",
+                "The bracer regains {@dice 1d6} expended charges daily at dawn."
+            ]
+        },
+        {
+            "name": "Chameleon Cloak",
+            "source": "AliFosche",
+            "featureType": [
+                "AI"
+            ],
+            "entries": [
+                "{@i Prerequisite: a cloak or mantle}",
+                "This cloak has 6 charges. The wearer can expend 1 charge to cast the {@spell Disguise Self} spell. From Artificer level 6, they also can expend 1 charge to cast the {@spell Alter Self} spell.",
+                "The cloak regains {@dice 1d6} expended charges daily at dawn."
+            ]
+        },
+        {
+            "name": "Cloaking Field",
+            "source": "AliFosche",
+            "featureType": [
+                "AI"
+            ],
+            "entries": [
+                "{@i Prerequisite: Level 9+, Armorer (Infiltrator) subclass (requires attunement)}",
+                "A sophisticated device allows you to bolster your Dampening Field in order to camouflage with the environment. At the start of your turn, you can become {@condition invisible} until the start of your next turn, or until you make an attack or cast a spell. While invisible in this way, your speed is reduced to 10 feet unless it was already lower."
+            ]
+        },
+        {
+            "name": "Fortify Defense",
+            "source": "AliFosche",
+            "featureType": [
+                "AI"
+            ],
+            "entries": [
+                "{@i Prerequisite: Level 6+, a suit of armor}",
+                "The armor has 4 charges. A creature gains a +1 bonus to Armor Class while wearing this armor. As a reaction, when the wearer suffers a critical hit, they can expend 1 charge and count that hit as a normal hit instead. Any effects triggered by the critical hit are negated.",
+                "The armor regains {@dice 1d4} expended charges daily at dawn."
+            ]
+        },
+        {
+            "name": "Healing Salve",
+            "source": "AliFosche",
+            "featureType": [
+                "AI"
+            ],
+            "entries": [
+                "{@i Prerequisite: A jar of lotion}",
+                "A creature can apply this magical salve to heal wounds. The healing salve has 4 charges. As a bonus action, a creature holding it can expend one charge and touch a creature, healing it a number of hit points equal to {@dice 1d6} + your Intelligence modifier.",
+                "The salve regains {@dice 1d4} expended charges daily at dawn."
+            ]
+        },
+        {
+            "name": "Hydraulics Diverter",
+            "source": "AliFosche",
+            "featureType": [
+                "AI"
+            ],
+            "entries": [
+                "{@i Prerequisite: Level 9+, Armorer (Guardian) subclass (requires attunement)}",
+                "An intricate system allows you to divert magical power from your defenses to your Thunder Gauntlets. Once per turn, when you hit an enemy with an unarmed strike, you can increase the damage dealt by a number of d8s up to your Proficiency Bonus. Until the start of your next turn, your Armor Class is lowered by the same number."
+            ]
+        },
+        {
+            "name": "Quiver of Energy",
+            "source": "AliFosche",
+            "featureType": [
+                "AI"
+            ],
+            "entries": [
+                "{@i Prerequisite: a quiver}",
+                "When you infuse this item, choose one damage type: cold, fire, or lightning. Once every turn, when the bearer hits a target with an attack using an ammunition from this quiver, the attack deals an extra {@damage 1d8} damage of the chosen type. The extra damage increases to {@damage 1d10} when you reach Artificer level 6 and {@damage 1d12} when you reach Artificer level 10."
+            ]
+        },
+        {
+            "name": "Radiant Weapon",
+            "source": "AliFosche",
+            "featureType": [
+                "AI"
+            ],
+            "entries": [
+                "{@i Prerequisite: Level 6+, a weapon (requires attunement)}",
+                "The weapon has 4 charges. You gain a +1 bonus to attack and damage rolls made using the weapon, also on a hit it deals {@damage 1d4} extra radiant damage. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and the attacker must succeed on a Constitution saving throw against your spell save DC or become {@condition Blinded} until the end of its next turn. These bonuses increase to +2 and {@damage 2d4} extra Radiant damage when you reach Artificer level 10. The weapon regains {@dice 1d4} expended charges daily at dawn."
+            ]
         }
     ]
-        }
+}
