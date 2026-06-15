@@ -40,11 +40,11 @@
                 }
             ],
             "subclassFeatures": [
-                "Lesser Natural Control|Barbarian|XPHB|Storm|AliFosche|3",
-                "Storm Aura|Barbarian|XPHB|Storm|AliFosche|3",
-                "Storm Soul|Barbarian|XPHB|Storm|AliFosche|6",
-                "Raging Storm|Barbarian|XPHB|Storm|AliFosche|10",
-                "Shielding Aura|Barbarian|XPHB|Storm|AliFosche|14"
+                "Level 3: Lesser Natural Control|Barbarian|XPHB|Storm|AliFosche|3",
+                "Level 3: Storm Aura|Barbarian|XPHB|Storm|AliFosche|3",
+                "Level 6: Storm Soul|Barbarian|XPHB|Storm|AliFosche|6",
+                "Level 10: Raging Storm|Barbarian|XPHB|Storm|AliFosche|10",
+                "Level 14: Shielding Aura|Barbarian|XPHB|Storm|AliFosche|14"
             ]
         },
         {
@@ -55,11 +55,11 @@
             "classSource": "XPHB",
             "page": 1,
             "subclassFeatures": [
-                "Giant's Power|Barbarian|XPHB|Giant|AliFosche|3",
-                "Giant's Havoc|Barbarian|XPHB|Giant|AliFosche|3",
-                "Elemental Cleaver|Barbarian|XPHB|Giant|AliFosche|6",
-                "Mighty Impel|Barbarian|XPHB|Giant|AliFosche|10",
-                "Demiurgic Colossus|Barbarian|XPHB|Giant|AliFosche|14"
+                "Level 3: Giant's Power|Barbarian|XPHB|Giant|AliFosche|3",
+                "Level 3: Giant's Havoc|Barbarian|XPHB|Giant|AliFosche|3",
+                "Level 6: Elemental Cleaver|Barbarian|XPHB|Giant|AliFosche|6",
+                "Level 10: Mighty Impel|Barbarian|XPHB|Giant|AliFosche|10",
+                "Level 14: Demiurgic Colossus|Barbarian|XPHB|Giant|AliFosche|14"
             ]
         },
         {
@@ -73,17 +73,17 @@
                 {
                     "known": {
                         "3": [
-                            "shadow blade|xge"
+                            "shadow blade|xphb"
                         ]
                     }
                 }
             ],
             "subclassFeatures": [
-                "Psychic Blades|Bard|XPHB|Whispers|AliFosche|3",
-                "Words of Terror|Bard|XPHB|Whispers|AliFosche|3",
-                "Mantle of Whispers|Bard|XPHB|Whispers|AliFosche|6",
-                "Mischievous Afterimage|Bard|XPHB|Whispers|AliFosche|6",
-                "Shadow Lore|Bard|XPHB|Whispers|AliFosche|14"
+                "Level 3: Psychic Blades|Bard|XPHB|Whispers|AliFosche|3",
+                "Level 3: Words of Terror|Bard|XPHB|Whispers|AliFosche|3",
+                "Level 6: Mantle of Whispers|Bard|XPHB|Whispers|AliFosche|6",
+                "Level 6: Mischievous Afterimage|Bard|XPHB|Whispers|AliFosche|6",
+                "Level 14: Shadow Lore|Bard|XPHB|Whispers|AliFosche|14"
             ]
         },
         {
@@ -94,14 +94,14 @@
             "classSource": "XPHB",
             "page": 1,
             "subclassFeatures": [
-                "Arcane Lore|Fighter|XPHB|Arcane Archer|AliFosche|3",
-                "Arcane Shot|Fighter|XPHB|Arcane Archer|AliFosche|3",
-                "Arcane Shot Options|Fighter|XPHB|Arcane Archer|AliFosche|3",
-                "Curving Shot|Fighter|XPHB|Arcane Archer|AliFosche|7",
-                "Magical Ammunition|Fighter|XPHB|Arcane Archer|AliFosche|7",
-                "Ever-Ready Shot|Fighter|XPHB|Arcane Archer|AliFosche|10",
-                "Arcane Burst|Fighter|XPHB|Arcane Archer|AliFosche|15",
-                "Arcane Evasion|Fighter|XPHB|Arcane Archer|AliFosche|18"
+                "Level 3: Arcane Lore|Fighter|XPHB|Arcane Archer|AliFosche|3",
+                "Level 3: Arcane Shot|Fighter|XPHB|Arcane Archer|AliFosche|3",
+                "Level 3: Arcane Shot Options|Fighter|XPHB|Arcane Archer|AliFosche|3",
+                "Level 7: Curving Shot|Fighter|XPHB|Arcane Archer|AliFosche|7",
+                "Level 7: Magical Ammunition|Fighter|XPHB|Arcane Archer|AliFosche|7",
+                "Level 10: Ever-Ready Shot|Fighter|XPHB|Arcane Archer|AliFosche|10",
+                "Level 15: Arcane Burst|Fighter|XPHB|Arcane Archer|AliFosche|15",
+                "Level 18: Arcane Evasion|Fighter|XPHB|Arcane Archer|AliFosche|18"
             ]
         },
         {
@@ -112,12 +112,12 @@
             "classSource": "XPHB",
             "page": 1,
             "subclassFeatures": [
-                "Elegant Courtier|Fighter|XPHB|Samurai|AliFosche|3",
-                "Fighting Spirit|Fighter|XPHB|Samurai|AliFosche|3",
-                "Focussed Fighter|Fighter|XPHB|Samurai|AliFosche|7",
-                "Rapid Strike|Fighter|XPHB|Samurai|AliFosche|10",
-                "Tireless Spirit|Fighter|XPHB|Samurai|AliFosche|15",
-                "Strength Before Death|Fighter|XPHB|Samurai|AliFosche|18"
+                "Level 3: Elegant Courtier|Fighter|XPHB|Samurai|AliFosche|3",
+                "Level 3: Fighting Spirit|Fighter|XPHB|Samurai|AliFosche|3",
+                "Level 7: Focussed Fighter|Fighter|XPHB|Samurai|AliFosche|7",
+                "Level 10: Rapid Strike|Fighter|XPHB|Samurai|AliFosche|10",
+                "Level 15: Tireless Spirit|Fighter|XPHB|Samurai|AliFosche|15",
+                "Level 18: Strength Before Death|Fighter|XPHB|Samurai|AliFosche|18"
             ]
         },
         {
@@ -128,11 +128,11 @@
             "classSource": "XPHB",
             "page": 1,
             "subclassFeatures": [
-                "Kensei Weapon|Monk|XPHB|Kensei|AliFosche|3",
-                "Path of the Kensei|Monk|XPHB|Kensei|AliFosche|3",
-                "One with the Blade|Monk|XPHB|Kensei|AliFosche|6",
-                "Sharpen the Blade|Monk|XPHB|Kensei|AliFosche|11",
-                "Kensei Master|Monk|XPHB|Kensei|AliFosche|17"
+                "Level 3: Kensei Weapon|Monk|XPHB|Kensei|AliFosche|3",
+                "Level 3: Path of the Kensei|Monk|XPHB|Kensei|AliFosche|3",
+                "Level 6: One with the Blade|Monk|XPHB|Kensei|AliFosche|6",
+                "Level 11: Sharpen the Blade|Monk|XPHB|Kensei|AliFosche|11",
+                "Level 17: Kensei Master|Monk|XPHB|Kensei|AliFosche|17"
             ]
         },
         {
@@ -143,10 +143,10 @@
             "classSource": "XPHB",
             "page": 1,
             "subclassFeatures": [
-                "Radiant Awakening|Monk|XPHB|Sun|AliFosche|3",
-                "Searing Arc Strike|Monk|XPHB|Sun|AliFosche|6",
-                "Searing Sunburst|Monk|XPHB|Sun|AliFosche|11",
-                "Sun Avatar|Monk|XPHB|Sun|AliFosche|17"
+                "Level 3: Radiant Awakening|Monk|XPHB|Sun|AliFosche|3",
+                "Level 6: Searing Arc Strike|Monk|XPHB|Sun|AliFosche|6",
+                "Level 11: Searing Sunburst|Monk|XPHB|Sun|AliFosche|11",
+                "Level 17: Sun Avatar|Monk|XPHB|Sun|AliFosche|17"
             ]
         },
         {
@@ -157,12 +157,12 @@
             "classSource": "XPHB",
             "page": 1,
             "subclassFeatures": [
-                "Benign Transposition|Wizard|XPHB|Conjurer|AliFosche|3",
-                "Conjuration Savant|Wizard|XPHB|Conjurer|AliFosche|3",
-                "Distant Transposition|Wizard|XPHB|Conjurer|AliFosche|6",
-                "Durable Summons|Wizard|XPHB|Conjurer|AliFosche|6",
-                "Focussed Conjuration|Wizard|XPHB|Conjurer|AliFosche|10",
-                "Splintered Summons|Wizard|XPHB|Conjurer|AliFosche|14"
+                "Level 3: Benign Transposition|Wizard|XPHB|Conjurer|AliFosche|3",
+                "Level 3: Conjuration Savant|Wizard|XPHB|Conjurer|AliFosche|3",
+                "Level 6: Distant Transposition|Wizard|XPHB|Conjurer|AliFosche|6",
+                "Level 6: Durable Summons|Wizard|XPHB|Conjurer|AliFosche|6",
+                "Level 10: Focussed Conjuration|Wizard|XPHB|Conjurer|AliFosche|10",
+                "Level 14: Splintered Summons|Wizard|XPHB|Conjurer|AliFosche|14"
             ]
         },
         {
@@ -173,12 +173,12 @@
             "classSource": "XPHB",
             "page": 1,
             "subclassFeatures": [
-                "Enchanting Voice|Wizard|XPHB|Enchanter|AliFosche|3",
-                "Enchantment Savant|Wizard|XPHB|Enchanter|AliFosche|3",
-                "Hypnotic Presence|Wizard|XPHB|Enchanter|AliFosche|3",
-                "Split Enchantment|Wizard|XPHB|Enchanter|AliFosche|6",
-                "Instinctive Charm|Wizard|XPHB|Enchanter|AliFosche|10",
-                "Superior Enchantment|Wizard|XPHB|Enchanter|AliFosche|14"
+                "Level 3: Enchanting Voice|Wizard|XPHB|Enchanter|AliFosche|3",
+                "Level 3: Enchantment Savant|Wizard|XPHB|Enchanter|AliFosche|3",
+                "Level 3: Hypnotic Presence|Wizard|XPHB|Enchanter|AliFosche|3",
+                "Level 6: Split Enchantment|Wizard|XPHB|Enchanter|AliFosche|6",
+                "Level 10: Instinctive Charm|Wizard|XPHB|Enchanter|AliFosche|10",
+                "Level 14: Superior Enchantment|Wizard|XPHB|Enchanter|AliFosche|14"
             ]
         },
         {
@@ -189,11 +189,11 @@
             "classSource": "XPHB",
             "page": 1,
             "subclassFeatures": [
-                "Necromancy Savant|Wizard|XPHB|Necromancer|AliFosche|3",
-                "Necromancy Spellbook|Wizard|XPHB|Necromancer|AliFosche|3",
-                "Undead Thralls|Wizard|XPHB|Necromancer|AliFosche|6",
-                "Harvest Undead|Wizard|XPHB|Necromancer|AliFosche|10",
-                "Death's Master|Wizard|XPHB|Necromancer|AliFosche|14"
+                "Level 3: Necromancy Savant|Wizard|XPHB|Necromancer|AliFosche|3",
+                "Level 3: Necromancy Spellbook|Wizard|XPHB|Necromancer|AliFosche|3",
+                "Level 6: Undead Thralls|Wizard|XPHB|Necromancer|AliFosche|6",
+                "Level 10: Harvest Undead|Wizard|XPHB|Necromancer|AliFosche|10",
+                "Level 14: Death's Master|Wizard|XPHB|Necromancer|AliFosche|14"
             ]
         },
         {
@@ -204,12 +204,12 @@
             "classSource": "XPHB",
             "page": 1,
             "subclassFeatures": [
-                "Transmutation Savant|Wizard|XPHB|Transmuter|AliFosche|3",
-                "Transmuter's Stone|Wizard|XPHB|Transmuter|AliFosche|3",
-                "Empowered Transmutation|Wizard|XPHB|Transmuter|AliFosche|6",
-                "Potent Stone|Wizard|XPHB|Transmuter|AliFosche|6",
-                "Shapechanger|Wizard|XPHB|Transmuter|AliFosche|10",
-                "Master Transmuter|Wizard|XPHB|Transmuter|AliFosche|14"
+                "Level 3: Transmutation Savant|Wizard|XPHB|Transmuter|AliFosche|3",
+                "Level 3: Transmuter's Stone|Wizard|XPHB|Transmuter|AliFosche|3",
+                "Level 6: Empowered Transmutation|Wizard|XPHB|Transmuter|AliFosche|6",
+                "Level 6: Potent Stone|Wizard|XPHB|Transmuter|AliFosche|6",
+                "Level 10: Shapechanger|Wizard|XPHB|Transmuter|AliFosche|10",
+                "Level 14: Master Transmuter|Wizard|XPHB|Transmuter|AliFosche|14"
             ]
         },
         {
@@ -244,16 +244,16 @@
                 }
             ],
             "subclassFeatures": [
-                "Eyes of Night|Cleric|XPHB|Twilight|AliFosche|3",
-                "Twilight Sanctuary|Cleric|XPHB|Twilight|AliFosche|3",
-                "Improved Sanctuary|Cleric|XPHB|Twilight|AliFosche|6",
-                "Twilight Shroud|Cleric|XPHB|Twilight|AliFosche|17"
+                "Level 3: Eyes of Night|Cleric|XPHB|Twilight|AliFosche|3",
+                "Level 3: Twilight Sanctuary|Cleric|XPHB|Twilight|AliFosche|3",
+                "Level 6: Improved Sanctuary|Cleric|XPHB|Twilight|AliFosche|6",
+                "Level 17: Twilight Shroud|Cleric|XPHB|Twilight|AliFosche|17"
             ]
         }
     ],
     "subclassFeature": [
         {
-            "name": "Lesser Natural Control",
+            "name": "Level 3: Lesser Natural Control",
             "source": "AliFosche",
             "className": "Barbarian",
             "classSource": "XPHB",
@@ -265,7 +265,7 @@
             ]
         },
         {
-            "name": "Storm Aura",
+            "name": "Level 3: Storm Aura",
             "source": "AliFosche",
             "className": "Barbarian",
             "classSource": "XPHB",
@@ -303,7 +303,7 @@
             ]
         },
         {
-            "name": "Storm Soul",
+            "name": "Level 6: Storm Soul",
             "source": "AliFosche",
             "className": "Barbarian",
             "classSource": "XPHB",
@@ -341,7 +341,7 @@
             ]
         },
         {
-            "name": "Raging Storm",
+            "name": "Level 10: Raging Storm",
             "source": "AliFosche",
             "className": "Barbarian",
             "classSource": "XPHB",
@@ -379,7 +379,7 @@
             ]
         },
         {
-            "name": "Shielding Aura",
+            "name": "Level 14: Shielding Aura",
             "source": "AliFosche",
             "className": "Barbarian",
             "classSource": "XPHB",
@@ -391,7 +391,7 @@
             ]
         },
         {
-            "name": "Giant's Power",
+            "name": "Level 3: Giant's Power",
             "source": "AliFosche",
             "className": "Barbarian",
             "classSource": "XPHB",
@@ -403,7 +403,7 @@
             ]
         },
         {
-            "name": "Giant's Havoc",
+            "name": "Level 3: Giant's Havoc",
             "source": "AliFosche",
             "className": "Barbarian",
             "classSource": "XPHB",
@@ -434,7 +434,7 @@
             ]
         },
         {
-            "name": "Elemental Cleaver",
+            "name": "Level 6: Elemental Cleaver",
             "source": "AliFosche",
             "className": "Barbarian",
             "classSource": "XPHB",
@@ -466,7 +466,7 @@
             ]
         },
         {
-            "name": "Mighty Impel",
+            "name": "Level 10: Mighty Impel",
             "source": "AliFosche",
             "className": "Barbarian",
             "classSource": "XPHB",
@@ -478,7 +478,7 @@
             ]
         },
         {
-            "name": "Demiurgic Colossus",
+            "name": "Level 14: Demiurgic Colossus",
             "source": "AliFosche",
             "className": "Barbarian",
             "classSource": "XPHB",
@@ -490,7 +490,7 @@
             ]
         },
         {
-            "name": "Psychic Blades",
+            "name": "Level 3: Psychic Blades",
             "source": "AliFosche",
             "className": "Bard",
             "classSource": "XPHB",
@@ -499,12 +499,12 @@
             "level": 3,
             "entries": [
                 "Your mastery of psychic magic gives you the following benefits.",
-                "You learn the {@spell shadow blade|xge} spell and it counts as a Bard spell for you.",
+                "You learn the {@spell shadow blade|xphb} spell and it counts as a Bard spell for you.",
                 "When you hit with a weapon attack or deal Psychic damage you can expend one use of your Bardic Inspiration to deal extra Psychic damage equal to three rolls of your Bardic Inspiration die."
             ]
         },
         {
-            "name": "Words of Terror",
+            "name": "Level 3: Words of Terror",
             "source": "AliFosche",
             "className": "Bard",
             "classSource": "XPHB",
@@ -516,7 +516,7 @@
             ]
         },
         {
-            "name": "Mantle of Whispers",
+            "name": "Level 6: Mantle of Whispers",
             "source": "AliFosche",
             "className": "Bard",
             "classSource": "XPHB",
@@ -548,7 +548,7 @@
             ]
         },
         {
-            "name": "Mischievous Afterimage",
+            "name": "Level 6: Mischievous Afterimage",
             "source": "AliFosche",
             "className": "Bard",
             "classSource": "XPHB",
@@ -560,7 +560,7 @@
             ]
         },
         {
-            "name": "Shadow Lore",
+            "name": "Level 14: Shadow Lore",
             "source": "AliFosche",
             "className": "Bard",
             "classSource": "XPHB",
@@ -572,7 +572,7 @@
             ]
         },
         {
-            "name": "Arcane Lore",
+            "name": "Level 3: Arcane Lore",
             "source": "AliFosche",
             "className": "Fighter",
             "classSource": "XPHB",
@@ -584,7 +584,7 @@
             ]
         },
         {
-            "name": "Arcane Shot",
+            "name": "Level 3: Arcane Shot",
             "source": "AliFosche",
             "className": "Fighter",
             "classSource": "XPHB",
@@ -600,7 +600,7 @@
             ]
         },
         {
-            "name": "Arcane Shot Options",
+            "name": "Level 3: Arcane Shot Options",
             "source": "AliFosche",
             "className": "Fighter",
             "classSource": "XPHB",
@@ -652,7 +652,7 @@
             ]
         },
         {
-            "name": "Curving Shot",
+            "name": "Level 7: Curving Shot",
             "source": "AliFosche",
             "className": "Fighter",
             "classSource": "XPHB",
@@ -664,7 +664,7 @@
             ]
         },
         {
-            "name": "Magical Ammunition",
+            "name": "Level 7: Magical Ammunition",
             "source": "AliFosche",
             "className": "Fighter",
             "classSource": "XPHB",
@@ -703,7 +703,7 @@
             ]
         },
         {
-            "name": "Ever-Ready Shot",
+            "name": "Level 10: Ever-Ready Shot",
             "source": "AliFosche",
             "className": "Fighter",
             "classSource": "XPHB",
@@ -715,7 +715,7 @@
             ]
         },
         {
-            "name": "Arcane Burst",
+            "name": "Level 15: Arcane Burst",
             "source": "AliFosche",
             "className": "Fighter",
             "classSource": "XPHB",
@@ -727,7 +727,7 @@
             ]
         },
         {
-            "name": "Arcane Evasion",
+            "name": "Level 18: Arcane Evasion",
             "source": "AliFosche",
             "className": "Fighter",
             "classSource": "XPHB",
@@ -739,7 +739,7 @@
             ]
         },
         {
-            "name": "Elegant Courtier",
+            "name": "Level 3: Elegant Courtier",
             "source": "AliFosche",
             "className": "Fighter",
             "classSource": "XPHB",
@@ -751,7 +751,7 @@
             ]
         },
         {
-            "name": "Fighting Spirit",
+            "name": "Level 3: Fighting Spirit",
             "source": "AliFosche",
             "className": "Fighter",
             "classSource": "XPHB",
@@ -763,7 +763,7 @@
             ]
         },
         {
-            "name": "Focussed Fighter",
+            "name": "Level 7: Focussed Fighter",
             "source": "AliFosche",
             "className": "Fighter",
             "classSource": "XPHB",
@@ -775,7 +775,7 @@
             ]
         },
         {
-            "name": "Rapid Strike",
+            "name": "Level 10: Rapid Strike",
             "source": "AliFosche",
             "className": "Fighter",
             "classSource": "XPHB",
@@ -787,7 +787,7 @@
             ]
         },
         {
-            "name": "Tireless Spirit",
+            "name": "Level 15: Tireless Spirit",
             "source": "AliFosche",
             "className": "Fighter",
             "classSource": "XPHB",
@@ -799,7 +799,7 @@
             ]
         },
         {
-            "name": "Strength Before Death",
+            "name": "Level 18: Strength Before Death",
             "source": "AliFosche",
             "className": "Fighter",
             "classSource": "XPHB",
@@ -811,7 +811,7 @@
             ]
         },
         {
-            "name": "Kensei Weapon",
+            "name": "Level 3: Kensei Weapon",
             "source": "AliFosche",
             "className": "Monk",
             "classSource": "XPHB",
@@ -823,7 +823,7 @@
             ]
         },
         {
-            "name": "Path of the Kensei",
+            "name": "Level 3: Path of the Kensei",
             "source": "AliFosche",
             "className": "Monk",
             "classSource": "XPHB",
@@ -854,7 +854,7 @@
             ]
         },
         {
-            "name": "One with the Blade",
+            "name": "Level 6: One with the Blade",
             "source": "AliFosche",
             "className": "Monk",
             "classSource": "XPHB",
@@ -885,7 +885,7 @@
             ]
         },
         {
-            "name": "Sharpen the Blade",
+            "name": "Level 11: Sharpen the Blade",
             "source": "AliFosche",
             "className": "Monk",
             "classSource": "XPHB",
@@ -897,7 +897,7 @@
             ]
         },
         {
-            "name": "Kensei Master",
+            "name": "Level 17: Kensei Master",
             "source": "AliFosche",
             "className": "Monk",
             "classSource": "XPHB",
@@ -928,7 +928,7 @@
             ]
         },
         {
-            "name": "Radiant Awakening",
+            "name": "Level 3: Radiant Awakening",
             "source": "AliFosche",
             "className": "Monk",
             "classSource": "XPHB",
@@ -947,7 +947,7 @@
             ]
         },
         {
-            "name": "Searing Arc Strike",
+            "name": "Level 6: Searing Arc Strike",
             "source": "AliFosche",
             "className": "Monk",
             "classSource": "XPHB",
@@ -959,7 +959,7 @@
             ]
         },
         {
-            "name": "Searing Sunburst",
+            "name": "Level 11: Searing Sunburst",
             "source": "AliFosche",
             "className": "Monk",
             "classSource": "XPHB",
@@ -971,7 +971,7 @@
             ]
         },
         {
-            "name": "Sun Avatar",
+            "name": "Level 17: Sun Avatar",
             "source": "AliFosche",
             "className": "Monk",
             "classSource": "XPHB",
@@ -983,7 +983,7 @@
             ]
         },
         {
-            "name": "Benign Transposition",
+            "name": "Level 3: Benign Transposition",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -995,7 +995,7 @@
             ]
         },
         {
-            "name": "Conjuration Savant",
+            "name": "Level 3: Conjuration Savant",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1008,7 +1008,7 @@
             ]
         },
         {
-            "name": "Distant Transposition",
+            "name": "Level 6: Distant Transposition",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1020,7 +1020,7 @@
             ]
         },
         {
-            "name": "Durable Summons",
+            "name": "Level 6: Durable Summons",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1032,7 +1032,7 @@
             ]
         },
         {
-            "name": "Focussed Conjuration",
+            "name": "Level 10: Focussed Conjuration",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1044,7 +1044,7 @@
             ]
         },
         {
-            "name": "Splintered Summons",
+            "name": "Level 14: Splintered Summons",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1052,11 +1052,11 @@
             "subclassSource": "AliFosche",
             "level": 14,
             "entries": [
-                "When you cast {@spell Summon Construct}, {@spell Summon Dragon}, {@spell Summon Elemental} or {@spell Summon Fey} using a spell slot, you can modify the spell to summon two creatures instead of one. Each creature uses the stat block and rules denoted by the spell and appears in a different unoccupied space of your choice within the spell’s range, but the summoned creatures’ hit points are halved. If you lose concentration on the spell, both creatures disappear."
+                "When you cast {@spell Summon Construct|xphb}, {@spell Summon Dragon|xphb}, {@spell Summon Elemental|xphb} or {@spell Summon Fey|xphb} using a spell slot, you can modify the spell to summon two creatures instead of one. Each creature uses the stat block and rules denoted by the spell and appears in a different unoccupied space of your choice within the spell’s range, but the summoned creatures’ hit points are halved. If you lose concentration on the spell, both creatures disappear."
             ]
         },
         {
-            "name": "Enchanting Voice",
+            "name": "Level 3: Enchanting Voice",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1068,7 +1068,7 @@
             ]
         },
         {
-            "name": "Enchantment Savant",
+            "name": "Level 3: Enchantment Savant",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1081,7 +1081,7 @@
             ]
         },
         {
-            "name": "Hypnotic Presence",
+            "name": "Level 3: Hypnotic Presence",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1093,7 +1093,7 @@
             ]
         },
         {
-            "name": "Split Enchantment",
+            "name": "Level 6: Split Enchantment",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1105,7 +1105,7 @@
             ]
         },
         {
-            "name": "Instinctive Charm",
+            "name": "Level 10: Instinctive Charm",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1117,7 +1117,7 @@
             ]
         },
         {
-            "name": "Superior Enchantment",
+            "name": "Level 14: Superior Enchantment",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1129,7 +1129,7 @@
             ]
         },
         {
-            "name": "Necromancy Savant",
+            "name": "Level 3: Necromancy Savant",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1142,7 +1142,7 @@
             ]
         },
         {
-            "name": "Necromancy Spellbook",
+            "name": "Level 3: Necromancy Spellbook",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1172,7 +1172,7 @@
                             "type": "item",
                             "name": "Undead Familiar",
                             "entries": [
-                                "{@spell Find Familiar} is added to your spellbook. When you cast the spell, you can choose the Skeleton or Zombie forms in addition to the normal forms."
+                                "{@spell Find Familiar|xphb} is added to your spellbook. When you cast the spell, you can choose the Skeleton or Zombie forms in addition to the normal forms."
                             ]
                         }
                     ]
@@ -1180,7 +1180,7 @@
             ]
         },
         {
-            "name": "Undead Thralls",
+            "name": "Level 6: Undead Thralls",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1188,7 +1188,7 @@
             "subclassSource": "AliFosche",
             "level": 6,
             "entries": [
-                "{@spell Summon Undead} is added to your spellbook and you always have it prepared. Whenever you cast the spell, the summoned creature gains the following benefits.",
+                "{@spell Summon Undead|xphb} is added to your spellbook and you always have it prepared. Whenever you cast the spell, the summoned creature gains the following benefits.",
                 {
                     "type": "list",
                     "items": [
@@ -1211,7 +1211,7 @@
             ]
         },
         {
-            "name": "Harvest Undead",
+            "name": "Level 10: Harvest Undead",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1223,7 +1223,7 @@
             ]
         },
         {
-            "name": "Death's Master",
+            "name": "Level 14: Death's Master",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1254,7 +1254,7 @@
             ]
         },
         {
-            "name": "Transmutation Savant",
+            "name": "Level 3: Transmutation Savant",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1267,7 +1267,7 @@
             ]
         },
         {
-            "name": "Transmuter's Stone",
+            "name": "Level 3: Transmuter's Stone",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1306,7 +1306,7 @@
             ]
         },
         {
-            "name": "Empowered Transmutation",
+            "name": "Level 6: Empowered Transmutation",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1318,7 +1318,7 @@
             ]
         },
         {
-            "name": "Potent Stone",
+            "name": "Level 6: Potent Stone",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1349,7 +1349,7 @@
             ]
         },
         {
-            "name": "Shapechanger",
+            "name": "Level 10: Shapechanger",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1357,7 +1357,7 @@
             "subclassSource": "AliFosche",
             "level": 10,
             "entries": [
-                "You always have the {@spell Polymorph} spell prepared and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a Long Rest. In addition, when you target yourself with the spell, you can modify the spell to gain the benefits below.",
+                "You always have the {@spell Polymorph|xphb} spell prepared and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a Long Rest. In addition, when you target yourself with the spell, you can modify the spell to gain the benefits below.",
                 {
                     "type": "list",
                     "items": [
@@ -1380,7 +1380,7 @@
             ]
         },
         {
-            "name": "Master Transmuter",
+            "name": "Level 14: Master Transmuter",
             "source": "AliFosche",
             "className": "Wizard",
             "classSource": "XPHB",
@@ -1410,7 +1410,7 @@
                             "type": "item",
                             "name": "Restore Life",
                             "entries": [
-                                "You cast the {@spell Raise Dead} spell without expending a spell slot, using the stone in place of the required Material components."
+                                "You cast the {@spell Raise Dead|xphb} spell without expending a spell slot, using the stone in place of the required Material components."
                             ]
                         },
                         {
@@ -1425,7 +1425,7 @@
             ]
         },
         {
-            "name": "Eyes of Night",
+            "name": "Level 3: Eyes of Night",
             "source": "AliFosche",
             "className": "Cleric",
             "classSource": "XPHB",
@@ -1437,7 +1437,7 @@
             ]
         },
         {
-            "name": "Twilight Sanctuary",
+            "name": "Level 3: Twilight Sanctuary",
             "source": "AliFosche",
             "className": "Cleric",
             "classSource": "XPHB",
@@ -1449,7 +1449,7 @@
             ]
         },
         {
-            "name": "Improved Sanctuary",
+            "name": "Level 6: Improved Sanctuary",
             "source": "AliFosche",
             "className": "Cleric",
             "classSource": "XPHB",
@@ -1468,7 +1468,7 @@
             ]
         },
         {
-            "name": "Twilight Shroud",
+            "name": "Level 17: Twilight Shroud",
             "source": "AliFosche",
             "className": "Cleric",
             "classSource": "XPHB",
