@@ -46,6 +46,45 @@
 				"Raging Storm|Barbarian|XPHB|Storm|AliFosche|10",
 				"Shielding Aura|Barbarian|XPHB|Storm|AliFosche|14"
 			]
+		},
+		{
+			"name": "Path of the Giants",
+			"shortName": "Giant",
+			"source": "AliFosche",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"page": 1,
+			"subclassFeatures": [
+				"Giant's Power|Barbarian|XPHB|Giant|AliFosche|3",
+				"Giant's Havoc|Barbarian|XPHB|Giant|AliFosche|3",
+				"Elemental Cleaver|Barbarian|XPHB|Giant|AliFosche|6",
+				"Mighty Impel|Barbarian|XPHB|Giant|AliFosche|10",
+				"Demiurgic Colossus|Barbarian|XPHB|Giant|AliFosche|14"
+			]
+		},
+		{
+			"name": "College of Whispers",
+			"shortName": "Whispers",
+			"source": "AliFosche",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"page": 1,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"shadow blade|xge"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Psychic Blades|Bard|XPHB|Whispers|AliFosche|3",
+				"Words of Terror|Bard|XPHB|Whispers|AliFosche|3",
+				"Mantle of Whispers|Bard|XPHB|Whispers|AliFosche|6",
+				"Mischievous Afterimage|Bard|XPHB|Whispers|AliFosche|6",
+				"Shadow Lore|Bard|XPHB|Whispers|AliFosche|14"
+			]
 		}
 	],
 	"subclassFeature": [
@@ -185,6 +224,187 @@
 			"level": 14,
 			"entries": [
 				"You gain immunity instead of resistance to the damage type of your Storm Soul feature. Moreover, each creature of your choice within a 15-foot Emanation from you gains the benefits of your Storm Soul feature."
+			]
+		},
+		{
+			"name": "Giant's Power",
+			"source": "AliFosche",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Giant",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"You know {@language Giant} or another language of your choice, if you already know it. You learn the {@spell druidcraft|xphb} or {@spell thaumaturgy|xphb} cantrip and Strength is your spellcasting ability for it."
+			]
+		},
+		{
+			"name": "Giant's Havoc",
+			"source": "AliFosche",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Giant",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"Your rage channels the primal might of giants. While raging, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Improved Reach",
+							"entries": [
+								"The reach of your attacks is increased by 5 feet."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Mighty Stature",
+							"entries": [
+								"If you are smaller than Large, you become Large along with anything you are wearing. If you lack the room to become Large, your size doesn't change."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Cleaver",
+			"source": "AliFosche",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Giant",
+			"subclassSource": "AliFosche",
+			"level": 6,
+			"entries": [
+				"You bond with the elemental might of giants to infuse weapons with primordial energy. When you enter your rage, you can give the following benefits to a weapon you're holding.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Primal Power",
+							"entries": [
+								"Choose one of the following damage types: Cold, Fire, Lightning or Thunder. Once every turn, the weapon deals {@damage 1d12} extra damage of the chosen type."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Returning",
+							"entries": [
+								"The weapon gains the thrown property (20/60). If you throw the weapon, it reappears in your hand the instant after it hits or misses a target."
+							]
+						}
+					]
+				},
+				"The infused weapon's benefits are suppressed while a creature other than you wields it."
+			]
+		},
+		{
+			"name": "Mighty Impel",
+			"source": "AliFosche",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Giant",
+			"subclassSource": "AliFosche",
+			"level": 10,
+			"entries": [
+				"Your strength allows you to hurl creatures on the battlefield. While raging, you can use a Bonus Action to force a Large or smaller creature within your reach to make a Strength saving throw (DC equals 8 plus your Strength modifier and proficiency bonus). On a failed save, the creature is moved to an unoccupied space you can see within 30 feet of you."
+			]
+		},
+		{
+			"name": "Demiurgic Colossus",
+			"source": "AliFosche",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Giant",
+			"subclassSource": "AliFosche",
+			"level": 14,
+			"entries": [
+				"The primordial power of your rage intensifies. When you rage, your reach increases by 10 feet, your size can increase to Large or Huge (your choice) and the extra damage dealt by your Elemental Cleaver feature increases to {@damage 2d12}."
+			]
+		},
+		{
+			"name": "Psychic Blades",
+			"source": "AliFosche",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Whispers",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"Your mastery of psychic magic gives you the following benefits.",
+				"You learn the {@spell shadow blade|xge} spell and it counts as a Bard spell for you.",
+				"When you hit with a weapon attack or deal Psychic damage you can expend one use of your Bardic Inspiration to deal extra Psychic damage equal to three rolls of your Bardic Inspiration die."
+			]
+		},
+		{
+			"name": "Words of Terror",
+			"source": "AliFosche",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Whispers",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"If you speak for 1 minute to a creature with an Intelligence ability score of at least 6, you can attempt to seed paranoia in its mind. At the end of the conversation, the target must succeed on a Wisdom saving throw against your spell save DC or be {@condition Frightened} by you. The target is frightened in this way for 1 hour, until it or one of its allies are harmed. If the target succeeds on its saving throw, the target has no hint that you tried to frighten it. Once you use this feature, you can't use it again until you finish a Short or Long rest."
+			]
+		},
+		{
+			"name": "Mantle of Whispers",
+			"source": "AliFosche",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Whispers",
+			"subclassSource": "AliFosche",
+			"level": 6,
+			"entries": [
+				"When a Medium or Small creature within 30 feet of you reaches 0 hit points, you steal its shadow. You can take a Bonus Action to spend the shadow and gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Dark Resilience",
+							"entries": [
+								"You gain temporary hit points equal to your Bard level."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Psychic Whispers",
+							"entries": [
+								"For 1 hour, you take the creature's appearance and learn general details on the creature's background and personal life."
+							]
+						}
+					]
+				},
+				"You can use this feature a number of times equal to your Charisma modifier (minimum of once) and regain all expended uses when you finish a Long rest."
+			]
+		},
+		{
+			"name": "Mischievous Afterimage",
+			"source": "AliFosche",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Whispers",
+			"subclassSource": "AliFosche",
+			"level": 6,
+			"entries": [
+				"Immediately you deal damage with your Psychic Blades feature, you can teleport 15 feet in an unoccupied space you can see."
+			]
+		},
+		{
+			"name": "Shadow Lore",
+			"source": "AliFosche",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Whispers",
+			"subclassSource": "AliFosche",
+			"level": 14,
+			"entries": [
+				"As a Magic Action, you whisper in the mind of a creature within 30 feet of you. It must make a Wisdom saving throw against your spell DC. On a failed save, your whispers sound like the target's most dark secrets and fears. It is {@condition Charmed} by you and obeys your commands for 8 hours or until you or your allies harm it. The target won't risk its life for you, but can grant you favors and gifts. When the effect ends, it has no understanding of this fear. On a successful save, your whisper sounds like unintelligible mumbling and has no effect. Once you use this feature, you can't use it again until you finish a Long rest."
 			]
 		}
 	]
