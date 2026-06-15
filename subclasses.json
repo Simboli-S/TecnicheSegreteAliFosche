@@ -208,6 +208,69 @@
 				"Dashing Strikes|Rogue|XPHB|Swashbuckler|AliFosche|13",
 				"Master Duelist|Rogue|XPHB|Swashbuckler|AliFosche|17"
 			]
+		},
+		{
+			"name": "Conjurer",
+			"shortName": "Conjurer",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"page": 1,
+			"subclassFeatures": [
+				"Benign Transposition|Wizard|XPHB|Conjurer|AliFosche|3",
+				"Conjuration Savant|Wizard|XPHB|Conjurer|AliFosche|3",
+				"Distant Transposition|Wizard|XPHB|Conjurer|AliFosche|6",
+				"Durable Summons|Wizard|XPHB|Conjurer|AliFosche|6",
+				"Focussed Conjuration|Wizard|XPHB|Conjurer|AliFosche|10",
+				"Splintered Summons|Wizard|XPHB|Conjurer|AliFosche|14"
+			]
+		},
+		{
+			"name": "Enchanter",
+			"shortName": "Enchanter",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"page": 1,
+			"subclassFeatures": [
+				"Enchanting Voice|Wizard|XPHB|Enchanter|AliFosche|3",
+				"Enchantment Savant|Wizard|XPHB|Enchanter|AliFosche|3",
+				"Hypnotic Presence|Wizard|XPHB|Enchanter|AliFosche|3",
+				"Split Enchantment|Wizard|XPHB|Enchanter|AliFosche|6",
+				"Instinctive Charm|Wizard|XPHB|Enchanter|AliFosche|10",
+				"Superior Enchantment|Wizard|XPHB|Enchanter|AliFosche|14"
+			]
+		},
+		{
+			"name": "Necromancer",
+			"shortName": "Necromancer",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"page": 1,
+			"subclassFeatures": [
+				"Necromancy Savant|Wizard|XPHB|Necromancer|AliFosche|3",
+				"Necromancy Spellbook|Wizard|XPHB|Necromancer|AliFosche|3",
+				"Undead Thralls|Wizard|XPHB|Necromancer|AliFosche|6",
+				"Harvest Undead|Wizard|XPHB|Necromancer|AliFosche|10",
+				"Death's Master|Wizard|XPHB|Necromancer|AliFosche|14"
+			]
+		},
+		{
+			"name": "Transmuter",
+			"shortName": "Transmuter",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"page": 1,
+			"subclassFeatures": [
+				"Transmutation Savant|Wizard|XPHB|Transmuter|AliFosche|3",
+				"Transmuter's Stone|Wizard|XPHB|Transmuter|AliFosche|3",
+				"Empowered Transmutation|Wizard|XPHB|Transmuter|AliFosche|6",
+				"Potent Stone|Wizard|XPHB|Transmuter|AliFosche|6",
+				"Shapechanger|Wizard|XPHB|Transmuter|AliFosche|10",
+				"Master Transmuter|Wizard|XPHB|Transmuter|AliFosche|14"
+			]
 		}
 	],
 	"subclassFeature": [
@@ -1347,6 +1410,448 @@
 			"level": 17,
 			"entries": [
 				"Immediately after, you deal your Sneak Attack damage to a creature, you can make an attack with a melee weapon against that creature as part of the same action."
+			]
+		},
+		{
+			"name": "Benign Transposition",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Conjurer",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"As a Bonus Action, you teleport up to 30 feet to an unoccupied space that you can see. Alternatively, you can choose a willing creature 30 feet, you both teleport swapping places. You can use this feature a number of times equal to your Intelligence modifier (minimum of one) and regain all expended uses when you finish a Long rest."
+			]
+		},
+		{
+			"name": "Conjuration Savant",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Conjurer",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"Choose two Wizard spells from the Conjuration school, each of which must be no higher than level 1 or 2, and add them to your spellbook for free.",
+				"In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Conjuration school to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
+			]
+		},
+		{
+			"name": "Distant Transposition",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Conjurer",
+			"subclassSource": "AliFosche",
+			"level": 6,
+			"entries": [
+				"The range of your Benign Transposition feature increases to 60 feet. Additionally, you now regain all expended uses of it when you finish a Short or Long rest."
+			]
+		},
+		{
+			"name": "Durable Summons",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Conjurer",
+			"subclassSource": "AliFosche",
+			"level": 6,
+			"entries": [
+				"When you cast a Conjuration spell to summon or create a creature using a spell slot, that creature gains temporary hit points equal to twice your Wizard level when it first appears. While it has these temporary hit points, the creature has resistance to every damage type except Force, Necrotic, Psychic and Radiant."
+			]
+		},
+		{
+			"name": "Focussed Conjuration",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Conjurer",
+			"subclassSource": "AliFosche",
+			"level": 10,
+			"entries": [
+				"Taking damage can't break your concentration on Conjuration spells."
+			]
+		},
+		{
+			"name": "Splintered Summons",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Conjurer",
+			"subclassSource": "AliFosche",
+			"level": 14,
+			"entries": [
+				"When you cast {@spell Summon Construct}, {@spell Summon Dragon}, {@spell Summon Elemental} or {@spell Summon Fey} using a spell slot, you can modify the spell to summon two creatures instead of one. Each creature uses the stat block and rules denoted by the spell and appears in a different unoccupied space of your choice within the spell's range, but the summoned creatures' hit points are halved. If you lose concentration on the spell, both creatures disappear."
+			]
+		},
+		{
+			"name": "Enchanting Voice",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"Whenever you make a Charisma check, you gain a bonus to the check equal to your Intelligence modifier (minimum of +1). You also gain proficiency in one of these skills of your choice: {@skill Deception}, {@skill Intimidation} or {@skill Persuasion}."
+			]
+		},
+		{
+			"name": "Enchantment Savant",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"Choose two Wizard spells from the Enchantment school, each of which must be no higher than level 1 or 2, and add them to your spellbook for free.",
+				"In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Enchantment school to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
+			]
+		},
+		{
+			"name": "Hypnotic Presence",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"As a Magic Action, choose one creature that you can see within 30 feet of yourself. If the target can see or hear you, it must succeed on a Wisdom saving throw against your spell save DC or have the {@condition Charmed} condition for 1 minute or until it takes damage. While Charmed in this way, the target has the {@condition Incapacitated} condition and a speed of 0. You can use this feature a number of times equal to your Intelligence modifier (minimum of once) and regain all expended uses when you finish a Long rest."
+			]
+		},
+		{
+			"name": "Split Enchantment",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "AliFosche",
+			"level": 6,
+			"entries": [
+				"When you use your Hypnotic Presence feature or cast an Enchantment spell that targets only one creature, you can target one additional creature with it. You can use this feature a number of times equal to your Intelligence modifier (minimum of once) and regain all expended uses when you finish a Long rest."
+			]
+		},
+		{
+			"name": "Instinctive Charm",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "AliFosche",
+			"level": 10,
+			"entries": [
+				"When a creature within 30 feet of you that you can see hits deals damage to you, you can take a Reaction to force it to make a Wisdom saving throw against your spell save DC. On a failed save, the damage you take is reduced to 0 and another creature of your choice within 30 feet takes the same amount of damage. Once you use this Reaction, you can't do so again until you finish a Long rest. You can restore your use of this feature by casting an Enchantment spell with a spell slot."
+			]
+		},
+		{
+			"name": "Superior Enchantment",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "AliFosche",
+			"level": 14,
+			"entries": [
+				"When you use your Hypnotic Presence feature or cast an Enchantment spell that causes the {@condition Charmed} condition, you can ignore immunities to the Charmed condition. Once you use this feature, you cannot do so again until you finish a Long rest."
+			]
+		},
+		{
+			"name": "Necromancy Savant",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"Choose two Wizard spells from the Necromancy school, each of which must be no higher than level 1 or 2, and add them to your spellbook for free.",
+				"In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Necromancy school to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
+			]
+		},
+		{
+			"name": "Necromancy Spellbook",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"Your mastery of necromantic lore grants you extra abilities.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Necrotic Resistance",
+							"entries": [
+								"You gain resistance to Necrotic damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Grim Harvest",
+							"entries": [
+								"When you cast a Necromancy spell using a spell slot, you can choose an undead creature you can see within 60 feet of you and make it regain hit points equal to the level of the spell slot expended plus your Wizard level."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Undead Familiar",
+							"entries": [
+								"{@spell Find Familiar|xphb} is added to your spellbook. When you cast the spell, you can choose the Skeleton or Zombie forms in addition to the normal forms."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Undead Thralls",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "AliFosche",
+			"level": 6,
+			"entries": [
+				"{@spell Summon Undead|tce} is added to your spellbook and you always have it prepared. Whenever you cast the spell, the summoned creature gains the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Undead Fortitude",
+							"entries": [
+								"The creature's hit point maximum and current hit points increase by a number equal to the level of the spell slot used plus your Intelligence modifier."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Withering Strike",
+							"entries": [
+								"Whenever the creature hits with an attack roll, it deals extra damage equal to your Intelligence modifier (minimum of one)."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Harvest Undead",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "AliFosche",
+			"level": 10,
+			"entries": [
+				"You have learned more secrets about the nuances of life and death. Immediately after you become bloodied but not outright killed, you can take a Reaction to reduce an Undead creature under your control to 0 hit points. You then immediately regain a number of hit points equal to your Wizard level."
+			]
+		},
+		{
+			"name": "Death's Master",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "AliFosche",
+			"level": 14,
+			"entries": [
+				"Abstruse rituals within your spellbook allow you mastery over forces of death. While holding your spellbook you gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Bolster Undead",
+							"entries": [
+								"As a Bonus Action, an undead creature you have created or summoned within 60 feet of you gains temporary hit points equal to your Wizard level. A creature can gain these temporary hit points only once every 24 hours."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Burst Undead",
+							"entries": [
+								"When an undead creature under your control is reduced to 0 hit points, you can cause it to explode with necrotic energy. Roll a number of d6s equal to your Intelligence modifier and add them together. Each creature in a 10-foot emanation originating from the undead makes a Dexterity saving throw against your spell save DC. A target takes Necrotic damage equal to the number rolled on a failed save and half as much on a successful one."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Transmutation Savant",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Transmuter",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"Choose two Wizard spells from the Transmutation school, each of which must be no higher than level 1 or 2, and add them to your spellbook for free.",
+				"In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Transmutation school to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
+			]
+		},
+		{
+			"name": "Transmuter's Stone",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Transmuter",
+			"subclassSource": "AliFosche",
+			"level": 3,
+			"entries": [
+				"When you finish a Long rest, you can create a magic stone that lasts until you use this feature again. A creature carrying the stone gains proficiency in Constitution saving throws and one of the following benefits chosen when you create the stone.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Darkvision",
+							"entries": [
+								"The bearer gains darkvision with a range of 60 feet or increases the range of its darkvision by 60 feet."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Resistance",
+							"entries": [
+								"The bearer gains resistance to Acid, Cold, Fire, Lightning, Poison or Thunder damage (you choose each time you choose this benefit)."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Speed",
+							"entries": [
+								"The bearer's speed increases by 10 feet."
+							]
+						}
+					]
+				},
+				"You can change the stone's benefit when you cast a Transmutation spell using a spell slot."
+			]
+		},
+		{
+			"name": "Empowered Transmutation",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Transmuter",
+			"subclassSource": "AliFosche",
+			"level": 6,
+			"entries": [
+				"When you cast a Transmutation spell using a spell slot, you can treat the spell as if it were cast using a spell slot 1 level above the slot expended. You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long rest."
+			]
+		},
+		{
+			"name": "Potent Stone",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Transmuter",
+			"subclassSource": "AliFosche",
+			"level": 6,
+			"entries": [
+				"Your Transmuter's Stone is more versatile. When you create it, you can choose up to two benefits. You can choose each option other than Resistance only once, and if you choose Resistance twice, you must choose different damage types. You can change either or both benefits when you cast a Transmutation spell using a spell slot. In addition, the following are now among your benefit options for Transmuter's Stone.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Evasive",
+							"entries": [
+								"The bearer can take the {@action disengage} action as a Bonus Action."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Tremorsense",
+							"entries": [
+								"The bearer gains Tremorsense with a range of 30 feet."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Shapechanger",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Transmuter",
+			"subclassSource": "AliFosche",
+			"level": 10,
+			"entries": [
+				"You always have the {@spell Polymorph|xphb} spell prepared and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a Long Rest. In addition, when you target yourself with the spell, you can modify the spell to gain the benefits below.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Game Statistics",
+							"entries": [
+								"You retain your personality, memories, and ability to speak. You also retain your Intelligence, Wisdom, and Charisma scores; class features; languages; and feats."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Transmute Spells",
+							"entries": [
+								"You can cast Transmutation spells while shapeshifted, except for any spell with a Material component that has a specified cost."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Master Transmuter",
+			"source": "AliFosche",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Transmuter",
+			"subclassSource": "AliFosche",
+			"level": 14,
+			"entries": [
+				"While you carry your Transmuter's Stone, you can take a Magic Action to consume the reserve of transmutation magic stored inside and choose one of the following benefits. After you use your Transmuter's Stone in this way, the stone crumbles to dust. You can prevent the stone's destruction by expending a level 5+ spell slot.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Major Transmutation",
+							"entries": [
+								"An object you touch— no larger than a 10-foot Cube or eight connected 5-foot Cubes —and transmute it into another nonmagical object of similar size and mass and of equal or lesser value."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Panacea",
+							"entries": [
+								"A creature you touch regains a number of Hit Points equal to half its Hit Point maximum (round down). Any curse affecting the target is lifted. If the target has the {@condition Poisoned} or {@condition Petrified} conditions, those conditions end."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Restore Life",
+							"entries": [
+								"You cast the {@spell Raise Dead|xphb} spell without expending a spell slot, using the stone in place of the required Material components."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Restore Youth",
+							"entries": [
+								"A willing creature you touch permanently appears {@dice 3d10} years younger, to a minimum of young adulthood."
+							]
+						}
+					]
+				}
 			]
 		}
 	]
