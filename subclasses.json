@@ -31,7 +31,7 @@
                 {
                     "innate": {
                         "3": {
-                            "known": [
+                            "will": [
                                 "elementalism|xphb"
                             ]
                         }
@@ -150,66 +150,6 @@
             ]
         },
         {
-            "name": "Inquisitive",
-            "shortName": "Inquisitive",
-            "source": "AliFosche",
-            "className": "Rogue",
-            "classSource": "XPHB",
-            "page": 1,
-            "subclassFeatures": [
-                "Insightful Fighting|Rogue|XPHB|Inquisitive|AliFosche|3",
-                "Steady Senses|Rogue|XPHB|Inquisitive|AliFosche|3",
-                "Insightful Strikes|Rogue|XPHB|Inquisitive|AliFosche|9",
-                "Unerring Eye|Rogue|XPHB|Inquisitive|AliFosche|13",
-                "Eye for Weakness|Rogue|XPHB|Inquisitive|AliFosche|17"
-            ]
-        },
-        {
-            "name": "Mastermind",
-            "shortName": "Mastermind",
-            "source": "AliFosche",
-            "className": "Rogue",
-            "classSource": "XPHB",
-            "page": 1,
-            "subclassFeatures": [
-                "Master of Intrigue|Rogue|XPHB|Mastermind|AliFosche|3",
-                "Master of Tactics|Rogue|XPHB|Mastermind|AliFosche|3",
-                "Superior Tactics|Rogue|XPHB|Mastermind|AliFosche|9",
-                "Misdirection|Rogue|XPHB|Mastermind|AliFosche|13",
-                "Final Tactic|Rogue|XPHB|Mastermind|AliFosche|17"
-            ]
-        },
-        {
-            "name": "Scout",
-            "shortName": "Scout",
-            "source": "AliFosche",
-            "className": "Rogue",
-            "classSource": "XPHB",
-            "page": 1,
-            "subclassFeatures": [
-                "Skirmisher|Rogue|XPHB|Scout|AliFosche|3",
-                "Survivalist|Rogue|XPHB|Scout|AliFosche|3",
-                "Superior Mobility|Rogue|XPHB|Scout|AliFosche|9",
-                "Ambush Master|Rogue|XPHB|Scout|AliFosche|13",
-                "Sudden Strike|Rogue|XPHB|Scout|AliFosche|17"
-            ]
-        },
-        {
-            "name": "Swashbuckler",
-            "shortName": "Swashbuckler",
-            "source": "AliFosche",
-            "className": "Rogue",
-            "classSource": "XPHB",
-            "page": 1,
-            "subclassFeatures": [
-                "Fancy Footwork|Rogue|XPHB|Swashbuckler|AliFosche|3",
-                "Rakish Audacity|Rogue|XPHB|Swashbuckler|AliFosche|3",
-                "Panache|Rogue|XPHB|Swashbuckler|AliFosche|9",
-                "Dashing Strikes|Rogue|XPHB|Swashbuckler|AliFosche|13",
-                "Master Duelist|Rogue|XPHB|Swashbuckler|AliFosche|17"
-            ]
-        },
-        {
             "name": "Conjurer",
             "shortName": "Conjurer",
             "source": "AliFosche",
@@ -290,7 +230,7 @@
                         ],
                         "5": [
                             "aura of vitality|xphb",
-                            "leomund's tiny hut|xphb"
+                            "tiny hut|xphb"
                         ],
                         "7": [
                             "aura of life|xphb",
