@@ -2,14 +2,14 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "PathOfTheStorm",
-				"abbreviation": "PoTS",
-				"full": "Path of the Storm",
+				"json": "AliFosche",
+				"abbreviation": "TAF",
+				"full": "TecnicheSegreteAliFosche",
 				"authors": [
-					"Homebrew"
+					"La Gilda delle Ali Fosche"
 				],
 				"convertedBy": [
-					"Homebrew"
+					"Simboli"
 				],
 				"version": "1.0.0",
 				"url": "",
