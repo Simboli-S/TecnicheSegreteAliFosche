@@ -4384,7 +4384,6 @@
                                     "Resilience",
                                     "While wearing armor, you gain a +1 on AC.",
                                     "At the start of your turn, you can give yourself temporary hit points equal to your proficiency bonus."
-                                ],
                                 [
                                     "Speed",
                                     "Your movement speed is increased by 10 feet.",
@@ -4392,6 +4391,438 @@
                                 ]
                             ]
                         }
+                    ]
+                }
+            ]
+        }
+    ],
+    "feat": [
+        {
+            "name": "Crafter (TAF)",
+            "source": "AliFosche",
+            "category": "Origin",
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Tool Proficiency.} You gain proficiency with three different Artisan’s Tools of your choice from the Fast Crafting table.",
+                        "{@b Discount.} Whenever you craft a common or uncommon magic item, you receive a 25 percent discount on the crafting’s cost.",
+                        "{@b Fast Crafting.} When you finish a Long rest, you can craft one piece of gear from the Fast Crafting table, provided you have proficiency with the Artisan’s Tools associated with it. The item lasts until you finish another Long rest, at which point it falls apart."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Harper Agent (TAF)",
+            "source": "AliFosche",
+            "category": "Origin",
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Distracting Melody.} When you take the Help action to assist an ally's attack roll, the enemy you're distracting can be within 30 feet of you, rather than within 5 feet of you, provided the enemy can see or hear you.",
+                        "{@b Reactive Teamwork.} Once during your turn, immediately after you hit a creature with an attack roll, you can take the Help action as part of the attack.",
+                        "{@b Thieves’ Cant.} You know {@language thieves' cant}."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Savage Attacker (TAF)",
+            "source": "AliFosche",
+            "category": "Origin",
+            "entries": [
+                "You’re trained to deal particularly damaging strikes. Once every turn, when you deal damage with a weapon or unarmed strike, you can deal {@damage 1d4} extra damage. This damage increases when you reach level 5 to {@damage 1d6}, level 11 to {@damage 1d8} and level 17 to {@damage 1d10}."
+            ]
+        },
+        {
+            "name": "Adept of Black Magic (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "prerequisite": [
+                {
+                    "other": "Spellcasting or Pact Magic feature"
+                }
+            ],
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase your Intelligence, Wisdom or Charisma by 1, to a maximum of 20.",
+                        "{@b Ambitious Magic.} You learn a level 1 spell of your choice from the Enchantment or Necromancy school. You can cast this spell without expending a spell slot, and you must finish a Long rest before you can cast it in this way again. Your spellcasting ability is the one increased by this feat.",
+                        "{@b Life Channel.} When a creature fails the saving throw against one of your spells that deals damage, you can expend and roll a number of hit dice up to the spell’s level and increase one damage roll of the spell by the total rolled."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Adept of Red Magic (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "prerequisite": [
+                {
+                    "other": "Spellcasting or Pact Magic feature"
+                }
+            ],
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase your Intelligence, Wisdom or Charisma by 1, to a maximum of 20.",
+                        "{@b Insightful Magic.} You learn a level 1 spell of your choice from the Illusion or Transmutation school. You can cast this spell without expending a spell slot, and you must finish a Long rest before you can cast it in this way again. Your spellcasting ability is the one increased by this feat.",
+                        "{@b Balance Fate.} When you roll a 9 or lower on an attack roll or ability check, you can treat the roll as a 10 instead. Once you use this feature, you can’t use it again until you finish a Long rest unless you expend a level 1+ spell slot to restore the use of it."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Adept of White Magic (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "prerequisite": [
+                {
+                    "other": "Spellcasting or Pact Magic feature"
+                }
+            ],
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase your Intelligence, Wisdom or Charisma by 1, to a maximum of 20.",
+                        "{@b Protective Magic.} You learn a level 1 spell of your choice from the abjuration or divination school. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. The spell’s spellcasting ability is the one you increased with this feat.",
+                        "{@b Protective Ward.} When a creature you can see within 30 feet of you takes damage, you can take a Reaction to expend a spell slot and magically protect it. Roll a number of d6s equal to the spell slot’s level and reduce the damage by the total rolled plus your Proficiency Bonus."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Agent of Order (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase one ability score of your choice by 1, to a maximum of 20.",
+                        "{@b Stasis Strike.} Once every turn, when you deal damage with an attack, you can deal {@damage 1d6} extra Force damage. The target must make a Wisdom saving throw (DC equals 8 plus your modifier of the ability score increased by this feat and your Proficiency Bonus). On a failed save, the target is {@condition restrained} until the end of its next turn. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Baleful Scion (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase one ability score of your choice by 1, to a maximum of 20.",
+                        "{@b Drink of Avarice.} Once every turn, when you deal damage with an attack, you can deal {@damage 1d6} extra Necrotic damage. You regain a number of hit points equal to {@dice 1d6} plus your Proficiency Bonus. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bomber (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase your Strength or Dexterity by 1, to a maximum of 20.",
+                        "{@b Bomb Maker.} When you finish a Long rest, you create a number of Acid, Alchemist’s Fire or Holy Water equal to your Proficiency Bonus. These items last until you finish another Long Rest, at which point they fall apart.",
+                        "{@b Empowered Reagents.} You can add the modifier of the ability score increased by this feat to the damage you deal throwing a vial or flask.",
+                        "{@b Far Lobber.} When you throw a vial or flask, you can target an object or creature you can see within 40 feet of yourself."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cartomancer (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "prerequisite": [
+                {
+                    "other": "Spellcasting or Pact Magic feature"
+                }
+            ],
+            "entries": [
+                "You have learned the magical secrets of cards. You gain the following benefit.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase your Intelligence, Wisdom or Charisma by 1, to a maximum of 20.",
+                        "{@b Card Tricks.} You learn {@spell Prestidigitation|xphb} and can conceal the verbal and somatic components of the spell as ordinary conversation or card handling.",
+                        "{@b Hidden Ace.} At the end of a Long rest, choose a spell from the spell list of your class and imbue it in a card. The chosen spell must have a casting time of Action, and must be a spell you can cast with the level you have in that class. While the card is imbued, you can use a Bonus Action to cast the spell without verbal or somatic components. The card loses its magic after 8 hours or after you cast the spell."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Chromatic Dragon’s Gift (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase your Strength or Dexterity by 1, to a maximum of 20.",
+                        "{@b Chromatic Infusion.} As a Bonus Action, you can infuse a weapon or unarmed strike with one of the following damage types: Acid, Cold, Fire, Lightning or Poison. For 1 minute, the weapon or unarmed strike deals an extra {@damage 1d4} damage of the chosen type. Once you use this trait, you can’t use it again until you finish a Long rest.",
+                        "{@b Reactive Resistance.} When you take Acid, Cold, Fire, Lightning or Poison damage, you can take a Reaction to give you resistance to that instance of damage. You can use this reaction a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ember of the Fire Giant (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase your Strength or Dexterity by 1, to a maximum of 20.",
+                        "{@b Born of Flame.} You gain resistance to Fire damage.",
+                        "{@b Searing Ignition.} Once every turn, you can replace an attack to force each creature of your choice within a 15-foot emanation to make a Dexterity saving throw (DC equals 8 plus your modifier of the ability score increased by this feat and your Proficiency Bonus). On a failed save, it takes {@damage 2d10} Fire damage and is {@condition blinded} until the end of its next turn. On a successful save, it only takes half as much damage. You can use this feature a number of times equal to your Proficiency Bonus and you regain all expended uses when you finish a Long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fury of the Frost Giant (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase your Strength, Constitution or Wisdom by 1, to a maximum of 20.",
+                        "{@b Born of Ice.} You gain resistance to Cold damage.",
+                        "{@b Frigid Retribution.} When you take damage from a creature you can see within 30 feet, you can take a Reaction and force it to make a Constitution saving throw (DC equals 8 plus your modifier of the ability score increased by this feat and your Proficiency Bonus). On a failed save, it takes {@damage 2d8} Cold damage, and its speed is 0 until the end of its next turn. You can use this feature a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Guile of the Cloud Giant (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase your Intelligence, Wisdom or Charisma by 1, to a maximum of 20.",
+                        "{@b Cloudy Escape.} When you take damage, you can take a Reaction to give yourself resistance to that instance damage and teleport 30 feet in an unoccupied space you can see. You can use this feature a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Gunner (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase your Dexterity or Intelligence score by 1, to a maximum of 20.",
+                        "{@b Deadly Shot.} Once every turn, when you hit with a Pistol or Musket, you can deal extra damage equal to your Proficiency Bonus.",
+                        "{@b Gun Expertise.} You gain proficiency in Pistols and Muskets, you ignore their Loading property and can load a piece of ammunition even if you lack a free hand.",
+                        "{@b Keen Eye.} Being within 5 feet of a hostile creature doesn't impose disadvantage on your attack rolls with Muskets and Pistols."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Keenness of the Stone Giant (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase your Strength or Dexterity by 1, to a maximum of 20.",
+                        "{@b Cavernous Sight.} You gain Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.",
+                        "{@b Stone Throw.} As a Bonus Action, make a ranged attack (60/90) using the ability score you increased with this feat for attack and damage rolls. On a hit, it deals Force damage equal to {@damage 1d10}, and the target must succeed on a Strength saving throw (DC equals 8 plus your modifier of the ability score increased by this feat and your Proficiency Bonus) or be knocked {@condition prone}. You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Metallic Dragon’s Gift (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20.",
+                        "{@b Metallic Healing.} As a Bonus Action, roll a number of d6s equal to your proficiency bonus. A creature you touch regains a number of hit points equal to the total rolled. Once you use this trait, you can’t use it again until you finish a Long rest.",
+                        "{@b Protective Wings.} When a creature you can see within 10 feet of you is hit by an attack, you can use your reaction to protect it with spectral wings. You grant a bonus to its AC equal to your Proficiency Bonus against that attack roll. You can use this feature a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Knight of the Crown (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "prerequisite": [
+                {
+                    "ability": [
+                        {
+                            "str": 13,
+                            "dex": 13
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20.",
+                        "{@b Commanding Rally.} As a Bonus Action, you can command an ally within 30 feet of you. The target can use a reaction to make a weapon attack and if the attack hits, it deals {@damage 1d10} extra damage. You can use this feature a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Knight of the Sword (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "prerequisite": [
+                {
+                    "ability": [
+                        {
+                            "str": 13,
+                            "dex": 13
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase your Strength or Dexterity by 1, to a maximum of 20.",
+                        "{@b Frightful Strike.} When you hit with an attack, you can deal {@damage 1d6} extra Psychic damage and force the target to make a Wisdom saving throw (DC equals 8 plus your modifier of the ability score increased by this feat and your Proficiency Bonus). On a failed save, it is {@condition frightened} until the end of its next turn. On a success, it has disadvantage on its next attack roll. You can use this feature a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Poisoner (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase your Strength or Dexterity by 1, to a maximum of 20.",
+                        "{@b Potent Poison.} You gain proficiency with the {@item poisoner's kit|xphb}. Also, poisons used by you ignore resistance to Poison damage and their DC equals 8 plus your modifier of the ability score increased by this feat and your Proficiency Bonus.",
+                        "{@b Brew Poisons.} When you finish a Long rest, you create a number of poison vials equal to your Proficiency Bonus. Once applied, the poison lasts for 10 minutes or until you deal damage with the poisoned item. When you deal damage with the poisoned item, you deal {@damage 2d8} Poison damage and the target of the attack must succeed on a Constitution saving throw or become {@condition poisoned} until the end of its next turn. The vials last until you finish another Long rest, at which point it falls apart."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Righteous Heritor (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase one ability score of your choice by 1, to a maximum of 20.",
+                        "{@b Soothe Pain.} When a creature within 30 feet of you takes damage, you can use a reaction to reduce the damage by {@dice 1d10} + your Proficiency Bonus. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Soul of the Storm Giant (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase your Strength, Wisdom or Charisma by 1, to a maximum of 20.",
+                        "{@b Born in the Storm.} You gain resistance to Lightning damage.",
+                        "{@b Maelstrom Strike.} Once every turn, when you hit a creature with an attack, you can summon storm winds around it. The target must succeed in a Dexterity saving throw (DC equals 8 plus your modifier of the ability score increased by this feat and your Proficiency Bonus) or have disadvantage on attack rolls and have its speed halved until the end of its next turn. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Street Justice (TAF)",
+            "source": "AliFosche",
+            "category": "General",
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase your Strength or Dexterity by 1, to a maximum of 20.",
+                        "{@b Headlock.} Your allies have advantage on attack rolls against creatures {@condition grappled} by you.",
+                        "{@b Quick Lock.} When you take the Attack Action, you can replace one of your attacks with a use of Chain, Manacles or Rope.",
+                        "{@b Sturdy Knot.} When you use Chain, Manacles or Rope on a creature, add your Proficiency Bonus to the DC to escape or burst out."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Boon of Immortality (TAF)",
+            "source": "AliFosche",
+            "category": "Epic Boon",
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase one ability score of your choice by 1, to a maximum of 30.",
+                        "{@b Everlasting.} You stop aging, are immune to any effect that would age you and you can't die from old age. Moreover you don't need to eat, drink, or breathe to survive.",
+                        "{@b Unbreakable.} When you suffer damage, you can take Reaction to gain resistance to that damage type until the start of your next turn.",
+                        "{@b Undying.} You have advantage on Death Saving Throws."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Boon of Spell Invention (TAF)",
+            "source": "AliFosche",
+            "category": "Epic Boon",
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Ability Score Increase.} Increase your Intelligence, Wisdom or Charisma by 1, to a maximum of 30.",
+                        "{@b Create Spell.} You can mimic the archmages of old by inventing a spell never seen before. To create the spell, you must study for 10 days and expend 100 gp for each level of the new spell in order to buy magical components needed for the creation.",
+                        "{@b Signature Spell.} Once your new spell is created, you always have it prepared and it doesn’t count against the number of your prepared spells."
                     ]
                 }
             ]
