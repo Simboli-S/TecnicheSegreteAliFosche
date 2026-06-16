@@ -4326,5 +4326,75 @@
                 }
             ]
         }
+    ],
+    "race": [
+        {
+            "name": "Warforged",
+            "source": "AliFosche",
+            "size": [
+                "M",
+                "S"
+            ],
+            "speed": 30,
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "entries": [
+                "The first warforged were creations of wood and stone, golems animated by mighty druidic rituals. After centuries these secret rituals were found by spellcasters far removed from the first druids who animated golems gifted with free will. Now these rituals are practiced in two places: Lantan and Thay. Lantan's warforged are created by the church of Gond through its unique magic, like many Lantan inventions they are strange and frightening to the rest of Faerun. The warforged of Thay appear to be simpler beings, often aimed only at battle or assassination. Some Thayan Zulkir have studied ancient rituals that combine necromancy and transmutation to provide superior intelligence to their grotesque magical constructs.",
+                "The shape of all warforged is human-like, but optimized to perform a specific task: fighting, traveling or protecting. The materials and appearance of a warforged depend on the technique used by its creator. Druidic warforged are human-like wooden golems, sometimes covered with stone plates. Those of Lantan are constructs covered in metal above a wooden body. Finally, Thay warforged can be made with organic components, built from a human skeleton or to appear more human in order to spy and assassinate.",
+                {
+                    "type": "entries",
+                    "name": "Constructed Resilience",
+                    "entries": [
+                        "You have resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the {@condition poisoned} condition."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Sentry's Rest",
+                    "entries": [
+                        "You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 6 hours that you must spend inactive, but not {@condition unconscious}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Specialized Lineage",
+                    "entries": [
+                        "You've been designed for a particular work. Choose a design from the Specialized Design table. You gain the level 1 benefit of that design. When you reach character levels 3, you gain an additional benefit that you can use a number of times equal to your Proficiency Bonus and regain all expended uses when you finish a Long rest.",
+                        {
+                            "type": "table",
+                            "caption": "Specialized Design",
+                            "colLabels": [
+                                "Design",
+                                "Level 1",
+                                "Level 3"
+                            ],
+                            "colStyles": [
+                                "col-2",
+                                "col-5",
+                                "col-5"
+                            ],
+                            "rows": [
+                                [
+                                    "Power",
+                                    "You have advantage on Strength ({@skill Athletics}) checks.",
+                                    "When you hit with a weapon attack, you can deal {@damage 1d8} extra force damage to the target of the attack."
+                                ],
+                                [
+                                    "Resilience",
+                                    "While wearing armor, you gain a +1 on AC.",
+                                    "At the start of your turn, you can give yourself temporary hit points equal to your proficiency bonus."
+                                ],
+                                [
+                                    "Speed",
+                                    "Your movement speed is increased by 10 feet.",
+                                    "You can take the Disengage action as a bonus action."
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
