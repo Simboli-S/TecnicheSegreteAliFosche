@@ -3808,5 +3808,523 @@
                 "The weapon has 4 charges. You gain a +1 bonus to attack and damage rolls made using the weapon, also on a hit it deals {@damage 1d4} extra radiant damage. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and the attacker must succeed on a Constitution saving throw against your spell save DC or become {@condition Blinded} until the end of its next turn. These bonuses increase to +2 and {@damage 2d4} extra Radiant damage when you reach Artificer level 10. The weapon regains {@dice 1d4} expended charges daily at dawn."
             ]
         }
+    ],"spell": [
+        {
+            "name": "Nyx's Animate Dead",
+            "source": "AliFosche",
+            "level": 3,
+            "school": "N",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    { "name": "Cleric", "source": "XPHB" },
+                    { "name": "Warlock", "source": "XPHB" },
+                    { "name": "Wizard", "source": "XPHB" }
+                ]
+            },
+            "entries": [
+                "You animate dead creatures that appear as a Large horde of intangible corpses or spirits in an unoccupied space you can see within range. The horde lasts for the duration and you choose the dead’s form, such as ghosts or skeletons. When you move on your turn, you can also move the horde up to 30 feet to an unoccupied space you can see. Whenever the horde moves within 5 feet of a creature you can see and whenever a creature you can see enters a space within 5 feet of the horde or ends its turn there, you can force that creature to make a Strength saving throw. On a failed save, the creature takes {@damage 4d6} necrotic damage and is {@condition restrained} while it remains within 5 feet of the horde. On a successful save, it only takes half that damage. The horde can restrain only one creature at a time and a restrained creature can repeat its saving throw at the end of each of its turns, ending the effect on a success."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Using a Higher-Level Spell Slot",
+                    "entries": [
+                        "The damage increases by 1d6 for each spell slot level above 3."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nyx's Conjure Barrage",
+            "source": "AliFosche",
+            "level": 3,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "cone",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a Melee or Ranged weapon worth at least 1 CP"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    { "name": "Ranger", "source": "XPHB" }
+                ]
+            },
+            "entries": [
+                "You brandish the weapon used to cast the spell and conjure similar spectral weapons (or ammunition appropriate to the weapon) that launch forward and then disappear. Each creature of your choice that you can see in a 60-foot Cone makes a Dexterity saving throw, taking {@damage 5d10} force damage on a failed save or half as much damage on a successful one."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Using a Higher-Level Spell Slot",
+                    "entries": [
+                        "The damage increases by 1d10 for each spell slot level above 1."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nyx's Conjure Volley",
+            "source": "AliFosche",
+            "level": 5,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 150
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a Melee or Ranged weapon worth at least 1 CP"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    { "name": "Ranger", "source": "XPHB" }
+                ]
+            },
+            "entries": [
+                "You brandish the weapon used to cast the spell and choose a point within range. Hundreds of similar spectral weapons (or ammunition appropriate to the weapon) fall in a volley and then disappear. Each creature of your choice that you can see in a 40-foot-radius, 20-foot-high Cylinder centered on that point makes a Dexterity saving throw. A creature takes {@damage 8d10} force damage on a failed save or half as much damage on a successful one."
+            ]
+        },
+        {
+            "name": "Elmina's Unleash Potential",
+            "source": "AliFosche",
+            "level": 6,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "magical ink worth 600 GP or the very page in your spellbook, if you have one, where this spell was written that the spell consumes"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    { "name": "Wizard", "source": "XPHB" }
+                ]
+            },
+            "entries": [
+                "You continuously channel your magical power within others to express their inner potential and make them shine enough to be front page material: what a scoop! When you cast this spell and at the start of your following turns, you can target up to two willing creatures within range and grant each one of the following effects. If an effect shares the name of a spell, those creatures are considered to be under the effect of a spell with the same name.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Protection from Energy.} The creature has Resistance to one damage type of your choice: Acid, Cold, Fire, Lightning or Thunder.",
+                        "{@b Far Step.} As a Bonus Action, the target can teleport 60 feet in a space it can see.",
+                        "{@b Magnify Senses.} The target has Blindsight out of a range of 30 feet.",
+                        "{@b Bless.} When the target makes an attack roll or a saving throw, it adds {@dice 1d4} to it.",
+                        "{@b Fount of Moonlight.} The target’s melee attacks deal {@damage 2d6} extra Radiant damage.",
+                        "{@b Greater Invisibility.} The target has the {@condition invisible} condition.",
+                        "{@b Unfeeling.} The target gains 10 temporary Hit Points, damage can’t break their concentration if part of it removes these temporary Hit Points.",
+                        "{@b Haste.} The target speed is doubled and it gains an additional action that can be used to take only the Attack (one attack only), Dash, Disengage, Hide, or Utilize action."
+                    ]
+                },
+                "The effect lasts until the start of your next turn. After the spell ends, you’re incapable of casting any spell by using a spell slot until you finish a short or long rest."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Using a Higher-Level Spell Slot",
+                    "entries": [
+                        "When cast at a higher level, you can target an additional creature per spell level above 6."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nyx's Ensnaring Strike",
+            "source": "AliFosche",
+            "level": 1,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus",
+                    "condition": "which you take immediately after hitting a target with a Melee or Ranged weapon"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    { "name": "Ranger", "source": "XPHB" }
+                ]
+            },
+            "entries": [
+                "As you hit the target, grasping vines appear on it. The target takes an extra {@damage 1d6} piercing damage and makes a Strength saving throw. On a failed save, the target has the {@condition restrained} condition until the spell ends. On a successful save, the vines shrivel away, and the spell ends. While Restrained, the target takes {@damage 1d6} piercing damage at the start of each of its turns. The target or a creature within reach of it can take an action to make a Strength (Athletics) check against your spell save DC ending the spell on a success."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Using a Higher-Level Spell Slot",
+                    "entries": [
+                        "The damage for both effects of the spell increases by 1d6 for each spell slot level above 1."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Forge's Codex of Delirium",
+            "source": "AliFosche",
+            "level": 8,
+            "school": "I",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "glass orb 2,000+ GP"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    { "name": "Bard", "source": "XPHB" },
+                    { "name": "Warlock", "source": "XPHB" },
+                    { "name": "Wizard", "source": "XPHB" }
+                ]
+            },
+            "entries": [
+                "A creature you can see within range is thrown in an hallucination that seamlessly overtakes its reality and must succeed on an Intelligence saving throw. On a failed save it experiences an entire hallucinatory day in a single day, you have full control over what it experiences, and you can describe the nature of the day that it lives (choosing to make it as wonderful or nightmarish as you please). The illusion it experiences is totally indistinguishable from reality. You know everything that the target experiences in this hallucination, for example, you know if it confesses to any horrible crimes or if it reveals its weaknesses or fears. At the end of the hallucination, the target gains one level of exhaustion and you can deal {@damage 12d8} psychic damage to it. On a successful save, it breaks free from the illusion and you can deal it only half that damage."
+            ]
+        },
+        {
+            "name": "Nyx's Hail of Thorns",
+            "source": "AliFosche",
+            "level": 1,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus",
+                    "condition": "which you take immediately after hitting a target with a Melee or Ranged weapon"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    { "name": "Ranger", "source": "XPHB" }
+                ]
+            },
+            "entries": [
+                "As you hit the creature, this spell creates a rain of thorns that sprouts from your weapon. The target of the attack and each creature within 10 feet of it make a Dexterity saving throw, taking {@damage 2d6} piercing damage on a failed save or half as much damage on a successful one."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Using a Higher-Level Spell Slot",
+                    "entries": [
+                        "The damage increases by 1d6 for each spell slot level above 1."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lightning Strike",
+            "source": "AliFosche",
+            "level": 3,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus",
+                    "condition": "which you take immediately after hitting a target with a Melee or Ranged weapon"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    { "name": "Ranger", "source": "XPHB" }
+                ]
+            },
+            "entries": [
+                "As you hit, your weapon blasts in a lightning bolt strike. The target takes an extra {@damage 3d8} lightning damage from the attack. In addition, each creature of your choice within 10 feet of the target then makes a Dexterity saving throw, taking {@damage 3d8} lightning damage on a failed save or half as much damage on a successful one."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Using a Higher-Level Spell Slot",
+                    "entries": [
+                        "The damage for both effects of the spell increases by 1d8 for each spell slot level above 3."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Randarc's Chains of Pure Hatred",
+            "source": "AliFosche",
+            "level": 4,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus",
+                    "condition": "which you take immediately after hitting a target with a Melee weapon or Unarmed Strike"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    { "name": "Artificer", "source": "AliFosche" }
+                ]
+            },
+            "entries": [
+                "As you hit the target you focus your hatred towards the enemies and their spells, to magically evoke chains that will bind them. The target takes an extra {@damage 3d6} force damage and makes a Strength saving throw. On a failed save, the target has the {@condition restrained} condition until the spell ends. On a successful save, the chain breaks, and the spell ends.",
+                "Whenever the restrained creature casts a spell, it makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended.",
+                "The target can take an action to make a Strength (Athletics) check against your spell save DC ending the spell on a success."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Using a Higher-Level Spell Slot",
+                    "entries": [
+                        "The damage increases by 1d6 for each spell slot level above 4."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Summon Homunculus",
+            "source": "AliFosche",
+            "level": 2,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "hour"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 10
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a gem worth 100+ GP"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    { "name": "Artificer", "source": "AliFosche" }
+                ]
+            },
+            "entries": [
+                "You summon a special homunculus in an unoccupied space within range. This creature uses the Homunculus Servant stat block. If you already have a homunculus from this spell, the homunculus is replaced by the new one. You determine the homunculus's appearance, such as a mechanical-looking bird, winged vial, or miniature animate cauldron. The homunculus is an ally to you and your allies. In combat, it shares your Initiative count, but it takes its turn immediately after yours. It obeys your commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its movement to avoid danger."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Using a Higher-Level Spell Slot",
+                    "entries": [
+                        "Use the spell slot's level for the spell's level in the stat block."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nyx's Zephyr’s Strike",
+            "source": "AliFosche",
+            "level": 1,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus",
+                    "condition": "which you take immediately after hitting a target with a Melee or Ranged weapon"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    { "name": "Ranger", "source": "XPHB" }
+                ]
+            },
+            "entries": [
+                "The target takes an extra {@damage 1d8} force damage from the attack. Until the end of your turn, your speed increases by 15 feet and your movement doesn't provoke opportunity attacks."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Using a Higher-Level Spell Slot",
+                    "entries": [
+                        "The damage increases by 1d8 for each spell slot level above 1."
+                    ]
+                }
+            ]
+        }
     ]
 }
