@@ -662,7 +662,92 @@
                 "Level 9: Superior Breakthrough|Artificer|AliFosche|Maverick|AliFosche|9",
                 "Level 15: Final Breakthrough|Artificer|AliFosche|Maverick|AliFosche|15"
             ]
+        },
+        {
+    "name": "Artillerist",
+    "shortName": "Artillerist",
+    "source": "AliFosche",
+    "className": "Artificer",
+    "classSource": "AliFosche",
+    "page": 1,
+    "additionalSpells": [
+        {
+            "prepared": {
+                "3": [
+                    "shield|xphb",
+                    "thunderwave|xphb"
+                ],
+                "5": [
+                    "scorching ray|xphb",
+                    "shatter|xphb"
+                ],
+                "9": [
+                    "fireball|xphb",
+                    "wind wall|xphb"
+                ],
+                "13": [
+                    "ice storm|xphb",
+                    "wall of fire|xphb"
+                ],
+                "17": [
+                    "cone of cold|xphb",
+                    "wall of force|xphb"
+                ]
+            }
         }
+    ],
+    "subclassFeatures": [
+        "Level 3: Tool Proficiency|Artificer|AliFosche|Artillerist|AliFosche|3",
+        "Level 3: Artillerist Spells|Artificer|AliFosche|Artillerist|AliFosche|3",
+        "Level 3: Eldritch Cannon|Artificer|AliFosche|Artillerist|AliFosche|3",
+        "Level 5: Arcane Firearm|Artificer|AliFosche|Artillerist|AliFosche|5",
+        "Level 9: Explosive Cannon|Artificer|AliFosche|Artillerist|AliFosche|9",
+        "Level 15: Fortified Position|Artificer|AliFosche|Artillerist|AliFosche|15"
+    ]
+},
+{
+    "name": "Battle Smith",
+    "shortName": "Battle Smith",
+    "source": "AliFosche",
+    "className": "Artificer",
+    "classSource": "AliFosche",
+    "page": 1,
+    "additionalSpells": [
+        {
+            "prepared": {
+                "3": [
+                    "heroism|xphb",
+                    "shield|xphb"
+                ],
+                "5": [
+                    "branding smite|xphb",
+                    "warding bond|xphb"
+                ],
+                "9": [
+                    "aura of vitality|xphb",
+                    "conjure barrage|xphb"
+                ],
+                "13": [
+                    "aura of purity|xphb",
+                    "fire shield|xphb"
+                ],
+                "17": [
+                    "banishing smite|xphb",
+                    "mass cure wounds|xphb"
+                ]
+            }
+        }
+    ],
+    "subclassFeatures": [
+        "Level 3: Tool Proficiency|Artificer|AliFosche|Battle Smith|AliFosche|3",
+        "Level 3: Battle Smith Spells|Artificer|AliFosche|Battle Smith|AliFosche|3",
+        "Level 3: Battle Ready|Artificer|AliFosche|Battle Smith|AliFosche|3",
+        "Level 3: Steel Defender|Artificer|AliFosche|Battle Smith|AliFosche|3",
+        "Level 5: Extra Attack|Artificer|AliFosche|Battle Smith|AliFosche|5",
+        "Level 9: Arcane Jolt|Artificer|AliFosche|Battle Smith|AliFosche|9",
+        "Level 15: Improved Defender|Artificer|AliFosche|Battle Smith|AliFosche|15"
+    ]
+}
     ],
     "classFeature": [
         {
@@ -3130,7 +3215,273 @@
             "entries": [
                 "When you cast one of your Artificer or Breakthrough spells, you can do so as if the spell was cast using a spell slot two levels higher than the spell slot you expend. You can use this feature a number of times equal to your Intelligence modifier (minimum of once) and regain all expended uses after you finish a Long rest."
             ]
+        },
+        {
+    "name": "Level 3: Tool Proficiency",
+    "source": "AliFosche",
+    "className": "Artificer",
+    "classSource": "AliFosche",
+    "subclassShortName": "Artillerist",
+    "subclassSource": "AliFosche",
+    "level": 3,
+    "entries": [
+        "You gain proficiency with {@item woodcarver's tools|xphb}. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
+    ]
+},
+{
+    "name": "Level 3: Artillerist Spells",
+    "source": "AliFosche",
+    "className": "Artificer",
+    "classSource": "AliFosche",
+    "subclassShortName": "Artillerist",
+    "subclassSource": "AliFosche",
+    "level": 3,
+    "entries": [
+        "You always have certain spells prepared after you reach particular levels in this class, as shown in the Artillerist Spells table. These spells count as Artificer spells for you, but they don't count against the number of Artificer spells you prepare.",
+        {
+            "type": "table",
+            "caption": "Artillerist Spells",
+            "colLabels": [
+                "Artificer Level",
+                "Spells"
+            ],
+            "colStyles": [
+                "col-3 text-center",
+                "col-9"
+            ],
+            "rows": [
+                ["3", "{@spell Shield|xphb}, {@spell Thunderwave|xphb}"],
+                ["5", "{@spell Scorching Ray|xphb}, {@spell Shatter|xphb}"],
+                ["9", "{@spell Fireball|xphb}, {@spell Wind Wall|xphb}"],
+                ["13", "{@spell Ice Storm|xphb}, {@spell Wall of Fire|xphb}"],
+                ["17", "{@spell Cone of Cold|xphb}, {@spell Wall of Force|xphb}"]
+            ]
         }
+    ]
+},
+{
+    "name": "Level 3: Eldritch Cannon",
+    "source": "AliFosche",
+    "className": "Artificer",
+    "classSource": "AliFosche",
+    "subclassShortName": "Artillerist",
+    "subclassSource": "AliFosche",
+    "level": 3,
+    "entries": [
+        "You learn how to create a magical cannon. Using {@item woodcarver's tools|xphb} or {@item smith's tools|xphb}, you can take an action to magically create a Small or Tiny eldritch cannon in an unoccupied space on a horizontal surface within 5 feet of you. A Small cannon occupies its space; a Tiny one can be held in one hand.",
+        "Once you create a cannon, you can't do so again until you finish a Long Rest or expend a spell slot of level 1 or higher. You can have only one cannon at a time.",
+        "The cannon is a magical object with AC 18 and hit points equal to five times your Artificer level. It is immune to Poison and Psychic damage. If forced to make an ability check or saving throw, treat all its ability scores as 10. {@spell Mending|xphb} cast on it restores {@dice 2d6} hit points. It disappears after 1 hour or when reduced to 0 hit points. You can dismiss it early as a Magic action.",
+        "When you create the cannon, choose one of the following types:",
+        {
+            "type": "list",
+            "items": [
+                {
+                    "type": "item",
+                    "name": "Flamethrower",
+                    "entries": [
+                        "The cannon exhales fire in a 15-foot Cone. Each creature in the area makes a Dexterity saving throw against your spell save DC, taking {@damage 2d8} Fire damage on a failed save or half as much on a success. The fire ignites flammable objects not being worn or carried."
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "Force Ballista",
+                    "entries": [
+                        "Make a ranged spell attack originating from the cannon at one creature or object within 120 feet. On a hit, the target takes {@damage 2d8} Force damage and is pushed up to 5 feet away from the cannon."
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "Protector",
+                    "entries": [
+                        "The cannon emits positive energy, granting itself and each creature of your choice within 10 feet a number of Temporary Hit Points equal to {@dice 1d8} + your Intelligence modifier (minimum 1)."
+                    ]
+                }
+            ]
+        },
+        "On each of your turns, you can take a Bonus Action to activate the cannon if you are within 60 feet of it. As part of the same Bonus Action, you can command it to walk or climb up to 15 feet to an unoccupied space, if it has legs."
+    ]
+},
+{
+    "name": "Level 5: Arcane Firearm",
+    "source": "AliFosche",
+    "className": "Artificer",
+    "classSource": "AliFosche",
+    "subclassShortName": "Artillerist",
+    "subclassSource": "AliFosche",
+    "level": 5,
+    "entries": [
+        "You know how to turn a wand, staff, or rod into an arcane firearm, a conduit for your destructive spells. When you finish a Long Rest, you can use {@item woodcarver's tools|xphb} to carve special sigils into such an item, turning it into your arcane firearm. The sigils disappear if you later carve them on a different item; otherwise they last indefinitely.",
+        "You can use your arcane firearm as a Spellcasting Focus. When you cast an Artificer spell through it, roll a {@dice d8} and add the result as a bonus to one of the spell's damage rolls."
+    ]
+},
+{
+    "name": "Level 9: Explosive Cannon",
+    "source": "AliFosche",
+    "className": "Artificer",
+    "classSource": "AliFosche",
+    "subclassShortName": "Artillerist",
+    "subclassSource": "AliFosche",
+    "level": 9,
+    "entries": [
+        "Every eldritch cannon you create is more destructive:",
+        {
+            "type": "list",
+            "items": [
+                "The cannon's damage rolls all increase by {@dice 1d8}.",
+                "As a Magic action, you can detonate the cannon if you are within 60 feet of it. Doing so destroys the cannon and forces each creature within 20 feet of it to make a Dexterity saving throw against your spell save DC, taking {@damage 3d8} Force damage on a failed save or half as much on a success."
+            ]
+        }
+    ]
+},
+{
+    "name": "Level 15: Fortified Position",
+    "source": "AliFosche",
+    "className": "Artificer",
+    "classSource": "AliFosche",
+    "subclassShortName": "Artillerist",
+    "subclassSource": "AliFosche",
+    "level": 15,
+    "entries": [
+        "You are a master at forming well-defended emplacements using your Eldritch Cannon:",
+        {
+            "type": "list",
+            "items": [
+                "You and your allies have {@variantrule Half Cover|xphb} while within 10 feet of a cannon you created with Eldritch Cannon, due to a shimmering field of magical protection the cannon emits.",
+                "You can now have two cannons at a time. You can create two with the same action (but not the same spell slot), and activate both with the same Bonus Action. The cannons can be identical or different."
+            ]
+        }
+    ]
+},
+{
+    "name": "Level 3: Tool Proficiency",
+    "source": "AliFosche",
+    "className": "Artificer",
+    "classSource": "AliFosche",
+    "subclassShortName": "Battle Smith",
+    "subclassSource": "AliFosche",
+    "level": 3,
+    "entries": [
+        "You gain proficiency with {@item smith's tools|xphb}. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
+    ]
+},
+{
+    "name": "Level 3: Battle Smith Spells",
+    "source": "AliFosche",
+    "className": "Artificer",
+    "classSource": "AliFosche",
+    "subclassShortName": "Battle Smith",
+    "subclassSource": "AliFosche",
+    "level": 3,
+    "entries": [
+        "You always have certain spells prepared after you reach particular levels in this class, as shown in the Battle Smith Spells table. These spells count as Artificer spells for you, but they don't count against the number of Artificer spells you prepare.",
+        {
+            "type": "table",
+            "caption": "Battle Smith Spells",
+            "colLabels": [
+                "Artificer Level",
+                "Spells"
+            ],
+            "colStyles": [
+                "col-3 text-center",
+                "col-9"
+            ],
+            "rows": [
+                ["3", "{@spell Heroism|xphb}, {@spell Shield|xphb}"],
+                ["5", "{@spell Branding Smite|xphb}, {@spell Warding Bond|xphb}"],
+                ["9", "{@spell Aura of Vitality|xphb}, {@spell Conjure Barrage|xphb}"],
+                ["13", "{@spell Aura of Purity|xphb}, {@spell Fire Shield|xphb}"],
+                ["17", "{@spell Banishing Smite|xphb}, {@spell Mass Cure Wounds|xphb}"]
+            ]
+        }
+    ]
+},
+{
+    "name": "Level 3: Battle Ready",
+    "source": "AliFosche",
+    "className": "Artificer",
+    "classSource": "AliFosche",
+    "subclassShortName": "Battle Smith",
+    "subclassSource": "AliFosche",
+    "level": 3,
+    "entries": [
+        "Your combat training and magical experiments have paid off in two ways:",
+        {
+            "type": "list",
+            "items": [
+                "You gain proficiency with martial weapons.",
+                "When you attack with a magic weapon, you can use your Intelligence modifier instead of Strength or Dexterity for the attack and damage rolls."
+            ]
+        }
+    ]
+},
+{
+    "name": "Level 3: Steel Defender",
+    "source": "AliFosche",
+    "className": "Artificer",
+    "classSource": "AliFosche",
+    "subclassShortName": "Battle Smith",
+    "subclassSource": "AliFosche",
+    "level": 3,
+    "entries": [
+        "Your tinkering has borne you a faithful mechanical companion: a steel defender. It is friendly to you and your companions and obeys your commands.",
+        "In combat, the defender acts on your Initiative count but takes its turn immediately after yours. It can move and use its Reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a Bonus Action to command it to take another action from its stat block or another action of your choice.",
+        "If {@spell Mending|xphb} is cast on it, it regains {@dice 2d6} hit points. It disappears if reduced to 0 hit points, if you die, or if you dismiss it as a Magic action.",
+        "At the end of a Long Rest, you can create a new steel defender if you have {@item smith's tools|xphb} with you. If you already have one, the previous one disappears immediately.",
+        "You can restore the defender to its hit point maximum by expending one of your Artificer Infusions on it."
+    ]
+},
+{
+    "name": "Level 5: Extra Attack",
+    "source": "AliFosche",
+    "className": "Artificer",
+    "classSource": "AliFosche",
+    "subclassShortName": "Battle Smith",
+    "subclassSource": "AliFosche",
+    "level": 5,
+    "entries": [
+        "You can attack twice, rather than once, whenever you take the Attack action on your turn."
+    ]
+},
+{
+    "name": "Level 9: Arcane Jolt",
+    "source": "AliFosche",
+    "className": "Artificer",
+    "classSource": "AliFosche",
+    "subclassShortName": "Battle Smith",
+    "subclassSource": "AliFosche",
+    "level": 9,
+    "entries": [
+        "You have learned new ways to channel arcane energy to harm or heal. When you hit a target with a magic weapon attack, or your steel defender hits a target, you can channel magical energy through the strike to create one of the following effects:",
+        {
+            "type": "list",
+            "items": [
+                "The target takes an extra {@damage 2d6} Force damage.",
+                "Choose one creature or object you can see within 30 feet of the target. Magical energy leaps from the target to it, restoring {@dice 2d6} hit points."
+            ]
+        },
+        "You can use this feature a number of times equal to your Intelligence modifier (minimum once), but no more than once per turn. You regain all expended uses when you finish a Long Rest."
+    ]
+},
+{
+    "name": "Level 15: Improved Defender",
+    "source": "AliFosche",
+    "className": "Artificer",
+    "classSource": "AliFosche",
+    "subclassShortName": "Battle Smith",
+    "subclassSource": "AliFosche",
+    "level": 15,
+    "entries": [
+        "Your Arcane Jolt and steel defender become more powerful:",
+        {
+            "type": "list",
+            "items": [
+                "The extra damage and healing of Arcane Jolt both increase to {@damage 4d6}.",
+                "Your steel defender gains a +2 bonus to Armor Class.",
+                "Whenever your steel defender uses its Deflect Attack, the attacker takes Force damage equal to {@damage 1d4} + your Intelligence modifier."
+            ]
+        }
+    ]
+}
     ],
     "optionalfeature": [
         {
