@@ -160,6 +160,46 @@
         }
     ],
     "subclass": [
+{
+            "name": "Storm Sorcery",
+            "shortName": "Storm",
+            "source": "AliFosche",
+            "className": "Sorcerer",
+            "classSource": "XPHB",
+            "page": 40,
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "feather fall|xphb",
+                            "fog cloud|xphb",
+                            "gust of wind|xphb",
+                            "rime's binding ice|ftd"
+                        ],
+                        "5": [
+                            "lightning bolt|xphb",
+                            "sleet storm|xphb"
+                        ],
+                        "7": [
+                            "control water|xphb",
+                            "otiluke's resilient sphere|phb"
+                        ],
+                        "9": [
+                            "cone of cold|xphb",
+                            "conjure elemental|xphb"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Level 3: Storm Magic|Sorcerer|XPHB|Storm|AliFosche|3",
+                "Level 3: Wind Speaker|Sorcerer|XPHB|Storm|AliFosche|3",
+                "Level 3: Tempestuous Magic|Sorcerer|XPHB|Storm|AliFosche|3",
+                "Level 6: Heart of the Storm|Sorcerer|XPHB|Storm|AliFosche|6",
+                "Level 14: Wind Soul|Sorcerer|XPHB|Storm|AliFosche|14",
+                "Level 18: Storm's Fury|Sorcerer|XPHB|Storm|AliFosche|18"
+            ]
+        },
         {
             "name": "Path of the Storm",
             "shortName": "Storm",
@@ -919,6 +959,121 @@
         }
     ],
     "subclassFeature": [
+{
+            "name": "Level 3: Storm Magic",
+            "source": "AliFosche",
+            "className": "Sorcerer",
+            "classSource": "XPHB",
+            "subclassShortName": "Storm",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "When you reach a Sorcerer level specified in the following table, you thereafter always have the listed spells prepared.",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "Sorcerer Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "3",
+                            "{@spell Feather Fall|xphb}, {@spell Fog Cloud|xphb}, {@spell Gust of Wind|xphb}, {@spell Rime's Binding Ice|ftd}"
+                        ],
+                        [
+                            "5",
+                            "{@spell Lightning Bolt|xphb}, {@spell Sleet Storm|xphb}"
+                        ],
+                        [
+                            "7",
+                            "{@spell Control Water|xphb}, {@spell Otiluke's Resilient Sphere|phb}"
+                        ],
+                        [
+                            "9",
+                            "{@spell Cone of Cold|xphb}, {@spell Conjure Elemental|xphb}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Wind Speaker",
+            "source": "AliFosche",
+            "className": "Sorcerer",
+            "classSource": "XPHB",
+            "subclassShortName": "Storm",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You know Primordial or another language of your choice. Also, as a Bonus Action you cause one of the following effects until the end of your next turn.",
+                {
+                    "type": "list",
+                    "items": [
+                        "You cause rain to start or stop falling within a 100-foot emanation.",
+                        "You make wind blow in a chosen direction within a 100-foot emanation."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Tempestuous Magic",
+            "source": "AliFosche",
+            "className": "Sorcerer",
+            "classSource": "XPHB",
+            "subclassShortName": "Storm",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "Immediately before or after you cast a Sorcerer spell of level 1+, you can fly up to 10 feet without provoking opportunity attacks and force a creature within 30 feet of you to make a Dexterity saving throw against your spell save DC or take {@damage 1d6} Lightning damage. At Sorcerer level 6 this damage becomes {@damage 2d6}, {@damage 3d6} at level 14, and {@damage 4d6} at level 18."
+            ]
+        },
+        {
+            "name": "Level 6: Heart of the Storm",
+            "source": "AliFosche",
+            "className": "Sorcerer",
+            "classSource": "XPHB",
+            "subclassShortName": "Storm",
+            "subclassSource": "AliFosche",
+            "level": 6,
+            "entries": [
+                "You gain resistance to Lightning and Thunder damage. In addition, when you use your Tempestuous Magic, you can target up to two creatures within 30 feet of you instead of one."
+            ]
+        },
+        {
+            "name": "Level 14: Wind Soul",
+            "source": "AliFosche",
+            "className": "Sorcerer",
+            "classSource": "XPHB",
+            "subclassShortName": "Storm",
+            "subclassSource": "AliFosche",
+            "level": 14,
+            "entries": [
+                "You gain 60 feet of Fly speed. As a Magic Action, you can reduce your Fly speed to 30 feet and choose a number of creatures within 60 feet of you equal to your Charisma modifier. The chosen creatures gain 30 feet of Fly speed for 8 hours."
+            ]
+        },
+        {
+            "name": "Level 18: Storm's Fury",
+            "source": "AliFosche",
+            "className": "Sorcerer",
+            "classSource": "XPHB",
+            "subclassShortName": "Storm",
+            "subclassSource": "AliFosche",
+            "level": 18,
+            "entries": [
+                "You embody the full might of a storm, you gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "You have immunity to Lightning and Thunder damage.",
+                        "If you drop to 0 Hit Points and don't die outright, you regain a number of hit points equal to your Sorcerer level. In addition, each creature of your choice within 30-foot emanation must make a Strength saving throw against your spell save DC. On a failed save, a creature takes {@damage 4d6} Thunder damage and is pushed 15 feet from you. On a success, it only takes half that damage. Once you use this feature, you cannot do so again until you finish a Long rest, unless you spend 5 Sorcery Points (no action required) to restore the use of it."
+                    ]
+                }
+            ]
+        },
         {
             "name": "Level 3: Lesser Natural Control",
             "source": "AliFosche",
