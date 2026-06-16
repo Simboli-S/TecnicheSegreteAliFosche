@@ -161,6 +161,80 @@
     ],
     "subclass": [
 {
+            "name": "Horizon Walker",
+            "shortName": "Horizon Walker",
+            "source": "AliFosche",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "page": 33,
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "protection from evil and good|xphb"
+                        ],
+                        "5": [
+                            "misty step|xphb"
+                        ],
+                        "9": [
+                            "haste|xphb"
+                        ],
+                        "13": [
+                            "gate seal"
+                        ],
+                        "17": [
+                            "teleportation circle|xphb"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Level 3: Horizon Walker Spells|Ranger|XPHB|Horizon Walker|AliFosche|3",
+                "Level 3: Planar Perception|Ranger|XPHB|Horizon Walker|AliFosche|3",
+                "Level 3: Planar Warrior|Ranger|XPHB|Horizon Walker|AliFosche|3",
+                "Level 7: Distant Strikes|Ranger|XPHB|Horizon Walker|AliFosche|7",
+                "Level 11: Ethereal Step|Ranger|XPHB|Horizon Walker|AliFosche|11",
+                "Level 15: Create Portal|Ranger|XPHB|Horizon Walker|AliFosche|15"
+            ]
+        },
+{
+            "name": "Drakewarden",
+            "shortName": "Drakewarden",
+            "source": "AliFosche",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "page": 32,
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "feather fall|xphb"
+                        ],
+                        "5": [
+                            "dragon's breath|xge"
+                        ],
+                        "9": [
+                            "fear|xphb"
+                        ],
+                        "13": [
+                            "hallucinatory terrain|xphb"
+                        ],
+                        "17": [
+                            "summon dragon|xphb"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Level 3: Drakewarden Spells|Ranger|XPHB|Drakewarden|AliFosche|3",
+                "Level 3: Draconic Gift|Ranger|XPHB|Drakewarden|AliFosche|3",
+                "Level 3: Drake Companion|Ranger|XPHB|Drakewarden|AliFosche|3",
+                "Level 7: Bond of Fang and Scale|Ranger|XPHB|Drakewarden|AliFosche|7",
+                "Level 11: Drake's Breath|Ranger|XPHB|Drakewarden|AliFosche|11",
+                "Level 15: Perfected Bond|Ranger|XPHB|Drakewarden|AliFosche|15"
+            ]
+        },
+{
             "name": "Storm Sorcery",
             "shortName": "Storm",
             "source": "AliFosche",
@@ -959,6 +1033,249 @@
         }
     ],
     "subclassFeature": [
+{
+            "name": "Level 3: Horizon Walker Spells",
+            "source": "AliFosche",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Horizon Walker",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "When you reach a Ranger level specified in the following table, you thereafter always have the listed spells always prepared.",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "Ranger Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "3",
+                            "{@spell Protection from Evil and Good|xphb}"
+                        ],
+                        [
+                            "5",
+                            "{@spell Misty Step|xphb}"
+                        ],
+                        [
+                            "9",
+                            "{@spell Haste|xphb}"
+                        ],
+                        [
+                            "13",
+                            "{@spell Gate Seal}"
+                        ],
+                        [
+                            "17",
+                            "{@spell Teleportation Circle|xphb}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Planar Perception",
+            "source": "AliFosche",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Horizon Walker",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You gain the ability to magically sense the presence of planar anomalies. As a Magic Action you gain one of the following features.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Traveler.} You know the location of each aberration, celestial, elemental, fey, or fiend within 60 feet of you.",
+                        "{@b Portal.} You detect the distance and direction to the closest portal within 1 mile of you."
+                    ]
+                },
+                "You can use this feature a number of times equal to your Wisdom modifier (minimum of once) and regain all expended uses when you finish a Long rest."
+            ]
+        },
+        {
+            "name": "Level 3: Planar Warrior",
+            "source": "AliFosche",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Horizon Walker",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You draw on the energy of the multiverse to empower your attacks. Once every turn, when you hit with a weapon, you can change all the attack's damage to force and deal {@damage 1d6} extra damage to the target. This extra damage increases to {@damage 1d8} when you reach Ranger level 11."
+            ]
+        },
+        {
+            "name": "Level 7: Distant Strikes",
+            "source": "AliFosche",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Horizon Walker",
+            "subclassSource": "AliFosche",
+            "level": 7,
+            "entries": [
+                "You gain the ability to pass between the planes in a blink of an eye. When you take the Attack Action, you can teleport up to 10 feet before or after each attack to an unoccupied space you can see. Also, if you attack two different creatures during the Attack Action, you can make one additional attack as part of the same action."
+            ]
+        },
+        {
+            "name": "Level 11: Ethereal Step",
+            "source": "AliFosche",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Horizon Walker",
+            "subclassSource": "AliFosche",
+            "level": 11,
+            "entries": [
+                "As a Bonus Action, you briefly step through the planes. Until the start of your next turn, you have a Fly speed equal to your Speed and have resistance to all damage except Force damage. You can also move through creatures and objects as if they were difficult terrain, but you take {@damage 1d10} Force damage if you end your turn inside a creature or an object. You can use this feature a number of times equal to your Wisdom modifier (minimum of once) and regain all expended uses of this feature when you finish a Long rest."
+            ]
+        },
+        {
+            "name": "Level 15: Create Portal",
+            "source": "AliFosche",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Horizon Walker",
+            "subclassSource": "AliFosche",
+            "level": 15,
+            "entries": [
+                "You can create portals to quickly teleport you and your allies. As a Magic Action you can teleport each willing creature of your choice within 10 feet of you to an unoccupied space within 500 feet of you. Once you use this feature, you can't use it again until you finish a Long rest unless you expend a level 4+ spell slot (no action required) to restore the use of it."
+            ]
+        },
+{
+            "name": "Level 3: Drakewarden Spells",
+            "source": "AliFosche",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Drakewarden",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "When you reach a Ranger level specified in the following table, you thereafter always have the listed spells always prepared.",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "Ranger Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "3",
+                            "{@spell Feather Fall|xphb}"
+                        ],
+                        [
+                            "5",
+                            "{@spell Dragon's Breath|xge}"
+                        ],
+                        [
+                            "9",
+                            "{@spell Fear|xphb}"
+                        ],
+                        [
+                            "13",
+                            "{@spell Hallucinatory Terrain|xphb}"
+                        ],
+                        [
+                            "17",
+                            "{@spell Summon Dragon|xphb}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Draconic Gift",
+            "source": "AliFosche",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Drakewarden",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "Your bond with dragons empowers your presence. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Dragon Presence.} You learn the {@spell Thaumaturgy|xphb} cantrip, it is a Ranger spell for you.",
+                        "{@b Dragon Tongue.} You know {@language Draconic} or one other language of your choice."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Drake Companion",
+            "source": "AliFosche",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Drakewarden",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You magically summon a drake, which draws strength from your bond with dragons. You choose the drake appearance, choosing one appropriate to its stat block. The drake is friendly to you and your allies and obeys your commands. It vanishes if you die.",
+                "{@b The Drake in Combat.} In combat, the drake acts during your turn. It can move and take Reactions, but the only action it takes is the Dodge action unless you take a Bonus Action to command it to take an action in its stat block or some other action. If you have the {@condition Incapacitated} condition, the drake acts on its own and isn't limited to the Dodge action.",
+                "{@b Restoring the Drake.} If the drake has died, you can take a Magic action to touch it and expend a spell slot. The drake returns to life after 1 minute with all its Hit Points restored."
+            ]
+        },
+        {
+            "name": "Level 7: Bond of Fang and Scale",
+            "source": "AliFosche",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Drakewarden",
+            "subclassSource": "AliFosche",
+            "level": 7,
+            "entries": [
+                "The bond you share with your drake intensifies, you gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Drake Mount.} The drake grows to Medium size. You can mount it if your size is Medium or smaller. While you are riding your drake, it can't use its Fly speed.",
+                        "{@b Fang Burst.} The drake attacks deal {@damage 1d6} extra damage of its Dragon Essence's type.",
+                        "{@b Shared Resistance.} You are resistant to the damage of the drake's Dragon Essence."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 11: Drake's Breath",
+            "source": "AliFosche",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Drakewarden",
+            "subclassSource": "AliFosche",
+            "level": 11,
+            "entries": [
+                "When you take the attack action, you can forgo one attack to exhale a 30-foot cone energy breath or cause your drake to exhale it. Choose Acid, Cold, Fire, Lightning or Poison damage. Each creature in the cone must make a Dexterity saving throw against your spell save DC, taking {@damage 8d6} damage on a failed save, or half as much on a successful one. Once you use this feature, you can't do so again until you finish a Long rest, unless you expend a spell slot of level 3+ to restore the use of it."
+            ]
+        },
+        {
+            "name": "Level 15: Perfected Bond",
+            "source": "AliFosche",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Drakewarden",
+            "subclassSource": "AliFosche",
+            "level": 15,
+            "entries": [
+                "While your drake is summoned, you and the drake gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Empowered Bite.} The drake's Bite attack deals an extra {@damage 2d6} damage instead of {@damage 1d6}.",
+                        "{@b Large Drake.} The drake grows to Large size and can use its fly while mounted.",
+                        "{@b Reflexive Resistance.} When you or the drake take damage while you're within 30 feet of each other, you can take a Reaction to give yourself or the drake resistance to that damage. You can do so a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long rest."
+                    ]
+                }
+            ]
+        },
 {
             "name": "Level 3: Storm Magic",
             "source": "AliFosche",
