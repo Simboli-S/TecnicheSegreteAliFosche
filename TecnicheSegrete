@@ -384,6 +384,7 @@
                 }
             ],
             "subclassFeatures": [
+                "Level 3: Twilight Domain Spells|Cleric|XPHB|Twilight|AliFosche|3",
                 "Level 3: Eyes of Night|Cleric|XPHB|Twilight|AliFosche|3",
                 "Level 3: Twilight Sanctuary|Cleric|XPHB|Twilight|AliFosche|3",
                 "Level 6: Improved Sanctuary|Cleric|XPHB|Twilight|AliFosche|6",
@@ -2085,6 +2086,48 @@
                                 "A willing creature you touch permanently appears {@dice 3d10} years younger, to a minimum of young adulthood."
                             ]
                         }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Twilight Domain Spells",
+            "source": "AliFosche",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "subclassShortName": "Twilight",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You gain domain spells at the cleric levels listed in the Twilight Domain Spells table. See the Divine Domain class feature for how domain spells work.",
+                {
+                    "type": "table",
+                    "caption": "Twilight Domain Spells",
+                    "colLabels": [
+                        "Cleric Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "3",
+                            "{@spell Faerie Fire|xphb}, {@spell Moonbeam|xphb}, {@spell Sleep|xphb}, {@spell See Invisibility|xphb}"
+                        ],
+                        [
+                            "5",
+                            "{@spell Aura of Vitality|xphb}, {@spell Tiny Hut|xphb|Leomund's Tiny Hut}"
+                        ],
+                        [
+                            "7",
+                            "{@spell Aura of Life|xphb}, {@spell Greater Invisibility|xphb}"
+                        ],
+                        [
+                            "9",
+                            "{@spell Circle of Power|xphb}, {@spell Mislead|xphb}"
+                        ]
                     ]
                 }
             ]
