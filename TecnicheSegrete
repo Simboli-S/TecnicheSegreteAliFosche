@@ -21,6 +21,181 @@
         "dateLastModified": 1750074345
     },
 "item": [
+{
+            "name": "Drow Poison (TAF)",
+            "source": "AliFosche",
+            "type": "G",
+            "rarity": "common",
+            "entries": [
+                "{@i Injure:} A creature subjected to this poison must succeed on a DC 12 Constitution save or be {@condition poisoned} for 1 minute. If the saving throw fails by 5 or more, the creature is also {@condition unconscious} while {@condition poisoned} in this way. An {@condition unconscious} creature loses this condition if it takes damage or if another creature takes an action to shake it."
+            ]
+        },
+        {
+            "name": "Toxic Vial (TAF)",
+            "source": "AliFosche",
+            "type": "G",
+            "rarity": "common",
+            "entries": [
+                "{@i Inhaled:} A creature hit by this poison and each creature within 5 feet must succeed on a DC 12 Constitution save. On a failed save it takes {@damage 2d8} poison damage and becomes {@condition poisoned} for 1 minute, on a successful save it takes only half damage. A {@condition poisoned} creature must repeat the saving throw at the end of each of its turns ending the effect on a success."
+            ]
+        },
+        {
+            "name": "Truth Serum (TAF)",
+            "source": "AliFosche",
+            "type": "G",
+            "rarity": "common",
+            "entries": [
+                "{@i Ingested:} A creature hit by this poison must succeed on a DC 12 Constitution saving throw or become {@condition poisoned} for 1 hour. The {@condition poisoned} creature can't knowingly speak a lie, as if under the effect of a {@spell zone of truth} spell."
+            ]
+        },
+        {
+            "name": "Ethereal Agony (TAF)",
+            "source": "AliFosche",
+            "type": "G",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Inhaled:} A creature hit by this poison and each creature within 5 feet of it takes {@damage 2d6} poison damage and is {@condition poisoned} for 1 minute. At the start of each of its turns, a {@condition poisoned} creature takes {@damage 1d6} poison damage and must make a Constitution saving throw (DC 14) ending the effect on a success."
+            ]
+        },
+        {
+            "name": "Grung Touch (TAF)",
+            "source": "AliFosche",
+            "type": "G",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Injury:} For 1 minute, a creature subjected to this poison must roll {@dice 1d4} at the start of its turn to determine the effect it suffers. At the end of its turn, the target must make a Wisdom save (DC 14), ending the effect early on a success.",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "Dice Result",
+                        "Poison Effect"
+                    ],
+                    "colStyles": [
+                        "col-2 text-center",
+                        "col-10"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "The target is {@condition poisoned} and must scream loud, while it screams it can't cast spells with verbal components."
+                        ],
+                        [
+                            "2",
+                            "The target is {@condition poisoned} and can move only by climbing, if it has a flying speed it can't take actions or reactions until it lands."
+                        ],
+                        [
+                            "3",
+                            "The target is {@condition poisoned} and must soak itself in liquid, it must use its turn to move into a body of water or do nothing in its turn."
+                        ],
+                        [
+                            "4",
+                            "The creature is {@condition poisoned} and must use its action to eat the nearest food."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Torpor (TAF)",
+            "source": "AliFosche",
+            "type": "G",
+            "rarity": "uncommon",
+            "entries": [
+                "{@i Ingested:} A creature subjected to this poison must succeed on a Intelligence saving throw (DC 14) or become {@condition poisoned} for {@dice 2d4} hours. While {@condition poisoned} in this way a creature is also {@condition unconscious}."
+            ]
+        },
+        {
+            "name": "Hallucinating Spore (TAF)",
+            "source": "AliFosche",
+            "type": "G",
+            "rarity": "rare",
+            "entries": [
+                "{@i Inhaled:} A creature hit by this poison and each creature within 5 feet of it must make a Wisdom save (DC 16). On a failed save it takes {@damage 3d10} psychic damage and becomes {@condition blinded} for 10 minutes, on a successful save it only takes half that damage. A creature {@condition blinded} in this way must repeat the saving throw at the end of each of its turns, ending the effect on a success."
+            ]
+        },
+        {
+            "name": "Midnight Tears (TAF)",
+            "source": "AliFosche",
+            "type": "G",
+            "rarity": "rare",
+            "entries": [
+                "{@i Ingested:} A creature that ingests this poison suffers no effect until the stroke of midnight. If the poison has not been neutralized before then, the creature must succeed on a Constitution save (DC 16), taking {@damage 10d6} acid damage on a failed save, or half as much damage on a success."
+            ]
+        },
+        {
+            "name": "Wild Magic Poison (TAF)",
+            "source": "AliFosche",
+            "type": "G",
+            "rarity": "rare",
+            "entries": [
+                "{@i Injure:} A creature subjected to this poison suffers one of the effects described in the following table (roll {@dice 1d4} to determine the effect).",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "Dice Result",
+                        "Poison Effect"
+                    ],
+                    "colStyles": [
+                        "col-2 text-center",
+                        "col-10"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "It must succeed on a Constitution save (DC 16). It takes {@damage 5d10} lightning damage on a failed save, or half as much on a successful save."
+                        ],
+                        [
+                            "2",
+                            "It must succeed on a Wisdom save (DC 16) or use its turn to move within 5 feet of its nearest ally and make an attack against it."
+                        ],
+                        [
+                            "3",
+                            "It must succeed on a Constitution save (DC 16). On a failed save it is {@condition stunned} until the end of its next turn. On a successful save it is {@condition incapacitated} until the end of its next turn."
+                        ],
+                        [
+                            "4",
+                            "The target takes {@damage 3d10} lightning damage and must succeed on a Constitution save (DC 16) or become {@condition restrained} until the end of its next turn."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Yugoloth Blood (TAF)",
+            "source": "AliFosche",
+            "type": "G",
+            "rarity": "rare",
+            "entries": [
+                "{@i Injure:} A creature hit by this poison must succeed on a Constitution save (DC 16). On a failed save, it takes {@damage 5d8} necrotic damage and is {@condition poisoned} for 1 minute, on a successful save it only takes half that damage. It must repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+            ]
+        },
+        {
+            "name": "Avernus' Kiss (TAF)",
+            "source": "AliFosche",
+            "type": "G",
+            "rarity": "very rare",
+            "entries": [
+                "{@i Injure:} A creature subjected to this poison takes {@damage 6d6} fire damage. For 1 minute, at the start of its turn, the creature takes {@damage 6d6} fire damage and must make a Constitution save (DC 18) ending this effect on a success."
+            ]
+        },
+        {
+            "name": "Black Dragon Breath (TAF)",
+            "source": "AliFosche",
+            "type": "G",
+            "rarity": "very rare",
+            "entries": [
+                "{@i Inhaled:} A creature hit by this poison and each creature within 10 feet of it, must succeed on a Constitution save DC 18 taking {@damage 10d8} acid damage on a failed save, or half as much damage on a successful one."
+            ]
+        },
+        {
+            "name": "Lolth Bite (TAF)",
+            "source": "AliFosche",
+            "type": "G",
+            "rarity": "very rare",
+            "entries": [
+                "{@i Injure:} A creature subjected to this poison takes {@damage 8d8} necrotic damage and must make Wisdom save (DC 18), or become {@condition incapacitated} and have its speed reduced to 0 for 1 hour. At the end of each of its turns, it can repeat the saving throw ending the effect on a success."
+            ]
+        },
         {
             "name": "Blade of Immolation",
             "source": "AliFosche",
