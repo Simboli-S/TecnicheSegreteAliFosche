@@ -483,65 +483,65 @@
     ],
     "subclass": [
 {
-    "name": "Inquisitive",
-    "shortName": "Inquisitive",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "page": 1,
-    "subclassFeatures": [
-        "Level 3: Insightful Fighting|Rogue|XPHB|Inquisitive|AliFosche|3",
-        "Level 3: Steady Senses|Rogue|XPHB|Inquisitive|AliFosche|3",
-        "Level 9: Insightful Strikes|Rogue|XPHB|Inquisitive|AliFosche|9",
-        "Level 13: Unerring Eye|Rogue|XPHB|Inquisitive|AliFosche|13",
-        "Level 17: Eye for Weakness|Rogue|XPHB|Inquisitive|AliFosche|17"
-    ]
-},
-{
-    "name": "Mastermind",
-    "shortName": "Mastermind",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "page": 1,
-    "subclassFeatures": [
-        "Level 3: Master of Intrigue|Rogue|XPHB|Mastermind|AliFosche|3",
-        "Level 3: Master of Tactics|Rogue|XPHB|Mastermind|AliFosche|3",
-        "Level 9: Superior Tactics|Rogue|XPHB|Mastermind|AliFosche|9",
-        "Level 13: Misdirection|Rogue|XPHB|Mastermind|AliFosche|13",
-        "Level 17: Final Tactic|Rogue|XPHB|Mastermind|AliFosche|17"
-    ]
-},
-{
-    "name": "Scout",
-    "shortName": "Scout",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "page": 1,
-    "subclassFeatures": [
-        "Level 3: Skirmisher|Rogue|XPHB|Scout|AliFosche|3",
-        "Level 3: Survivalist|Rogue|XPHB|Scout|AliFosche|3",
-        "Level 9: Superior Mobility|Rogue|XPHB|Scout|AliFosche|9",
-        "Level 13: Ambush Master|Rogue|XPHB|Scout|AliFosche|13",
-        "Level 17: Sudden Strike|Rogue|XPHB|Scout|AliFosche|17"
-    ]
-},
-{
-    "name": "Swashbuckler",
-    "shortName": "Swashbuckler",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "page": 1,
-    "subclassFeatures": [
-        "Level 3: Fancy Footwork|Rogue|XPHB|Swashbuckler|AliFosche|3",
-        "Level 3: Rakish Audacity|Rogue|XPHB|Swashbuckler|AliFosche|3",
-        "Level 9: Panache|Rogue|XPHB|Swashbuckler|AliFosche|9",
-        "Level 13: Dashing Strikes|Rogue|XPHB|Swashbuckler|AliFosche|13",
-        "Level 17: Master Duelist|Rogue|XPHB|Swashbuckler|AliFosche|17"
-    ]
-},
+        "name": "Inquisitive",
+        "shortName": "Inquisitive",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "page": 1,
+        "subclassFeatures": [
+            "Level 3: Insightful Fighting|Rogue|XPHB|Inquisitive|AliFosche|3",
+            "Level 3: Steady Senses|Rogue|XPHB|Inquisitive|AliFosche|3",
+            "Level 9: Insightful Strikes|Rogue|XPHB|Inquisitive|AliFosche|9",
+            "Level 13: Unerring Eye|Rogue|XPHB|Inquisitive|AliFosche|13",
+            "Level 17: Eye for Weakness|Rogue|XPHB|Inquisitive|AliFosche|17"
+        ]
+    },
+    {
+        "name": "Mastermind",
+        "shortName": "Mastermind",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "page": 1,
+        "subclassFeatures": [
+            "Level 3: Master of Intrigue|Rogue|XPHB|Mastermind|AliFosche|3",
+            "Level 3: Master of Tactics|Rogue|XPHB|Mastermind|AliFosche|3",
+            "Level 9: Superior Tactics|Rogue|XPHB|Mastermind|AliFosche|9",
+            "Level 13: Misdirection|Rogue|XPHB|Mastermind|AliFosche|13",
+            "Level 17: Final Tactic|Rogue|XPHB|Mastermind|AliFosche|17"
+        ]
+    },
+    {
+        "name": "Scout",
+        "shortName": "Scout",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "page": 1,
+        "subclassFeatures": [
+            "Level 3: Skirmisher|Rogue|XPHB|Scout|AliFosche|3",
+            "Level 3: Survivalist|Rogue|XPHB|Scout|AliFosche|3",
+            "Level 9: Superior Mobility|Rogue|XPHB|Scout|AliFosche|9",
+            "Level 13: Ambush Master|Rogue|XPHB|Scout|AliFosche|13",
+            "Level 17: Sudden Strike|Rogue|XPHB|Scout|AliFosche|17"
+        ]
+    },
+    {
+        "name": "Swashbuckler",
+        "shortName": "Swashbuckler",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "page": 1,
+        "subclassFeatures": [
+            "Level 3: Fancy Footwork|Rogue|XPHB|Swashbuckler|AliFosche|3",
+            "Level 3: Rakish Audacity|Rogue|XPHB|Swashbuckler|AliFosche|3",
+            "Level 9: Panache|Rogue|XPHB|Swashbuckler|AliFosche|9",
+            "Level 13: Dashing Strikes|Rogue|XPHB|Swashbuckler|AliFosche|13",
+            "Level 17: Master Duelist|Rogue|XPHB|Swashbuckler|AliFosche|17"
+        ]
+    },
 {
             "name": "Horizon Walker",
             "shortName": "Horizon Walker",
@@ -1162,406 +1162,6 @@
         }
     ],
     "classFeature": [
-{
-    "name": "Level 3: Insightful Fighting",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Inquisitive",
-    "subclassSource": "AliFosche",
-    "level": 3,
-    "entries": [
-        "You can decipher a creature's tactics to counter them. When you deal your Sneak Attack damage to a creature, you gain the following benefits for 10 minutes.",
-        {
-            "type": "list",
-            "items": [
-                "When you deal Sneak Attack damage against the target, you deal {@damage 1d6} extra damage.",
-                "You know whether the target has any resistances or immunities and what they are."
-            ]
-        },
-        "You can use this feature a number of times equal to your Dexterity modifier (minimum of once) and regain all expended uses when you finish a Long Rest."
-    ]
-},
-{
-    "name": "Level 3: Steady Senses",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Inquisitive",
-    "subclassSource": "AliFosche",
-    "level": 3,
-    "entries": [
-        "You developed a talent to unravel lies and secrets. You gain the following benefits.",
-        {
-            "type": "list",
-            "items": [
-                {
-                    "type": "item",
-                    "name": "Adept Detective",
-                    "entries": [
-                        "You gain proficiency in {@skill Insight} or {@skill Investigation} checks."
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "Supernatural Perception",
-                    "entries": [
-                        "You can cast either {@spell Detect Magic|xphb} or {@spell Identify|xphb} without expending a spell slot a number of times equal to your Dexterity modifier (minimum of once) and regain all expended uses when you finish a Long rest."
-                    ]
-                }
-            ]
-        }
-    ]
-},
-{
-    "name": "Level 9: Insightful Strikes",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Inquisitive",
-    "subclassSource": "AliFosche",
-    "level": 9,
-    "entries": [
-        "The following effects are added to your Cunning Strike options.",
-        {
-            "type": "list",
-            "items": [
-                {
-                    "type": "item",
-                    "name": "Bleed Out (Cost: 3d6)",
-                    "entries": [
-                        "For 1 minute, the target takes {@damage 3d4} Necrotic damage at the start of its turn. At the end of each of its turns, it must make a Constitution saving throw, ending the effect on a success."
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "Weaken (Cost: 2d6)",
-                    "entries": [
-                        "The target must succeed on a Dexterity saving throw. On a failed save, it has disadvantage on Strength-based D20 Tests and subtracts {@dice 1d6} from all its damage rolls until the end of its next turn."
-                    ]
-                }
-            ]
-        }
-    ]
-},
-{
-    "name": "Level 13: Unerring Eye",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Inquisitive",
-    "subclassSource": "AliFosche",
-    "level": 13,
-    "entries": [
-        "As an action, you gain Truesight with a range of 30 feet for 10 minutes. Once you use this feature, you can't do so again until you finish a Short or Long rest."
-    ]
-},
-{
-    "name": "Level 17: Eye for Weakness",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Inquisitive",
-    "subclassSource": "AliFosche",
-    "level": 17,
-    "entries": [
-        "You know how to exploit a creature's weaknesses by carefully studying its tactics. The extra damage dealt by Insightful Fighting increases to {@damage 3d6}."
-    ]
-},
-{
-    "name": "Level 3: Master of Intrigue",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Mastermind",
-    "subclassSource": "AliFosche",
-    "level": 3,
-    "entries": [
-        "You gain proficiency with the {@item disguise kit|xphb} and the {@item forgery kit|xphb}. Moreover, you gain proficiency in the {@skill Deception} skill and can unerringly mimic the voice and accent of a creature that you hear speak for 1 minute. A creature is able to know you're faking with a Wisdom ({@skill Insight}) check contested by your Charisma ({@skill Deception})."
-    ]
-},
-{
-    "name": "Level 3: Master of Tactics",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Mastermind",
-    "subclassSource": "AliFosche",
-    "level": 3,
-    "entries": [
-        "Once every turn, you can use one of the following options:",
-        {
-            "type": "list",
-            "items": [
-                {
-                    "type": "item",
-                    "name": "Pawn's Opening",
-                    "entries": [
-                        "Immediately after you deal your Sneak Attack damage, you can take the Help action on a creature within 30 feet of you (no action required)."
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "Knight's Defense",
-                    "entries": [
-                        "Immediately after you deal your Sneak Attack damage, a creature of your choice within 30 feet of you can use its reaction to move up to half its speed without provoking opportunity attacks."
-                    ]
-                }
-            ]
-        }
-    ]
-},
-{
-    "name": "Level 9: Superior Tactics",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Mastermind",
-    "subclassSource": "AliFosche",
-    "level": 9,
-    "entries": [
-        "The following effects are added to your Cunning Strike options.",
-        {
-            "type": "list",
-            "items": [
-                {
-                    "type": "item",
-                    "name": "Rook's Castling (Cost: 1d6)",
-                    "entries": [
-                        "You push the target of the attack up to 10 feet away from you in a straight line, provided that it is up to one size larger than you."
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "Bishop's Check (Cost: 2d6)",
-                    "entries": [
-                        "The target has disadvantage on the first saving throw it makes before the end of its next turn."
-                    ]
-                }
-            ]
-        }
-    ]
-},
-{
-    "name": "Level 13: Misdirection",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Mastermind",
-    "subclassSource": "AliFosche",
-    "level": 13,
-    "entries": [
-        "You've become the perfect schemer. You gain the following benefits:",
-        {
-            "type": "list",
-            "items": [
-                "When a creature reads your mind, you can present false thoughts by succeeding on a Charisma ({@skill Deception}) check contested by a Wisdom ({@skill Insight}) check.",
-                "When you use Uncanny Dodge, you can choose a creature within 5 feet of you and force it to take the same amount of damage you take."
-            ]
-        }
-    ]
-},
-{
-    "name": "Level 17: Final Tactic",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Mastermind",
-    "subclassSource": "AliFosche",
-    "level": 17,
-    "entries": [
-        "The following effect is added to your Cunning Strike options.",
-        {
-            "type": "list",
-            "items": [
-                {
-                    "type": "item",
-                    "name": "King's Gambit (Cost: 6d6)",
-                    "entries": [
-                        "Both you and the target of your Sneak Attack become vulnerable to the next instance of damage you take before the start of your next turn."
-                    ]
-                }
-            ]
-        }
-    ]
-},
-{
-    "name": "Level 3: Skirmisher",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Scout",
-    "subclassSource": "AliFosche",
-    "level": 3,
-    "entries": [
-        "You are difficult to pin down. When an enemy ends its turn within 5 feet of you, you can take a Reaction to move up to your Speed without provoking opportunity attacks."
-    ]
-},
-{
-    "name": "Level 3: Survivalist",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Scout",
-    "subclassSource": "AliFosche",
-    "level": 3,
-    "entries": [
-        "You gain proficiency and expertise in the {@skill Nature} and {@skill Survival} skills."
-    ]
-},
-{
-    "name": "Level 9: Superior Mobility",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Scout",
-    "subclassSource": "AliFosche",
-    "level": 9,
-    "entries": [
-        "You move fast while surrounded and slash through your foes with every step. Your speed increases by 10 feet. Also, any creature of your choice takes {@damage 1d6} Slashing damage when you enter a space within 5 feet of it. A creature can take this damage only once per turn."
-    ]
-},
-{
-    "name": "Level 13: Ambush Master",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Scout",
-    "subclassSource": "AliFosche",
-    "level": 13,
-    "entries": [
-        "The following effects are added to your Cunning Strike options.",
-        {
-            "type": "list",
-            "items": [
-                {
-                    "type": "item",
-                    "name": "Smoke Cloud (Cost: 1d6)",
-                    "entries": [
-                        "You create a 10-foot radius sphere of smoke centered on the target of your attack. The smoke lasts until the end of your next turn."
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "Ambush (Cost: 2d6)",
-                    "entries": [
-                        "Until the start of your next turn, each attack made against the target of your Sneak Attack gains advantage."
-                    ]
-                }
-            ]
-        }
-    ]
-},
-{
-    "name": "Level 17: Sudden Strike",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Scout",
-    "subclassSource": "AliFosche",
-    "level": 17,
-    "entries": [
-        "You can strike with deadly speed. If you take the Attack Action on your turn, you can make one additional attack as a Bonus Action. This attack can benefit from your Sneak Attack even if you have already used it this turn, but you can't use your Sneak Attack against the same target more than once in a turn."
-    ]
-},
-{
-    "name": "Level 3: Fancy Footwork",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Swashbuckler",
-    "subclassSource": "AliFosche",
-    "level": 3,
-    "entries": [
-        "You learn how to land a strike and then slip away without reprisal. During your turn, if you make a melee attack against a creature, it can't make opportunity attacks against you until the end of your turn."
-    ]
-},
-{
-    "name": "Level 3: Rakish Audacity",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Swashbuckler",
-    "subclassSource": "AliFosche",
-    "level": 3,
-    "entries": [
-        "Your confidence propels you into battle. When you roll initiative, you can add your Charisma modifier to the roll. Also, you gain an additional way to use your Sneak Attack. You don't need advantage to use Sneak Attack against a creature if you are within 5 feet of it, no other creatures are within 5 feet of you, and you don't have disadvantage on the attack roll."
-    ]
-},
-{
-    "name": "Level 9: Panache",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Swashbuckler",
-    "subclassSource": "AliFosche",
-    "level": 9,
-    "entries": [
-        "Your charm becomes extremely beguiling. As a Bonus Action, you can force a creature within 30 feet to make a Wisdom saving throw (DC equals 8 plus your Dexterity modifier and your Proficiency Bonus). On a failed save the creature suffers one of the following effects.",
-        {
-            "type": "list",
-            "items": [
-                {
-                    "type": "item",
-                    "name": "Awe",
-                    "entries": [
-                        "A friendly creature is {@condition charmed} by you for 10 minutes."
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "Provoke",
-                    "entries": [
-                        "A hostile creature has disadvantage on all attack rolls against creatures other than you."
-                    ]
-                }
-            ]
-        }
-    ]
-},
-{
-    "name": "Level 13: Dashing Strikes",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Swashbuckler",
-    "subclassSource": "AliFosche",
-    "level": 13,
-    "entries": [
-        "The following effects are added to your Cunning Strike options.",
-        {
-            "type": "list",
-            "items": [
-                {
-                    "type": "item",
-                    "name": "Parrying Stance (Cost: 2d6)",
-                    "entries": [
-                        "You roll {@dice 1d6} and add its result as a bonus to your Armor Class until the start of your next turn."
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "Invigorate (Cost: 2d6)",
-                    "entries": [
-                        "A creature within 30 feet of you can add {@dice 1d6} to its D20 Tests until the end of its next turn."
-                    ]
-                }
-            ]
-        }
-    ]
-},
-{
-    "name": "Level 17: Master Duelist",
-    "source": "AliFosche",
-    "className": "Rogue",
-    "classSource": "XPHB",
-    "subclassShortName": "Swashbuckler",
-    "subclassSource": "AliFosche",
-    "level": 17,
-    "entries": [
-        "Immediately after you deal your Sneak Attack damage to a creature, you can make an attack with a melee weapon against that creature as part of the same action."
-    ]
-},
         {
             "name": "Magical Tinkering",
             "source": "AliFosche",
@@ -1815,6 +1415,316 @@
         }
     ],
     "subclassFeature": [
+{
+        "name": "Level 3: Insightful Fighting",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Inquisitive",
+        "subclassSource": "AliFosche",
+        "level": 3,
+        "entries": [
+            "You can decipher a creature's tactics to counter them. When you deal your Sneak Attack damage to a creature, you gain the following benefits for 10 minutes.",
+            {
+                "type": "list",
+                "items": [
+                    "When you deal Sneak Attack damage against the target, you deal {@damage 1d6} extra damage.",
+                    "You know whether the target has any resistances or immunities and what they are."
+                ]
+            },
+            "You can use this feature a number of times equal to your Dexterity modifier (minimum of once) and regain all expended uses when you finish a Long Rest."
+        ]
+    },
+    {
+        "name": "Level 3: Steady Senses",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Inquisitive",
+        "subclassSource": "AliFosche",
+        "level": 3,
+        "entries": [
+            "You developed a talent to unravel lies and secrets. You gain the following benefits.",
+            {
+                "type": "list",
+                "items": [
+                    "{@b Adept Detective.} You gain proficiency in {@skill Insight} or {@skill Investigation} checks.",
+                    "{@b Supernatural Perception.} You can cast either {@spell Detect Magic|xphb} or {@spell Identify|xphb} without expending a spell slot a number of times equal to your Dexterity modifier (minimum of once) and regain all expended uses when you finish a Long rest."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Level 9: Insightful Strikes",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Inquisitive",
+        "subclassSource": "AliFosche",
+        "level": 9,
+        "entries": [
+            "The following effects are added to your Cunning Strike options.",
+            {
+                "type": "list",
+                "items": [
+                    "{@b Bleed Out (Cost: 3d6).} For 1 minute, the target takes {@damage 3d4} necrotic damage at the start of its turn. At the end of each of its turns, it must make a Constitution saving throw, ending the effect on a success.",
+                    "{@b Weaken (Costs: 2d6).} The target must succeed on a Dexterity saving throw. On a failed save, it has disadvantage on Strength–based D20 Tests and subtracts {@dice 1d6} from all its damage rolls until the end of its next turn."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Level 13: Unerring Eye",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Inquisitive",
+        "subclassSource": "AliFosche",
+        "level": 13,
+        "entries": [
+            "As an action, you gain Truesight with a range of 30 feet for 10 minutes. Once you use this feature, you can’t do so again until you finish a Short or Long rest."
+        ]
+    },
+    {
+        "name": "Level 17: Eye for Weakness",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Inquisitive",
+        "subclassSource": "AliFosche",
+        "level": 17,
+        "entries": [
+            "You know how to exploit a creature's weaknesses by carefully studying its tactics. The extra damage dealt by Insightful Fighting increases to {@damage 3d6}."
+        ]
+    },
+    {
+        "name": "Level 3: Master of Intrigue",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Mastermind",
+        "subclassSource": "AliFosche",
+        "level": 3,
+        "entries": [
+            "You gain proficiency with the {@item disguise kit|xphb} and the {@item forgery kit|xphb}. Moreover, you gain proficiency in the {@skill Deception} skill and can unerringly mimic the voice and accent of a creature that you hear speak for 1 minute. A creature is able to know you’re faking with a Wisdom ({@skill Insight}) check contested by your Charisma ({@skill Deception})."
+        ]
+    },
+    {
+        "name": "Level 3: Master of Tactics",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Mastermind",
+        "subclassSource": "AliFosche",
+        "level": 3,
+        "entries": [
+            "Once every turn, you can use one of the following options:",
+            {
+                "type": "list",
+                "items": [
+                    "{@b Pawn’s Opening.} Immediately after you deal your Sneak Attack damage, you can take the {@action Help} action on a creature within 30 feet of you (no action required).",
+                    "{@b Knight’s Defense.} Immediately after you deal your Sneak Attack damage, a creature of your choice within 30 feet of you can use its reaction to move up to half its speed without provoking opportunity attacks."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Level 9: Superior Tactics",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Mastermind",
+        "subclassSource": "AliFosche",
+        "level": 9,
+        "entries": [
+            "The following effects are added to your Cunning Strike options.",
+            {
+                "type": "list",
+                "items": [
+                    "{@b Rook’s Castling (Cost: 1d6).} You push the target of the attack up to 10 feet away from you in a straight line, provided that it is up to one size larger than you.",
+                    "{@b Bishop’s Check (Cost: 2d6).} The target has disadvantage on the first saving throw it makes before the end of its next turn."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Level 13: Misdirection",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Mastermind",
+        "subclassSource": "AliFosche",
+        "level": 13,
+        "entries": [
+            "You’ve become the perfect schemer. You gain the following benefits:",
+            {
+                "type": "list",
+                "items": [
+                    "When a creature reads your mind, you can present false thoughts by succeeding on a Charisma ({@skill Deception}) check contested by a Wisdom ({@skill Insight}) check.",
+                    "When you use Uncanny Dodge, you can choose a creature within 5 feet of you and force it to take the same amount of damage you take."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Level 17: Final Tactic",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Mastermind",
+        "subclassSource": "AliFosche",
+        "level": 17,
+        "entries": [
+            "The following effect is added to your Cunning Strike options.",
+            {
+                "type": "list",
+                "items": [
+                    "{@b King’s Gambit (6d6).} Both you and the target of your Sneak Attack become vulnerable to the next instance of damage you take before the start of your next turn."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Level 3: Skirmisher",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Scout",
+        "subclassSource": "AliFosche",
+        "level": 3,
+        "entries": [
+            "You are difficult to pin down. When an enemy ends its turn within 5 feet of you, you can take a Reaction to move up to your Speed without provoking opportunity attacks."
+        ]
+    },
+    {
+        "name": "Level 3: Survivalist",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Scout",
+        "subclassSource": "AliFosche",
+        "level": 3,
+        "entries": [
+            "You gain proficiency and expertise in the {@skill Nature} and {@skill Survival} skills."
+        ]
+    },
+    {
+        "name": "Level 9: Superior Mobility",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Scout",
+        "subclassSource": "AliFosche",
+        "level": 9,
+        "entries": [
+            "You move fast while surrounded and slash through your foes with every step. Your speed increases by 10 feet. Also, any creature of your choice takes {@damage 1d6} slashing damage when you enter a space within 5 feet of it. A creature can take this damage only once per turn."
+        ]
+    },
+    {
+        "name": "Level 13: Ambush Master",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Scout",
+        "subclassSource": "AliFosche",
+        "level": 13,
+        "entries": [
+            "The following effects are added to your Cunning Strike options.",
+            {
+                "type": "list",
+                "items": [
+                    "{@b Smoke Cloud (Cost: 1d6).} You create a 10–foot radius sphere centered on the target of your attack. The smoke lasts until the end of your next turn.",
+                    "{@b Ambush (Costs: 2d6).} Until the start of your next turn, each attack made against the target of your Sneak Attack gains advantage."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Level 17: Sudden Strike",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Scout",
+        "subclassSource": "AliFosche",
+        "level": 17,
+        "entries": [
+            "You can strike with deadly speed. If you take the {@action Attack} Action on your turn, you can make one additional attack as a Bonus Action. This attack can benefit from your Sneak Attack even if you have already used it this turn, but you can't use your Sneak Attack against the same target more than once in a turn."
+        ]
+    },
+    {
+        "name": "Level 3: Fancy Footwork",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Swashbuckler",
+        "subclassSource": "AliFosche",
+        "level": 3,
+        "entries": [
+            "You learn how to land a strike and then slip away without reprisal. During your turn, if you make a melee attack against a creature, it can't make opportunity attacks against you until the end of your turn."
+        ]
+    },
+    {
+        "name": "Level 3: Rakish Audacity",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Swashbuckler",
+        "subclassSource": "AliFosche",
+        "level": 3,
+        "entries": [
+            "Your confidence propels you into battle. When you roll initiative, you can add your Charisma modifier to the roll. Also, you gain an additional way to use your Sneak Attack. You don't need advantage to use Sneak Attack against a creature if you are within 5 feet of it, no other creatures are within 5 feet of you, and you don't have disadvantage on the attack roll."
+        ]
+    },
+    {
+        "name": "Level 9: Panache",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Swashbuckler",
+        "subclassSource": "AliFosche",
+        "level": 9,
+        "entries": [
+            "Your charm becomes extremely beguiling. As a Bonus Action, you can force a creature within 30 feet to make a Wisdom saving throw (DC equals 8 plus your Dexterity modifier and your Proficiency Bonus). On a failed save the creature suffers one of the following effects.",
+            {
+                "type": "list",
+                "items": [
+                    "{@b Awe.} A friendly creature is {@condition charmed} by you for 10 minutes.",
+                    "{@b Provoke.} An hostile creature has disadvantage on all attack rolls against creatures other than you."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Level 13: Dashing Strikes",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Swashbuckler",
+        "subclassSource": "AliFosche",
+        "level": 13,
+        "entries": [
+            "The following effects are added to your Cunning Strike options.",
+            {
+                "type": "list",
+                "items": [
+                    "{@b Parrying Stance (Cost: 2d6).} You roll {@dice 1d6} and add its result as a bonus to your armor class until the start of your next turn.",
+                    "{@b Invigorate (Costs: 2d6).} A creature within 30 feet of you, can add {@dice 1d6} to its D20 tests until the end of its next turn."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Level 17: Master Duelist",
+        "source": "AliFosche",
+        "className": "Rogue",
+        "classSource": "XPHB",
+        "subclassShortName": "Swashbuckler",
+        "subclassSource": "AliFosche",
+        "level": 17,
+        "entries": [
+            "Immediately after, you deal your Sneak Attack damage to a creature, you can make an attack with a melee weapon against that creature as part of the same action."
+        ]
+    },
 {
             "name": "Level 3: Horizon Walker Spells",
             "source": "AliFosche",
