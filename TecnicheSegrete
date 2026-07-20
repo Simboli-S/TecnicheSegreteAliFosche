@@ -201,7 +201,7 @@
             "source": "AliFosche",
             "type": "M",
             "rarity": "rare",
-            "bonusWeapon": "+1",
+            "bonusWeapon": true,
             "entries": [
                 "You gain a +1 bonus to attack and damage rolls made with this weapon, and on a hit, it deals an extra {@damage 1d6} fire damage. When you score a critical hit using this weapon, the target also has the {@condition restrained} condition until the end of its next turn, as fiery bands lash around it.",
                 "{@b Invoking the Rune.} When you hit with this weapon, you can use your reaction to invoke its rune. Doing so increases the extra fire damage dealt to {@damage 2d6}. Once the rune has been invoked, it can't be invoked again until the next dawn."
@@ -213,7 +213,7 @@
             "type": "R",
             "rarity": "rare",
             "reqAttune": true,
-            "bonusWeapon": "+1",
+            "bonusWeapon": true,
             "entries": [
                 "Ammunition fired from this bow blazes brightly. You gain a +1 bonus to attack and damage rolls made using the weapon. When you hit using this weapon, the target and each creature of your choice within 5 feet of it takes {@damage 1d6} force damage."
             ]
@@ -264,7 +264,7 @@
             "type": "M",
             "rarity": "very rare",
             "reqAttune": true,
-            "bonusWeapon": "+2",
+            "bonusWeapon": true,
             "entries": [
                 "You gain a +2 bonus to attack and damage rolls made with this magic weapon. The blade has 6 charges and regains {@dice 1d6} expended charges daily at dawn.",
                 "{@b Fool's Feint.} You can feint to target your enemy’s weak points. When you hit a creature with this weapon, you can spend 1 charge to deal {@damage 2d12} extra psychic damage.",
@@ -482,6 +482,189 @@
         }
     ],
     "subclass": [
+{
+        "name": "Circle of the Shepherd",
+        "shortName": "Shepherd",
+        "source": "AliFosche",
+        "className": "Druid",
+        "classSource": "XPHB",
+        "page": 1,
+        "subclassFeatures": [
+            "Level 3: Speech of the Woods|Druid|XPHB|Shepherd|AliFosche|3",
+            "Level 3: Spirit Totem|Druid|XPHB|Shepherd|AliFosche|3",
+            "Level 6: Mighty Summoner|Druid|XPHB|Shepherd|AliFosche|6",
+            "Level 10: Guardian Spirit|Druid|XPHB|Shepherd|AliFosche|10",
+            "Level 14: Faithful Summons|Druid|XPHB|Shepherd|AliFosche|14"
+        ]
+    },
+    {
+        "name": "Circle of Spores",
+        "shortName": "Spores",
+        "source": "AliFosche",
+        "className": "Druid",
+        "classSource": "XPHB",
+        "page": 1,
+        "additionalSpells": [
+            {
+                "prepared": {
+                    "3": [
+                        "blindness/deafness|xphb",
+                        "sleep|xphb",
+                        "toll the dead|xge"
+                    ],
+                    "5": [
+                        "animate dead|xphb"
+                    ],
+                    "7": [
+                        "confusion|xphb"
+                    ],
+                    "9": [
+                        "cloudkill|xphb"
+                    ]
+                }
+            }
+        ],
+        "subclassFeatures": [
+            "Level 3: Circle of Spores Spells|Druid|XPHB|Spores|AliFosche|3",
+            "Level 3: Halo of Spores|Druid|XPHB|Spores|AliFosche|3",
+            "Level 3: Symbiotic Entity|Druid|XPHB|Spores|AliFosche|3",
+            "Level 6: Life Siphon|Druid|XPHB|Spores|AliFosche|6",
+            "Level 10: Displacing Spores|Druid|XPHB|Spores|AliFosche|10",
+            "Level 14: Fungal Body|Druid|XPHB|Spores|AliFosche|14"
+        ]
+    },
+    {
+        "name": "Way of the Drunken Master",
+        "shortName": "Drunken Master",
+        "source": "AliFosche",
+        "className": "Monk",
+        "classSource": "XPHB",
+        "page": 1,
+        "subclassFeatures": [
+            "Level 3: Bonus Proficiencies|Monk|XPHB|Drunken Master|AliFosche|3",
+            "Level 3: Drunken Technique|Monk|XPHB|Drunken Master|AliFosche|3",
+            "Level 6: Mystic Brew|Monk|XPHB|Drunken Master|AliFosche|6",
+            "Level 11: Master Brewer|Monk|XPHB|Drunken Master|AliFosche|11",
+            "Level 17: Intoxicated Frenzy|Monk|XPHB|Drunken Master|AliFosche|17"
+        ]
+    },
+    {
+        "name": "Monster Slayer",
+        "shortName": "Monster Slayer",
+        "source": "AliFosche",
+        "className": "Ranger",
+        "classSource": "XPHB",
+        "page": 1,
+        "additionalSpells": [
+            {
+                "prepared": {
+                    "3": [
+                        "protection from evil and good|xphb"
+                    ],
+                    "5": [
+                        "zone of truth|xphb"
+                    ],
+                    "9": [
+                        "dispel magic|xphb"
+                    ],
+                    "13": [
+                        "locate creature|xphb"
+                    ],
+                    "17": [
+                        "greater restoration|xphb"
+                    ]
+                }
+            }
+        ],
+        "subclassFeatures": [
+            "Level 3: Monster Slayer Magic|Ranger|XPHB|Monster Slayer|AliFosche|3",
+            "Level 3: Slayer’s Sense|Ranger|XPHB|Monster Slayer|AliFosche|3",
+            "Level 3: Slayer’s Prey|Ranger|XPHB|Monster Slayer|AliFosche|3",
+            "Level 7: Supernatural Defence|Ranger|XPHB|Monster Slayer|AliFosche|7",
+            "Level 11: Esoteric Recall|Ranger|XPHB|Monster Slayer|AliFosche|11",
+            "Level 11: Magic–User Nemesis|Ranger|XPHB|Monster Slayer|AliFosche|11",
+            "Level 15: Slayer’s Counter|Ranger|XPHB|Monster Slayer|AliFosche|15"
+        ]
+    },
+{
+            "name": "Nature Domain",
+            "shortName": "Nature",
+            "source": "AliFosche",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "page": 1,
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "absorb elements|xge",
+                            "beast sense|xphb",
+                            "speak with animals|xphb",
+                            "spike growth|xphb",
+                            "thorn whip|xphb"
+                        ],
+                        "5": [
+                            "plant growth|xphb",
+                            "speak with plants|xphb"
+                        ],
+                        "7": [
+                            "grasping vine|xphb",
+                            "polymorph|xphb"
+                        ],
+                        "9": [
+                            "conjure elemental|xphb",
+                            "tree stride|xphb"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Level 3: Nature Domain Spells|Cleric|XPHB|Nature|AliFosche|3",
+                "Level 3: Acolyte of Nature|Cleric|XPHB|Nature|AliFosche|3",
+                "Level 3: Elemental Surge|Cleric|XPHB|Nature|AliFosche|3",
+                "Level 6: Nature Guardian|Cleric|XPHB|Nature|AliFosche|6",
+                "Level 17: Elemental Sovereign|Cleric|XPHB|Nature|AliFosche|17"
+            ]
+        },
+        {
+            "name": "Tempest Domain",
+            "shortName": "Tempest",
+            "source": "AliFosche",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "page": 1,
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "fog cloud|xphb",
+                            "gust of wind|xphb",
+                            "shatter|xphb",
+                            "thunderous smite|xphb"
+                        ],
+                        "5": [
+                            "call lightning|xphb",
+                            "sleet storm|xphb"
+                        ],
+                        "7": [
+                            "control water|xphb",
+                            "ice storm|xphb"
+                        ],
+                        "9": [
+                            "cone of cold|xphb",
+                            "control winds|xge"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Level 3: Tempest Domain Spells|Cleric|XPHB|Tempest|AliFosche|3",
+                "Level 3: Wrath of the Storm|Cleric|XPHB|Tempest|AliFosche|3",
+                "Level 3: Destructive Wrath|Cleric|XPHB|Tempest|AliFosche|3",
+                "Level 6: Thunderbolt Strike|Cleric|XPHB|Tempest|AliFosche|6",
+                "Level 17: Stormborn|Cleric|XPHB|Tempest|AliFosche|17"
+            ]
+        },
 {
         "name": "Inquisitive",
         "shortName": "Inquisitive",
@@ -1415,6 +1598,571 @@
         }
     ],
     "subclassFeature": [
+{
+        "name": "Speech of the Woods",
+        "source": "AliFosche",
+        "className": "Druid",
+        "classSource": "XPHB",
+        "subclassShortName": "Shepherd",
+        "subclassSource": "AliFosche",
+        "level": 3,
+        "entries": [
+            "You gain the ability to converse with beasts and many fey. You know Sylvan and have the Speak with Animals spells prepared. You can cast Speak with Animals without expending a spell slot a number of times equal to your Wisdom modifier (minimum of once), you regain all expended uses when you finish a Long Rest."
+        ]
+    },
+    {
+        "name": "Spirit Totem",
+        "source": "AliFosche",
+        "className": "Druid",
+        "classSource": "XPHB",
+        "subclassShortName": "Shepherd",
+        "subclassSource": "AliFosche",
+        "level": 3,
+        "entries": [
+            "As a Bonus Action, you can expend a use of your Wild Shape to summon an incorporeal spirit in a point you can see within 60 feet of you. The spirit manifests as a 15–foot Emanation centered on that point. As a Bonus Action, you can move the spirit up to 30 feet to a point you can see. It persists for 1 minute or until you're incapacitated. When you summon the spirit, choose one of the following effects:",
+            {
+                "type": "entries",
+                "name": "Bear Spirit.",
+                "entries": [
+                    "Choose one of the following damage types: Acid, Cold, Fire, Lightning, Poison. Each creature of your choice within the area gains resistance to the chosen damage types."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Hawk Spirit.",
+                "entries": [
+                    "When a creature makes an attack against a target in the area, you can take a Reaction to grant advantage to the attack roll. If the attack hits, it deals an extra 1d8 Force damage."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Unicorn Spirit.",
+                "entries": [
+                    "When you cast a spell using a spell slot that restores hit points, each creature of your choice in the area regains 1d8 hit points."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Mighty Summoner",
+        "source": "AliFosche",
+        "className": "Druid",
+        "classSource": "XPHB",
+        "subclassShortName": "Shepherd",
+        "subclassSource": "AliFosche",
+        "level": 6,
+        "entries": [
+            "You always have the Summon Beast and Summon Fey spells prepared. Whenever you cast these spells, the summoned creature gains the following benefits.",
+            {
+                "type": "entries",
+                "name": "Totem Resilience.",
+                "entries": [
+                    "The creature gains a number of Temporary Hit Points equal to your Druid level."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Spirits Vengeance.",
+                "entries": [
+                    "Whenever the creature hits with an attack roll, it deals extra damage equal to your Wisdom modifier (minimum of +1)."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Guardian Spirit",
+        "source": "AliFosche",
+        "className": "Druid",
+        "classSource": "XPHB",
+        "subclassShortName": "Shepherd",
+        "subclassSource": "AliFosche",
+        "level": 10,
+        "entries": [
+            "Your Spirit Totem safeguards the beasts and fey that you call forth with your magic. When a Beast or Fey that you summoned with a spell ends its turn in your Spirit Totem aura, it regains a number of hit points equal to your Druid level."
+        ]
+    },
+    {
+        "name": "Faithful Summons",
+        "source": "AliFosche",
+        "className": "Druid",
+        "classSource": "XPHB",
+        "subclassShortName": "Shepherd",
+        "subclassSource": "AliFosche",
+        "level": 14,
+        "entries": [
+            "The spirits of nature protect you in the moment of danger. If you are reduced to 0 Hit Points, you can immediately cast Summon Fey as if cast with a level 9 spell slot. This summoning requires no Concentration and the spirit lasts for its full duration or until dismissed (no action required). The spirit acts to protect you and attack your foes. Once you use this feature, you can't use it again until you finish a Long Rest."
+        ]
+    },
+    {
+        "name": "Circle of Spores Spells",
+        "source": "AliFosche",
+        "className": "Druid",
+        "classSource": "XPHB",
+        "subclassShortName": "Spores",
+        "subclassSource": "AliFosche",
+        "level": 3,
+        "entries": [
+            "Your symbiotic link to fungi and your ability to tap into the cycle of life and death grants you access to certain spells. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Spores Spells table. Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you."
+        ]
+    },
+    {
+        "name": "Halo of Spores",
+        "source": "AliFosche",
+        "className": "Druid",
+        "classSource": "XPHB",
+        "subclassShortName": "Spores",
+        "subclassSource": "AliFosche",
+        "level": 3,
+        "entries": [
+            "You are surrounded by a 10–foot Emanation of necrotic spores that are harmless until you unleash them. When a creature you can see moves into the Emanation or starts its turn there, you can take a Reaction to deal 1d6 Acid, Necrotic, Poison damage to that creature. The damage increases to 1d8 at level 6, 1d10 at level 10, and 1d12 at level 14."
+        ]
+    },
+    {
+        "name": "Symbiotic Entity",
+        "source": "AliFosche",
+        "className": "Druid",
+        "classSource": "XPHB",
+        "subclassShortName": "Spores",
+        "subclassSource": "AliFosche",
+        "level": 3,
+        "entries": [
+            "You gain the ability to magically empower your spores. As an Action, you can expend a use of your Wild Shape to gain the following benefits for 10 minutes or until or have the Incapacitated condition.",
+            {
+                "type": "list",
+                "items": [
+                    "You gain temporary hit points equal to two times your Druid level.",
+                    "The radius of the Emanation of your Halo of Spores is increased to 15 feet.",
+                    "Whenever the Emanation of Halo of Spores enters the space of a creature you can see and whenever a creature you can see enters the Emanation or ends its turn there, you can force that creature to make a Constitution saving throw. The creature takes your Halo of Spores damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Life Siphon",
+        "source": "AliFosche",
+        "className": "Druid",
+        "classSource": "XPHB",
+        "subclassShortName": "Spores",
+        "subclassSource": "AliFosche",
+        "level": 6,
+        "entries": [
+            "Your spores rapidly break down organic matter to nourish your allies. When a creature takes damage from your Halo of Spores, you can choose one creature within your Emanation. That creature gains Temporary Hit Points equal to the damage dealt plus your Wisdom modifier."
+        ]
+    },
+    {
+        "name": "Displacing Spores",
+        "source": "AliFosche",
+        "className": "Druid",
+        "classSource": "XPHB",
+        "subclassShortName": "Spores",
+        "subclassSource": "AliFosche",
+        "level": 10,
+        "entries": [
+            "Your spores can hide your allies and protect them from attacks. While your Symbiotic Entity is active, every creature of your choice within the Emanation has half cover."
+        ]
+    },
+    {
+        "name": "Fungal Body",
+        "source": "AliFosche",
+        "className": "Druid",
+        "classSource": "XPHB",
+        "subclassShortName": "Spores",
+        "subclassSource": "AliFosche",
+        "level": 14,
+        "entries": [
+            "The fungal spores in your body alter you: you can't be Blinded, Frightened, or Poisoned, and have resistance to Necrotic and Poison damage. In addition, any critical hit against you becomes a normal hit, unless you're incapacitated."
+        ]
+    },
+    {
+        "name": "Bonus Proficiencies",
+        "source": "AliFosche",
+        "className": "Monk",
+        "classSource": "XPHB",
+        "subclassShortName": "Drunken Master",
+        "subclassSource": "AliFosche",
+        "level": 3,
+        "entries": [
+            "You gain proficiency with brewer's supplies and one of the following skills of your choice: Acrobatics, Performance, Persuasion."
+        ]
+    },
+    {
+        "name": "Drunken Technique",
+        "source": "AliFosche",
+        "className": "Monk",
+        "classSource": "XPHB",
+        "subclassShortName": "Drunken Master",
+        "subclassSource": "AliFosche",
+        "level": 3,
+        "entries": [
+            "Your fighting style mimics the unpredictable swaying of a drunkard. Whenever you use Flurry of Blows, your Speed increases by 10 feet and your movement doesn’t provoke Opportunity Attacks until the end of your turn."
+        ]
+    },
+    {
+        "name": "Mystic Brew",
+        "source": "AliFosche",
+        "className": "Monk",
+        "classSource": "XPHB",
+        "subclassShortName": "Drunken Master",
+        "subclassSource": "AliFosche",
+        "level": 6,
+        "entries": [
+            "You have learned to imbue your drinks with magic. When you finish a Short or Long Rest while holding Brewer’s Supplies, you can magically produce one of the following beverages: Cinnamon Dragon, Heavenly Spirit or Drunkard’s Luck. As a Magic Action you can drink the beverage and gain its effect for 1 hour.",
+            {
+                "type": "entries",
+                "name": "Cinnamon Dragon.",
+                "entries": [
+                    "You can take a Magic action to exhale flame. Each creature in a 30–foot Cone must make a Dexterity saving throw taking Fire damage equal to three rolls of your Martial Arts die on a failed save or half as much on a successful one."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Heavenly Spirit.",
+                "entries": [
+                    "You gain Resistance to Necrotic and Radiant damage."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Refreshing Dip.",
+                "entries": [
+                    "Whenever you regain Hit Points, you regain additional Hit Points equal to a roll of your Martial Arts die."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Master Brewer",
+        "source": "AliFosche",
+        "className": "Monk",
+        "classSource": "XPHB",
+        "subclassShortName": "Drunken Master",
+        "subclassSource": "AliFosche",
+        "level": 11,
+        "entries": [
+            "The following beverages are added to your Mystic Brew options.",
+            {
+                "type": "entries",
+                "name": "Blue Lightning.",
+                "entries": [
+                    "Whenever you take a Reaction that isn’t making an Opportunity Attack or casting a spell, you can make one Unarmed Strike as part of that Reaction."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Drunkard’s Luck.",
+                "entries": [
+                    "Once every turn, when you fail a d20 Test, you can take a Reaction to reroll the test with Advantage and must use the new roll."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Intoxicated Frenzy",
+        "source": "AliFosche",
+        "className": "Monk",
+        "classSource": "XPHB",
+        "subclassShortName": "Drunken Master",
+        "subclassSource": "AliFosche",
+        "level": 17,
+        "entries": [
+            "You gain the ability to make an overwhelming number of attacks against a group of enemies. When you use your Flurry of Blows, you can make up to three additional attacks with it (up to a total of six Flurry of Blows attacks), provided that each Flurry of Blows attack targets a different creature this turn."
+        ]
+    },
+    {
+        "name": "Monster Slayer Magic",
+        "source": "AliFosche",
+        "className": "Ranger",
+        "classSource": "XPHB",
+        "subclassShortName": "Monster Slayer",
+        "subclassSource": "AliFosche",
+        "level": 3,
+        "entries": [
+            "You learn an additional spell when you reach certain levels in this class, as shown in the Monster Slayer Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know."
+        ]
+    },
+    {
+        "name": "Slayer’s Sense",
+        "source": "AliFosche",
+        "className": "Ranger",
+        "classSource": "XPHB",
+        "subclassShortName": "Monster Slayer",
+        "subclassSource": "AliFosche",
+        "level": 3,
+        "entries": [
+            "As a Bonus Action, you can focus your senses to detect the unnatural. For the next 10 minutes or until you have the Incapacitated condition, you know the location of any Aberration, Fey, Fiend, or Undead within 60 feet of yourself, and you know its creature type. You can use this feature a number of times equal to your Wisdom modifier (minimum of once) and regain all expended uses when you finish a Long Rest."
+        ]
+    },
+    {
+        "name": "Slayer’s Prey",
+        "source": "AliFosche",
+        "className": "Ranger",
+        "classSource": "XPHB",
+        "subclassShortName": "Monster Slayer",
+        "subclassSource": "AliFosche",
+        "level": 3,
+        "entries": [
+            "Once every turn, when you hit the target of your Hunter's Mark with a weapon attack, you can choose one of the following options.",
+            {
+                "type": "list",
+                "items": [
+                    "You deal an extra 1d6 Force damage.",
+                    "You reduce the target Speed by 10 feet until the start of your next turn.",
+                    "The target has Disadvantage on the next saving throw it makes before the start of your next turn."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Supernatural Defence",
+        "source": "AliFosche",
+        "className": "Ranger",
+        "classSource": "XPHB",
+        "subclassShortName": "Monster Slayer",
+        "subclassSource": "AliFosche",
+        "level": 7,
+        "entries": [
+            "You gain extra resilience against your prey's assaults on your mind and body. Whenever the target of your Hunter’s Mark forces you to make a saving throw, you can add 1d6 to the roll."
+        ]
+    },
+    {
+        "name": "Esoteric Recall",
+        "source": "AliFosche",
+        "className": "Ranger",
+        "classSource": "XPHB",
+        "subclassShortName": "Monster Slayer",
+        "subclassSource": "AliFosche",
+        "level": 11,
+        "entries": [
+            "As a Magic Action, you cast the Legend Lore spell without expending a spell slot or needing Material components. You can't use this feature again until you finish a Long Rest."
+        ]
+    },
+    {
+        "name": "Magic–User Nemesis",
+        "source": "AliFosche",
+        "className": "Ranger",
+        "classSource": "XPHB",
+        "subclassShortName": "Monster Slayer",
+        "subclassSource": "AliFosche",
+        "level": 11,
+        "entries": [
+            "You have learned to disrupt the flow of magic and escape attempts just before they materialize. When you see a creature casting a spell or teleporting within 60 feet of you, you can take a Reaction to make one weapon attack against it. If the attack hits, you can force the creature to make a Constitution saving throw. On a failed save, the spell or teleport is wasted. If that spell was cast with a spell slot, the slot isn't expended. In addition, if this attack reduces the target to 0 hit points, the target cannot return to its original plane. Once you use this feature, you can't use it again until you finish a Long Rest, unless you expend a spell slot of level 3+ (no action required) to restore the use of it."
+        ]
+    },
+    {
+        "name": "Slayer’s Counter",
+        "source": "AliFosche",
+        "className": "Ranger",
+        "classSource": "XPHB",
+        "subclassShortName": "Monster Slayer",
+        "subclassSource": "AliFosche",
+        "level": 15,
+        "entries": [
+            "Your readiness against enemy magic and abilities is absolute. If the target of your Hunter's Mark forces you to make a saving throw, you can take a Reaction to make one weapon attack against it. If the attack hits, your save automatically succeeds."
+        ]
+    },
+{
+            "name": "Level 3: Nature Domain Spells",
+            "source": "AliFosche",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "subclassShortName": "Nature",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You gain domain spells at the cleric levels listed in the Nature Domain Spells table. See the Divine Domain class feature for how domain spells work.",
+                {
+                    "type": "table",
+                    "caption": "Nature Domain Spells",
+                    "colLabels": [
+                        "Cleric Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "3",
+                            "{@spell Absorb Elements|xge}, {@spell Beast Sense|xphb}, {@spell Speak with Animals|xphb}, {@spell Spike Growth|xphb}, {@spell Thorn Whip|xphb}"
+                        ],
+                        [
+                            "5",
+                            "{@spell Plant Growth|xphb}, {@spell Speak with Plants|xphb}"
+                        ],
+                        [
+                            "7",
+                            "{@spell Grasping Vine|xphb}, {@spell Polymorph|xphb}"
+                        ],
+                        [
+                            "9",
+                            "{@spell Conjure Elemental|xphb}, {@spell Tree Stride|xphb}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Acolyte of Nature",
+            "source": "AliFosche",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "subclassShortName": "Nature",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You know {@language Primordial} and gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Nature Teachings.} You also gain proficiency in one of the following skills of your choice: {@skill Animal Handling}, {@skill Nature}, or {@skill Survival}.",
+                        "{@b Primal Warrior.} When you cast the {@spell Thorn Whip|xphb} cantrip, you can change its damage type to one of the following damage types: Cold, Fire, Lightning or Thunder."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Elemental Surge",
+            "source": "AliFosche",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "subclassShortName": "Nature",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "As a Magic action, you can expend a use of your Channel Divinity to manifest elemental energy around you in a 15-foot Emanation. When you use this feature, choose one of the following benefits that lasts for 1 minute or until you are {@condition incapacitated}.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Air.} Whenever a creature of your choice starts its turn within the Emanation, its Speed increases by 10 feet and has {@variantrule Half Cover|xphb} until the start of its next turn.",
+                        "{@b Earth.} When you activate this feature, each creature of your choice within the Emanation gains Temporary Hit Points equal to {@dice 2d6} plus your Wisdom modifier. In addition, the ground in the Emanation is Difficult Terrain for your enemies.",
+                        "{@b Fire.} Whenever a creature enters the Emanation for the first time on a turn or starts its turn there, you can force it to make a Dexterity saving throw. On a failed save, it takes {@damage 2d6} Fire damage.",
+                        "{@b Water.} Whenever a creature enters the Emanation for the first time on a turn or starts its turn there, you can force it to make a Strength saving throw. On a failed save, it takes {@damage 1d6} Bludgeoning damage and is knocked {@condition prone}."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 6: Nature Guardian",
+            "source": "AliFosche",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "subclassShortName": "Nature",
+            "subclassSource": "AliFosche",
+            "level": 6,
+            "entries": [
+                "You learnt to fight like a raging elemental. You can cast the {@spell Thorn Whip|xphb} cantrip as a Bonus Action. You can use this feature a number of times equal to your Wisdom modifier (minimum of once) and regain all expended uses when you finish a Long Rest."
+            ]
+        },
+        {
+            "name": "Level 17: Elemental Sovereign",
+            "source": "AliFosche",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "subclassShortName": "Nature",
+            "subclassSource": "AliFosche",
+            "level": 17,
+            "entries": [
+                "You become an avatar of primordial forces. You gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Planar Attunement.} When you finish a Long Rest you gain immunity to one of the following damage types: Acid, Cold, Lightning, Fire or Thunder.",
+                        "{@b Dual Surge.} When you use your Elemental Surge Channel Divinity, you can manifest two elements simultaneously, granting you both benefits for the duration."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Tempest Domain Spells",
+            "source": "AliFosche",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "subclassShortName": "Tempest",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You gain domain spells at the cleric levels listed in the Tempest Domain Spells table. See the Divine Domain class feature for how domain spells work.",
+                {
+                    "type": "table",
+                    "caption": "Tempest Domain Spells",
+                    "colLabels": [
+                        "Cleric Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "3",
+                            "{@spell Fog Cloud|xphb}, {@spell Gust of Wind|xphb}, {@spell Shatter|xphb}, {@spell Thunderous Smite|xphb}"
+                        ],
+                        [
+                            "5",
+                            "{@spell Call Lightning|xphb}, {@spell Sleet Storm|xphb}"
+                        ],
+                        [
+                            "7",
+                            "{@spell Control Water|xphb}, {@spell Ice Storm|xphb}"
+                        ],
+                        [
+                            "9",
+                            "{@spell Cone of Cold|xphb}, {@spell Control Winds|xge}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Wrath of the Storm",
+            "source": "AliFosche",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "subclassShortName": "Tempest",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You can thunderously rebuke attackers. When a creature hits you with a melee attack, you can take a Reaction to force the attacker to make a Dexterity saving throw. On a failed save, it takes {@damage 2d8} Cold, Lightning or Thunder damage (your choice), and half as much damage on a successful one. You can use this feature a number of times equal to your Wisdom modifier (minimum of once) and regain all expended uses when you finish a Long Rest."
+            ]
+        },
+        {
+            "name": "Level 3: Destructive Wrath",
+            "source": "AliFosche",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "subclassShortName": "Tempest",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "You wield the power of the storm with unchecked ferocity. When you deal Cold, Lightning or Thunder damage to a creature, you can spend a use of your Channel Divinity to deal extra damage equal to your Cleric level."
+            ]
+        },
+        {
+            "name": "Level 6: Thunderbolt Strike",
+            "source": "AliFosche",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "subclassShortName": "Tempest",
+            "subclassSource": "AliFosche",
+            "level": 6,
+            "entries": [
+                "When you deal Cold, Lightning or Thunder damage to a Large or smaller creature, you can also push it up to 10 feet from you horizontally."
+            ]
+        },
+        {
+            "name": "Level 17: Stormborn",
+            "source": "AliFosche",
+            "className": "Cleric",
+            "classSource": "XPHB",
+            "subclassShortName": "Tempest",
+            "subclassSource": "AliFosche",
+            "level": 17,
+            "entries": [
+                "You’re blessed with the power of the storm and gain a Fly speed equal to your walking speed. In addition, When you finish a Long Rest you gain immunity to one of the following damage types: Cold, Lightning, or Thunder."
+            ]
+        },
 {
         "name": "Level 3: Insightful Fighting",
         "source": "AliFosche",
