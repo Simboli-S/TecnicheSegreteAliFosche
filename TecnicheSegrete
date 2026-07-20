@@ -5249,6 +5249,92 @@
         }
     ],"spell": [
         {
+            "name": "The Leucotype",
+            "source": "AliFosche",
+            "level": 2,
+            "school": "D",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a silver-coated copper sheet worth 10+ gp which the spell consumes"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    { "name": "Artificer", "source": "AliFosche" },
+                    { "name": "Wizard", "source": "XPHB" }
+                ]
+            },
+            "entries": [
+                "Holding the copper sheet used as a component you can magically imprint a perfect image of the scenario before you at the moment of the casting. If you are experiencing hallucinations, perceiving illusions, or otherwise seeing things that are not physically present, those visual phenomena are also captured on the plate exactly as you perceive them.",
+                "{@b Casting as a Circle Spell.} Instead of a still image, you imprint on the copper sheet a scene happening before you that includes moving images and sounds. When you cast this spell you choose a command word that magically activates the recorded scene once used within 5 feet of the sheet. The recorded scene can have a duration up to 10 seconds per secondary caster."
+            ]
+        },
+        {
+            "name": "Calantha's Solar Gravity",
+            "source": "AliFosche",
+            "level": 5,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a small golden bead"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    { "name": "Cleric", "source": "XPHB" },
+                    { "name": "Druid", "source": "XPHB" }
+                ]
+            },
+            "entries": [
+                "At your command gravity briefly intensifies, pulling creatures inward before erupting with a burst of radiant solar force. Each creature in a 20-foot-radius Sphere centered on a point you can see within range must make a Strength saving throw. On a failed save, a creature is pulled 10 feet toward the center of the area and takes {@damage 8d6} radiant damage. A creature pulled by this effect is {@condition blinded} until the end of its next turn. On a successful save, a creature takes half as much damage only."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Using a Higher-Level Spell Slot",
+                    "entries": [
+                        "The damage increases by 1d6 for each spell slot level above 5."
+                    ]
+                }
+            ]
+        }
+
+        {
             "name": "Nyx's Animate Dead",
             "source": "AliFosche",
             "level": 3,
