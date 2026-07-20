@@ -562,7 +562,7 @@
                             "haste|xphb"
                         ],
                         "13": [
-                            "gate seal"
+                            "gate seal|SatO"
                         ],
                         "17": [
                             "teleportation circle|xphb"
@@ -5026,7 +5026,9 @@
                 "M",
                 "S"
             ],
-            "speed": 30,
+            "speed": {
+    "walk": 30
+},
             "creatureTypes": [
                 "humanoid"
             ],
@@ -5134,10 +5136,10 @@
             "source": "AliFosche",
             "category": "General",
             "prerequisite": [
-                {
-                    "other": "Spellcasting or Pact Magic feature"
-                }
-            ],
+    {
+        "spellcasting": true
+    }
+],
             "entries": [
                 "You gain the following benefits.",
                 {
@@ -5155,10 +5157,10 @@
             "source": "AliFosche",
             "category": "General",
             "prerequisite": [
-                {
-                    "other": "Spellcasting or Pact Magic feature"
-                }
-            ],
+    {
+        "spellcasting": true
+    }
+],
             "entries": [
                 "You gain the following benefits.",
                 {
@@ -5176,10 +5178,10 @@
             "source": "AliFosche",
             "category": "General",
             "prerequisite": [
-                {
-                    "other": "Spellcasting or Pact Magic feature"
-                }
-            ],
+    {
+        "spellcasting": true
+    }
+],
             "entries": [
                 "You gain the following benefits.",
                 {
@@ -5244,10 +5246,10 @@
             "source": "AliFosche",
             "category": "General",
             "prerequisite": [
-                {
-                    "other": "Spellcasting or Pact Magic feature"
-                }
-            ],
+    {
+        "spellcasting": true
+    }
+],
             "entries": [
                 "You have learned the magical secrets of cards. You gain the following benefit.",
                 {
@@ -5377,15 +5379,13 @@
             "source": "AliFosche",
             "category": "General",
             "prerequisite": [
-                {
-                    "ability": [
-                        {
-                            "str": 13,
-                            "dex": 13
-                        }
-                    ]
-                }
-            ],
+    {
+        "ability": [
+            { "str": 13 },
+            { "dex": 13 }
+        ]
+    }
+],
             "entries": [
                 "You gain the following benefits.",
                 {
@@ -5402,15 +5402,13 @@
             "source": "AliFosche",
             "category": "General",
             "prerequisite": [
-                {
-                    "ability": [
-                        {
-                            "str": 13,
-                            "dex": 13
-                        }
-                    ]
-                }
-            ],
+    {
+        "ability": [
+            { "str": 13 },
+            { "dex": 13 }
+        ]
+    }
+],
             "entries": [
                 "You gain the following benefits.",
                 {
