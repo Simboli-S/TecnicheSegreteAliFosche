@@ -5023,6 +5023,13 @@
                     "entries": [
                         "When a Huge or smaller creature you can see ends its turn within 30 feet of you, you can use your reaction to pull it up to 25 feet directly to an unoccupied space. If you pull the target to a space within 5 feet of you, you can make a melee weapon attack against it as part of this reaction."
                     ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Infiltrator",
+                    "entries": [
+                        "A creature hit by your Lightning Launcher has disadvantage on attack rolls against you. Also, the next attack roll against it has advantage, and deals {@damage 2d6} extra lightning damage on a hit."
+                    ]
                 }
             ]
         },
