@@ -252,10 +252,10 @@
             "rarity": "varies",
             "reqAttune": true,
             "entries": [
-                "This weapon can absorb the energy of a chromatic or metallic dragon\u2019s breath weapon.",
-                "{@b Slumbering (Uncommon).} When you score a critical hit with this weapon, each creature of your choice within 5 feet of you takes 5 points of acid, cold, fire, lightning, or poison damage. The damage dealt is the one associated with the dragon\u2019s breath weapon.",
+                "This weapon can absorb the energy of a chromatic or metallic dragon’s breath weapon.",
+                "{@b Slumbering (Uncommon).} When you score a critical hit with this weapon, each creature of your choice within 5 feet of you takes 5 points of acid, cold, fire, lightning, or poison damage. The damage dealt is the one associated with the dragon’s breath weapon.",
                 "{@b Stirring (Rare).} It has the Slumbering property. In addition, you gain a +1 bonus to attack and damage rolls made using the weapon. On a hit, the weapon deals an extra {@damage 1d6} damage of the type chosen for the Slumbering property.",
-                "{@b Wakened (Very Rare).} It has the Slumbering property, and it improves on the Stirring property. The bonus to attack and damage rolls increases to +2, and the extra damage dealt by the weapon increases to {@damage 2d6}. Also, as an action, you can unleash a 30-foot cone of destructive energy from the weapon. Each creature in that area must make a DC 17 Dexterity saving throw, taking {@damage 8d6} damage of the type chosen for the Slumbering property on a failed save, or half as much damage on a successful one. Once this action is used, it can\u2019t be used again until the next dawn."
+                "{@b Wakened (Very Rare).} It has the Slumbering property, and it improves on the Stirring property. The bonus to attack and damage rolls increases to +2, and the extra damage dealt by the weapon increases to {@damage 2d6}. Also, as an action, you can unleash a 30-foot cone of destructive energy from the weapon. Each creature in that area must make a DC 17 Dexterity saving throw, taking {@damage 8d6} damage of the type chosen for the Slumbering property on a failed save, or half as much damage on a successful one. Once this action is used, it can’t be used again until the next dawn."
             ]
         },
         {
@@ -267,7 +267,7 @@
             "bonusWeapon": true,
             "entries": [
                 "You gain a +2 bonus to attack and damage rolls made with this magic weapon. The blade has 6 charges and regains {@dice 1d6} expended charges daily at dawn.",
-                "{@b Fool's Feint.} You can feint to target your enemy\u2019s weak points. When you hit a creature with this weapon, you can spend 1 charge to deal {@damage 2d12} extra psychic damage.",
+                "{@b Fool's Feint.} You can feint to target your enemy’s weak points. When you hit a creature with this weapon, you can spend 1 charge to deal {@damage 2d12} extra psychic damage.",
                 "{@b Misdirect.} When a creature within 60 feet of you targets you with an attack, you can use a reaction to spend 1 charge and force that creature to make a DC 17 Intelligence saving throw. On a failed save, the attack instead targets another creature of your choice that is within the attacker's reach."
             ]
         },
@@ -279,7 +279,7 @@
             "entries": [
                 "This weapon is fashioned from the horn or claw of a gem dragon and can channel its power.",
                 "{@b Slumbering (Uncommon).} The weapon has 4 charges and regains {@dice 1d4} expended charges at dawn. When you hit a creature using this weapon, you can expend 1 charge to regain a number of hit points equal to your proficiency bonus.",
-                "{@b Stirring (Rare).} It has the Slumbering property and it makes you regain {@dice 1d10} extra hit points. In addition, when you hit with an attack roll using this sword, the target takes {@damage 1d10} points of force, necrotic, psychic, radiant or thunder damage. The damage dealt is the one associated with the dragon\u2019s breath weapon.",
+                "{@b Stirring (Rare).} It has the Slumbering property and it makes you regain {@dice 1d10} extra hit points. In addition, when you hit with an attack roll using this sword, the target takes {@damage 1d10} points of force, necrotic, psychic, radiant or thunder damage. The damage dealt is the one associated with the dragon’s breath weapon.",
                 "{@b Wakened (Very Rare).} It has and improves the Stirring property. Both the healing and extra damage of the Stirring property increase to {@dice 2d10}."
             ]
         },
@@ -290,7 +290,7 @@
             "weaponCategory": "simple",
             "rarity": "common",
             "entries": [
-                "This glowing plume can be wielded like a weapon. While holding a weapon in one hand and this item in the other, unless this weapon is the product of a spell, the feather becomes a perfect replica of the weapon. If the original weapon leaves your persona, the feather returns to its original form. If the weapon has special abilities, such as being able to perform a special action or cast a spell, the Feather doesn\u2019t mimic these features."
+                "This glowing plume can be wielded like a weapon. While holding a weapon in one hand and this item in the other, unless this weapon is the product of a spell, the feather becomes a perfect replica of the weapon. If the original weapon leaves your persona, the feather returns to its original form. If the weapon has special abilities, such as being able to perform a special action or cast a spell, the Feather doesn’t mimic these features."
             ]
         },
         {
@@ -334,7 +334,7 @@
             "rarity": "varies",
             "reqAttune": "by a spellcaster",
             "entries": [
-                "While holding this wand, you gain a bonus to your spell attack rolls and spell save DC determined by the wand\u2019s rarity. In addition, your spell attacks ignore Half Cover.",
+                "While holding this wand, you gain a bonus to your spell attack rolls and spell save DC determined by the wand’s rarity. In addition, your spell attacks ignore Half Cover.",
                 "{@b Uncommon.} +1 bonus on your spell attack rolls and spell save DC.",
                 "{@b Rare.} +2 bonus on your spell attack rolls and spell save DC.",
                 "{@b Very Rare.} +3 bonus on your spell attack rolls and spell save DC."
@@ -702,62 +702,62 @@
         }
     ],
     "subclass": [
-{
-        "name": "War Mage",
-        "shortName": "War Mage",
-        "source": "AliFosche",
-        "className": "Wizard",
-        "classSource": "XPHB",
-        "page": 1,
-        "subclassFeatures": [
-            "Level 3: Arcane Deflection|Wizard|XPHB|War Mage|AliFosche|3",
-            "Level 3: Tactical Wit|Wizard|XPHB|War Mage|AliFosche|3",
-            "Level 6: Power Surge|Wizard|XPHB|War Mage|AliFosche|6",
-            "Level 6: Spell Breaker|Wizard|XPHB|War Mage|AliFosche|6",
-            "Level 10: Durable Deflection|Wizard|XPHB|War Mage|AliFosche|10",
-            "Level 14: Deflecting Shroud|Wizard|XPHB|War Mage|AliFosche|14"
-        ]
-    },
-    {
-        "name": "The Hexblade",
-        "shortName": "Hexblade",
-        "source": "AliFosche",
-        "className": "Warlock",
-        "classSource": "XPHB",
-        "page": 1,
-        "additionalSpells": [
-            {
-                "prepared": {
-                    "3": [
-                        "arcane vigor|xphb",
-                        "hex|xphb",
-                        "spiritual weapon|xphb",
-                        "wrathful smite|xphb"
-                    ],
-                    "5": [
-                        "bestow curse|xphb",
-                        "conjure barrage|xphb"
-                    ],
-                    "7": [
-                        "freedom of movement|xphb",
-                        "staggering smite|xphb"
-                    ],
-                    "9": [
-                        "animate objects|xphb",
-                        "steel wind strike|xphb"
-                    ]
+        {
+            "name": "War Mage",
+            "shortName": "War Mage",
+            "source": "AliFosche",
+            "className": "Wizard",
+            "classSource": "XPHB",
+            "page": 1,
+            "subclassFeatures": [
+                "Level 3: Arcane Deflection|Wizard|XPHB|War Mage|AliFosche|3",
+                "Level 3: Tactical Wit|Wizard|XPHB|War Mage|AliFosche|3",
+                "Level 6: Power Surge|Wizard|XPHB|War Mage|AliFosche|6",
+                "Level 6: Spell Breaker|Wizard|XPHB|War Mage|AliFosche|6",
+                "Level 10: Durable Deflection|Wizard|XPHB|War Mage|AliFosche|10",
+                "Level 14: Deflecting Shroud|Wizard|XPHB|War Mage|AliFosche|14"
+            ]
+        },
+        {
+            "name": "The Hexblade",
+            "shortName": "Hexblade",
+            "source": "AliFosche",
+            "className": "Warlock",
+            "classSource": "XPHB",
+            "page": 1,
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "arcane vigor|xphb",
+                            "hex|xphb",
+                            "spiritual weapon|xphb",
+                            "wrathful smite|xphb"
+                        ],
+                        "5": [
+                            "bestow curse|xphb",
+                            "conjure barrage|xphb"
+                        ],
+                        "7": [
+                            "freedom of movement|xphb",
+                            "staggering smite|xphb"
+                        ],
+                        "9": [
+                            "animate objects|xphb",
+                            "steel wind strike|xphb"
+                        ]
+                    }
                 }
-            }
-        ],
-        "subclassFeatures": [
-            "Level 3: Hexblade Spells|Warlock|XPHB|Hexblade|AliFosche|3",
-            "Level 3: Hexblade Curse|Warlock|XPHB|Hexblade|AliFosche|3",
-            "Level 3: Unyielding Will|Warlock|XPHB|Hexblade|AliFosche|3",
-            "Level 6: Malign Brutality|Warlock|XPHB|Hexblade|AliFosche|6",
-            "Level 10: Armor of Hexes|Warlock|XPHB|Hexblade|AliFosche|10",
-            "Level 14: Masterful Hex|Warlock|XPHB|Hexblade|AliFosche|14"
-        ]
-    },
+            ],
+            "subclassFeatures": [
+                "Level 3: Hexblade Spells|Warlock|XPHB|Hexblade|AliFosche|3",
+                "Level 3: Hexblade Curse|Warlock|XPHB|Hexblade|AliFosche|3",
+                "Level 3: Unyielding Will|Warlock|XPHB|Hexblade|AliFosche|3",
+                "Level 6: Malign Brutality|Warlock|XPHB|Hexblade|AliFosche|6",
+                "Level 10: Armor of Hexes|Warlock|XPHB|Hexblade|AliFosche|10",
+                "Level 14: Masterful Hex|Warlock|XPHB|Hexblade|AliFosche|14"
+            ]
+        },
         {
             "name": "Divine Sorcery",
             "shortName": "Divine",
@@ -893,12 +893,12 @@
             ],
             "subclassFeatures": [
                 "Level 3: Monster Slayer Magic|Ranger|XPHB|Monster Slayer|AliFosche|3",
-                "Level 3: Slayer\u2019s Sense|Ranger|XPHB|Monster Slayer|AliFosche|3",
-                "Level 3: Slayer\u2019s Prey|Ranger|XPHB|Monster Slayer|AliFosche|3",
+                "Level 3: Slayer’s Sense|Ranger|XPHB|Monster Slayer|AliFosche|3",
+                "Level 3: Slayer’s Prey|Ranger|XPHB|Monster Slayer|AliFosche|3",
                 "Level 7: Supernatural Defence|Ranger|XPHB|Monster Slayer|AliFosche|7",
                 "Level 11: Esoteric Recall|Ranger|XPHB|Monster Slayer|AliFosche|11",
-                "Level 11: Magic\u2013User Nemesis|Ranger|XPHB|Monster Slayer|AliFosche|11",
-                "Level 15: Slayer\u2019s Counter|Ranger|XPHB|Monster Slayer|AliFosche|15"
+                "Level 11: Magic–User Nemesis|Ranger|XPHB|Monster Slayer|AliFosche|11",
+                "Level 15: Slayer’s Counter|Ranger|XPHB|Monster Slayer|AliFosche|15"
             ]
         },
         {
@@ -1913,290 +1913,290 @@
         }
     ],
     "subclassFeature": [
-{
-        "name": "Level 3: Arcane Deflection",
-        "source": "AliFosche",
-        "className": "Wizard",
-        "classSource": "XPHB",
-        "subclassShortName": "War Mage",
-        "subclassSource": "AliFosche",
-        "level": 3,
-        "entries": [
-            "When you are hit by an attack or fail a saving throw, you can take a Reaction to gain a bonus to your AC against that attack or a bonus to that saving throw, the bonus equals your Intelligence modifier (minimum of +1)."
-        ]
-    },
-    {
-        "name": "Level 3: Tactical Wit",
-        "source": "AliFosche",
-        "className": "Wizard",
-        "classSource": "XPHB",
-        "subclassShortName": "War Mage",
-        "subclassSource": "AliFosche",
-        "level": 3,
-        "entries": [
-            "Your keen ability to assess tactical situations allows you to act quickly in battle. When you roll Initiative, you can add your Intelligence modifier (minimum of +1) to the roll."
-        ]
-    },
-    {
-        "name": "Level 6: Power Surge",
-        "source": "AliFosche",
-        "className": "Wizard",
-        "classSource": "XPHB",
-        "subclassShortName": "War Mage",
-        "subclassSource": "AliFosche",
-        "level": 6,
-        "entries": [
-            "You can store deflected magical energy to empower your spells. You can store a maximum number of power surges equal to your Intelligence modifier (minimum of one). Whenever you finish a Long Rest, your number of Power Surges resets to one. You gain one Power Surge whenever you use your Arcane Deflection or when you successfully {@spell Counterspell|xphb} a creature. Once per turn, when you cast a Wizard spell that deals damage, you can spend one Power Surge to deal an extra {@damage 2d6} Force damage to one target of the spell."
-        ]
-    },
-    {
-        "name": "Level 6: Spell Breaker",
-        "source": "AliFosche",
-        "className": "Wizard",
-        "classSource": "XPHB",
-        "subclassShortName": "War Mage",
-        "subclassSource": "AliFosche",
-        "level": 6,
-        "entries": [
-            "You always have the {@spell Counterspell|xphb} spell prepared. In addition, when you can cast {@spell Counterspell|xphb}, you can spend one Power Surge to impose disadvantage on the saving throw."
-        ]
-    },
-    {
-        "name": "Level 10: Durable Deflection",
-        "source": "AliFosche",
-        "className": "Wizard",
-        "classSource": "XPHB",
-        "subclassShortName": "War Mage",
-        "subclassSource": "AliFosche",
-        "level": 10,
-        "entries": [
-            "The magic you channel helps ward off harm. While you maintain concentration on a spell, you have a +2 bonus to AC and all saving throws."
-        ]
-    },
-    {
-        "name": "Level 14: Deflecting Shroud",
-        "source": "AliFosche",
-        "className": "Wizard",
-        "classSource": "XPHB",
-        "subclassShortName": "War Mage",
-        "subclassSource": "AliFosche",
-        "level": 14,
-        "entries": [
-            "Your deflection becomes infused with deadly magic. When you use Arcane Deflection, choose up to three creatures that you can see within 60 feet of you, those creatures take {@damage 2d6} Force damage."
-        ]
-    },
-    {
-        "name": "Level 3: Hexblade Spells",
-        "source": "AliFosche",
-        "className": "Warlock",
-        "classSource": "XPHB",
-        "subclassShortName": "Hexblade",
-        "subclassSource": "AliFosche",
-        "level": 3,
-        "entries": [
-            "When you reach a Warlock level specified in the following table, you thereafter always have these spells prepared.",
-            {
-                "type": "table",
-                "colLabels": [
-                    "Warlock Level",
-                    "Spells"
-                ],
-                "colStyles": [
-                    "col-3 text-center",
-                    "col-9"
-                ],
-                "rows": [
-                    [
-                        "3",
-                        "{@spell Arcane Vigor|xphb}, {@spell Hex|xphb}, {@spell Spiritual Weapon|xphb}, {@spell Wrathful Smite|xphb}"
-                    ],
-                    [
-                        "5",
-                        "{@spell Bestow Curse|xphb}, {@spell Conjure Barrage|xphb}"
-                    ],
-                    [
-                        "7",
-                        "{@spell Freedom of Movement|xphb}, {@spell Staggering Smite|xphb}"
-                    ],
-                    [
-                        "9",
-                        "{@spell Animate Objects|xphb}, {@spell Steel Wind Strike|xphb}"
-                    ]
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Level 3: Hexblade Curse",
-        "source": "AliFosche",
-        "className": "Warlock",
-        "classSource": "XPHB",
-        "subclassShortName": "Hexblade",
-        "subclassSource": "AliFosche",
-        "level": 3,
-        "entries": [
-            "Your patron grants you the power to curse your foes. When you deal damage to a creature within 30 feet, you can bestow a curse upon it for 1 minute. The curse ends early if you use this feature again or die. For the duration, you gain the following benefits.",
-            {
-                "type": "list",
-                "items": [
-                    "{@b Hungering Hex.} When the target cursed by your Hexblade’s Curse drops to 0 Hit Points, you regain Hit Points equal to {@dice 1d8} plus your Charisma modifier.",
-                    "{@b Accursed Shield.} While you aren’t wearing medium or heavy armor nor wielding a Shield, you gain a bonus to your AC equal to your Charisma modifier (minimum of +1) while you are within 10 feet of the target of your Hexblade’s Curse."
-                ]
-            },
-            "You can use this feature a number of times equal to your Charisma modifier (minimum of once) and regain all expended uses when you finish a Long Rest."
-        ]
-    },
-    {
-        "name": "Level 3: Unyielding Will",
-        "source": "AliFosche",
-        "className": "Warlock",
-        "classSource": "XPHB",
-        "subclassShortName": "Hexblade",
-        "subclassSource": "AliFosche",
-        "level": 3,
-        "entries": [
-            "When you fail a saving throw to maintain Concentration, you can choose to succeed instead. Once you use this feature, you can’t do so again until you finish a Short or Long Rest. In addition, when you succeed on a saving throw to maintain Concentration, each creature of your choice in a 10–foot Emanation takes {@damage 2d8} Force damage. Once you use this benefit, you can’t do so again until the start of your next turn."
-        ]
-    },
-    {
-        "name": "Level 6: Malign Brutality",
-        "source": "AliFosche",
-        "className": "Warlock",
-        "classSource": "XPHB",
-        "subclassShortName": "Hexblade",
-        "subclassSource": "AliFosche",
-        "level": 6,
-        "entries": [
-            "Your patron’s might furthers your bloodthirst, granting you the following benefits.",
-            {
-                "type": "list",
-                "items": [
-                    "{@b Hindering Curse.} When you hit the target of your Hexblade’s Curse, it has Disadvantage on the next saving throw it makes before the start of your next turn.",
-                    "{@b Inescapable Hex.} When the target of your Hexblade’s Curse ends its turn 30 feet or further from you, you can take a Reaction to magically teleport to an unoccupied space you can see within 5 feet of it, provided the target is within 60 feet of you."
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Level 10: Armor of Hexes",
-        "source": "AliFosche",
-        "className": "Warlock",
-        "classSource": "XPHB",
-        "subclassShortName": "Hexblade",
-        "subclassSource": "AliFosche",
-        "level": 10,
-        "entries": [
-            "Once every turn, when the target of your Hexblade’s Curse hits you with an attack, you can roll {@dice 1d8} and subtract the number rolled from the roll, potentially causing it to miss."
-        ]
-    },
-    {
-        "name": "Level 14: Masterful Hex",
-        "source": "AliFosche",
-        "className": "Warlock",
-        "classSource": "XPHB",
-        "subclassShortName": "Hexblade",
-        "subclassSource": "AliFosche",
-        "level": 14,
-        "entries": [
-            "The power of your Hexblade’s Curse increases, granting the following benefits.",
-            {
-                "type": "list",
-                "items": [
-                    "{@b Accursed Critical.} Any attack roll you make against the target cursed by your Hexblade’s Curse scores a Critical Hit on a roll a 19 or 20 on the d20.",
-                    "{@b Explosive Hex.} When you hit the target of your Hexblade’s Curse, you can cause the curse to explode with magical energy. Each creature of your choice in a 30–foot Emanation takes {@damage 3d8} Force damage and their speed is reduced by 15 feet until the start of your next turn. Once you use this benefit, you can’t use it again until you finish a Long Rest unless you expend a Pact Magic slot to restore your use of it."
-                ]
-            }
-        ]
-    }
         {
-        "name": "Level 3: Divine Magic",
-        "source": "AliFosche",
-        "className": "Sorcerer",
-        "classSource": "XPHB",
-        "subclassShortName": "Divine",
-        "subclassSource": "AliFosche",
-        "level": 3,
-        "entries": [
-            "When you reach a Sorcerer level specified in the following table, you thereafter always have these spells prepared. In addition, when your Spellcasting feature lets you learn or replace a Sorcerer spell, you can choose the new spell from the Cleric or the Sorcerer spell lists.",
-            {
-                "type": "table",
-                "colLabels": [
-                    "Sorcerer Level",
-                    "Spells"
-                ],
-                "colStyles": [
-                    "col-3 text-center",
-                    "col-9"
-                ],
-                "rows": [
-                    [
-                        "3",
-                        "{@spell Aid|xphb}, {@spell Bless|xphb}, {@spell Detect Evil and Good|xphb}, {@spell Lesser Restoration|xphb}"
+            "name": "Level 3: Arcane Deflection",
+            "source": "AliFosche",
+            "className": "Wizard",
+            "classSource": "XPHB",
+            "subclassShortName": "War Mage",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "When you are hit by an attack or fail a saving throw, you can take a Reaction to gain a bonus to your AC against that attack or a bonus to that saving throw, the bonus equals your Intelligence modifier (minimum of +1)."
+            ]
+        },
+        {
+            "name": "Level 3: Tactical Wit",
+            "source": "AliFosche",
+            "className": "Wizard",
+            "classSource": "XPHB",
+            "subclassShortName": "War Mage",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "Your keen ability to assess tactical situations allows you to act quickly in battle. When you roll Initiative, you can add your Intelligence modifier (minimum of +1) to the roll."
+            ]
+        },
+        {
+            "name": "Level 6: Power Surge",
+            "source": "AliFosche",
+            "className": "Wizard",
+            "classSource": "XPHB",
+            "subclassShortName": "War Mage",
+            "subclassSource": "AliFosche",
+            "level": 6,
+            "entries": [
+                "You can store deflected magical energy to empower your spells. You can store a maximum number of power surges equal to your Intelligence modifier (minimum of one). Whenever you finish a Long Rest, your number of Power Surges resets to one. You gain one Power Surge whenever you use your Arcane Deflection or when you successfully {@spell Counterspell|xphb} a creature. Once per turn, when you cast a Wizard spell that deals damage, you can spend one Power Surge to deal an extra {@damage 2d6} Force damage to one target of the spell."
+            ]
+        },
+        {
+            "name": "Level 6: Spell Breaker",
+            "source": "AliFosche",
+            "className": "Wizard",
+            "classSource": "XPHB",
+            "subclassShortName": "War Mage",
+            "subclassSource": "AliFosche",
+            "level": 6,
+            "entries": [
+                "You always have the {@spell Counterspell|xphb} spell prepared. In addition, when you can cast {@spell Counterspell|xphb}, you can spend one Power Surge to impose disadvantage on the saving throw."
+            ]
+        },
+        {
+            "name": "Level 10: Durable Deflection",
+            "source": "AliFosche",
+            "className": "Wizard",
+            "classSource": "XPHB",
+            "subclassShortName": "War Mage",
+            "subclassSource": "AliFosche",
+            "level": 10,
+            "entries": [
+                "The magic you channel helps ward off harm. While you maintain concentration on a spell, you have a +2 bonus to AC and all saving throws."
+            ]
+        },
+        {
+            "name": "Level 14: Deflecting Shroud",
+            "source": "AliFosche",
+            "className": "Wizard",
+            "classSource": "XPHB",
+            "subclassShortName": "War Mage",
+            "subclassSource": "AliFosche",
+            "level": 14,
+            "entries": [
+                "Your deflection becomes infused with deadly magic. When you use Arcane Deflection, choose up to three creatures that you can see within 60 feet of you, those creatures take {@damage 2d6} Force damage."
+            ]
+        },
+        {
+            "name": "Level 3: Hexblade Spells",
+            "source": "AliFosche",
+            "className": "Warlock",
+            "classSource": "XPHB",
+            "subclassShortName": "Hexblade",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "When you reach a Warlock level specified in the following table, you thereafter always have these spells prepared.",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "Warlock Level",
+                        "Spells"
                     ],
-                    [
-                        "5",
-                        "{@spell Clairvoyance|xphb}, {@spell Revivify|xphb}"
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
                     ],
-                    [
-                        "7",
-                        "{@spell Aura of Life|xphb}, {@spell Divination|xphb}"
-                    ],
-                    [
-                        "9",
-                        "{@spell Greater Restoration|xphb}, {@spell Mass Cure Wounds|xphb}"
+                    "rows": [
+                        [
+                            "3",
+                            "{@spell Arcane Vigor|xphb}, {@spell Hex|xphb}, {@spell Spiritual Weapon|xphb}, {@spell Wrathful Smite|xphb}"
+                        ],
+                        [
+                            "5",
+                            "{@spell Bestow Curse|xphb}, {@spell Conjure Barrage|xphb}"
+                        ],
+                        [
+                            "7",
+                            "{@spell Freedom of Movement|xphb}, {@spell Staggering Smite|xphb}"
+                        ],
+                        [
+                            "9",
+                            "{@spell Animate Objects|xphb}, {@spell Steel Wind Strike|xphb}"
+                        ]
                     ]
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Level 3: Favored by the Gods",
-        "source": "AliFosche",
-        "className": "Sorcerer",
-        "classSource": "XPHB",
-        "subclassShortName": "Divine",
-        "subclassSource": "AliFosche",
-        "level": 3,
-        "entries": [
-            "Divine power guards your destiny. When you fail a D20 test, you can roll {@dice 1d8} and add the roll to the total, possibly turning the test into a success. You can use this feature a number of times equal to your Charisma modifier (minimum of once) and regain all expended uses when you finish a Long Rest."
-        ]
-    },
-    {
-        "name": "Level 6: Empowered Healing",
-        "source": "AliFosche",
-        "className": "Sorcerer",
-        "classSource": "XPHB",
-        "subclassShortName": "Divine",
-        "subclassSource": "AliFosche",
-        "level": 6,
-        "entries": [
-            "The divine energy coursing through you can empower healing spells. When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal your Charisma modifier."
-        ]
-    },
-    {
-        "name": "Level 14: Otherworldly Wings",
-        "source": "AliFosche",
-        "className": "Sorcerer",
-        "classSource": "XPHB",
-        "subclassShortName": "Divine",
-        "subclassSource": "AliFosche",
-        "level": 14,
-        "entries": [
-            "As a Bonus Action, you can cause spectral wings to appear on your back. The wings last for 1 hour or until you dismiss them (no action required). For the duration, you have a Fly Speed of 60 feet. Once you use this feature, you can't use it again until you finish a Long Rest unless you spend 3 Sorcery Points (no action required) to restore your use of it."
-        ]
-    },
-    {
-        "name": "Level 18: Unearthly Recovery",
-        "source": "AliFosche",
-        "className": "Sorcerer",
-        "classSource": "XPHB",
-        "subclassShortName": "Divine",
-        "subclassSource": "AliFosche",
-        "level": 18,
-        "entries": [
-            "As a Bonus Action, you summon a pillar of healing light around you. Each Bloodied creature of your choice within 30 feet of you regains {@dice 2d8} plus your Sorcerer level hit points. Once you use this feature, you can't use it again until you finish a Long Rest."
-        ]
-    },
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Hexblade Curse",
+            "source": "AliFosche",
+            "className": "Warlock",
+            "classSource": "XPHB",
+            "subclassShortName": "Hexblade",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "Your patron grants you the power to curse your foes. When you deal damage to a creature within 30 feet, you can bestow a curse upon it for 1 minute. The curse ends early if you use this feature again or die. For the duration, you gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Hungering Hex.} When the target cursed by your Hexblade’s Curse drops to 0 Hit Points, you regain Hit Points equal to {@dice 1d8} plus your Charisma modifier.",
+                        "{@b Accursed Shield.} While you aren’t wearing medium or heavy armor nor wielding a Shield, you gain a bonus to your AC equal to your Charisma modifier (minimum of +1) while you are within 10 feet of the target of your Hexblade’s Curse."
+                    ]
+                },
+                "You can use this feature a number of times equal to your Charisma modifier (minimum of once) and regain all expended uses when you finish a Long Rest."
+            ]
+        },
+        {
+            "name": "Level 3: Unyielding Will",
+            "source": "AliFosche",
+            "className": "Warlock",
+            "classSource": "XPHB",
+            "subclassShortName": "Hexblade",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "When you fail a saving throw to maintain Concentration, you can choose to succeed instead. Once you use this feature, you can’t do so again until you finish a Short or Long Rest. In addition, when you succeed on a saving throw to maintain Concentration, each creature of your choice in a 10–foot Emanation takes {@damage 2d8} Force damage. Once you use this benefit, you can’t do so again until the start of your next turn."
+            ]
+        },
+        {
+            "name": "Level 6: Malign Brutality",
+            "source": "AliFosche",
+            "className": "Warlock",
+            "classSource": "XPHB",
+            "subclassShortName": "Hexblade",
+            "subclassSource": "AliFosche",
+            "level": 6,
+            "entries": [
+                "Your patron’s might furthers your bloodthirst, granting you the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Hindering Curse.} When you hit the target of your Hexblade’s Curse, it has Disadvantage on the next saving throw it makes before the start of your next turn.",
+                        "{@b Inescapable Hex.} When the target of your Hexblade’s Curse ends its turn 30 feet or further from you, you can take a Reaction to magically teleport to an unoccupied space you can see within 5 feet of it, provided the target is within 60 feet of you."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 10: Armor of Hexes",
+            "source": "AliFosche",
+            "className": "Warlock",
+            "classSource": "XPHB",
+            "subclassShortName": "Hexblade",
+            "subclassSource": "AliFosche",
+            "level": 10,
+            "entries": [
+                "Once every turn, when the target of your Hexblade’s Curse hits you with an attack, you can roll {@dice 1d8} and subtract the number rolled from the roll, potentially causing it to miss."
+            ]
+        },
+        {
+            "name": "Level 14: Masterful Hex",
+            "source": "AliFosche",
+            "className": "Warlock",
+            "classSource": "XPHB",
+            "subclassShortName": "Hexblade",
+            "subclassSource": "AliFosche",
+            "level": 14,
+            "entries": [
+                "The power of your Hexblade’s Curse increases, granting the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Accursed Critical.} Any attack roll you make against the target cursed by your Hexblade’s Curse scores a Critical Hit on a roll a 19 or 20 on the d20.",
+                        "{@b Explosive Hex.} When you hit the target of your Hexblade’s Curse, you can cause the curse to explode with magical energy. Each creature of your choice in a 30–foot Emanation takes {@damage 3d8} Force damage and their speed is reduced by 15 feet until the start of your next turn. Once you use this benefit, you can’t use it again until you finish a Long Rest unless you expend a Pact Magic slot to restore your use of it."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Divine Magic",
+            "source": "AliFosche",
+            "className": "Sorcerer",
+            "classSource": "XPHB",
+            "subclassShortName": "Divine",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "When you reach a Sorcerer level specified in the following table, you thereafter always have these spells prepared. In addition, when your Spellcasting feature lets you learn or replace a Sorcerer spell, you can choose the new spell from the Cleric or the Sorcerer spell lists.",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "Sorcerer Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "3",
+                            "{@spell Aid|xphb}, {@spell Bless|xphb}, {@spell Detect Evil and Good|xphb}, {@spell Lesser Restoration|xphb}"
+                        ],
+                        [
+                            "5",
+                            "{@spell Clairvoyance|xphb}, {@spell Revivify|xphb}"
+                        ],
+                        [
+                            "7",
+                            "{@spell Aura of Life|xphb}, {@spell Divination|xphb}"
+                        ],
+                        [
+                            "9",
+                            "{@spell Greater Restoration|xphb}, {@spell Mass Cure Wounds|xphb}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Level 3: Favored by the Gods",
+            "source": "AliFosche",
+            "className": "Sorcerer",
+            "classSource": "XPHB",
+            "subclassShortName": "Divine",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "Divine power guards your destiny. When you fail a D20 test, you can roll {@dice 1d8} and add the roll to the total, possibly turning the test into a success. You can use this feature a number of times equal to your Charisma modifier (minimum of once) and regain all expended uses when you finish a Long Rest."
+            ]
+        },
+        {
+            "name": "Level 6: Empowered Healing",
+            "source": "AliFosche",
+            "className": "Sorcerer",
+            "classSource": "XPHB",
+            "subclassShortName": "Divine",
+            "subclassSource": "AliFosche",
+            "level": 6,
+            "entries": [
+                "The divine energy coursing through you can empower healing spells. When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal your Charisma modifier."
+            ]
+        },
+        {
+            "name": "Level 14: Otherworldly Wings",
+            "source": "AliFosche",
+            "className": "Sorcerer",
+            "classSource": "XPHB",
+            "subclassShortName": "Divine",
+            "subclassSource": "AliFosche",
+            "level": 14,
+            "entries": [
+                "As a Bonus Action, you can cause spectral wings to appear on your back. The wings last for 1 hour or until you dismiss them (no action required). For the duration, you have a Fly Speed of 60 feet. Once you use this feature, you can't use it again until you finish a Long Rest unless you spend 3 Sorcery Points (no action required) to restore your use of it."
+            ]
+        },
+        {
+            "name": "Level 18: Unearthly Recovery",
+            "source": "AliFosche",
+            "className": "Sorcerer",
+            "classSource": "XPHB",
+            "subclassShortName": "Divine",
+            "subclassSource": "AliFosche",
+            "level": 18,
+            "entries": [
+                "As a Bonus Action, you summon a pillar of healing light around you. Each Bloodied creature of your choice within 30 feet of you regains {@dice 2d8} plus your Sorcerer level hit points. Once you use this feature, you can't use it again until you finish a Long Rest."
+            ]
+        },
         {
             "name": "Level 3: Speech of the Woods",
             "source": "AliFosche",
@@ -2218,7 +2218,7 @@
             "subclassSource": "AliFosche",
             "level": 3,
             "entries": [
-                "As a Bonus Action, you can expend a use of your Wild Shape to summon an incorporeal spirit in a point you can see within 60 feet of you. The spirit manifests as a 15\u2013foot Emanation centered on that point. As a Bonus Action, you can move the spirit up to 30 feet to a point you can see. It persists for 1 minute or until you're incapacitated. When you summon the spirit, choose one of the following effects:",
+                "As a Bonus Action, you can expend a use of your Wild Shape to summon an incorporeal spirit in a point you can see within 60 feet of you. The spirit manifests as a 15–foot Emanation centered on that point. As a Bonus Action, you can move the spirit up to 30 feet to a point you can see. It persists for 1 minute or until you're incapacitated. When you summon the spirit, choose one of the following effects:",
                 {
                     "type": "entries",
                     "name": "Bear Spirit.",
@@ -2313,7 +2313,7 @@
             "subclassSource": "AliFosche",
             "level": 3,
             "entries": [
-                "You are surrounded by a 10\u2013foot Emanation of necrotic spores that are harmless until you unleash them. When a creature you can see moves into the Emanation or starts its turn there, you can take a Reaction to deal 1d6 Acid, Necrotic, Poison damage to that creature. The damage increases to 1d8 at level 6, 1d10 at level 10, and 1d12 at level 14."
+                "You are surrounded by a 10–foot Emanation of necrotic spores that are harmless until you unleash them. When a creature you can see moves into the Emanation or starts its turn there, you can take a Reaction to deal 1d6 Acid, Necrotic, Poison damage to that creature. The damage increases to 1d8 at level 6, 1d10 at level 10, and 1d12 at level 14."
             ]
         },
         {
@@ -2393,7 +2393,7 @@
             "subclassSource": "AliFosche",
             "level": 3,
             "entries": [
-                "Your fighting style mimics the unpredictable swaying of a drunkard. Whenever you use Flurry of Blows, your Speed increases by 10 feet and your movement doesn\u2019t provoke Opportunity Attacks until the end of your turn."
+                "Your fighting style mimics the unpredictable swaying of a drunkard. Whenever you use Flurry of Blows, your Speed increases by 10 feet and your movement doesn’t provoke Opportunity Attacks until the end of your turn."
             ]
         },
         {
@@ -2405,12 +2405,12 @@
             "subclassSource": "AliFosche",
             "level": 6,
             "entries": [
-                "You have learned to imbue your drinks with magic. When you finish a Short or Long Rest while holding Brewer\u2019s Supplies, you can magically produce one of the following beverages: Cinnamon Dragon, Heavenly Spirit or Drunkard\u2019s Luck. As a Magic Action you can drink the beverage and gain its effect for 1 hour.",
+                "You have learned to imbue your drinks with magic. When you finish a Short or Long Rest while holding Brewer’s Supplies, you can magically produce one of the following beverages: Cinnamon Dragon, Heavenly Spirit or Drunkard’s Luck. As a Magic Action you can drink the beverage and gain its effect for 1 hour.",
                 {
                     "type": "entries",
                     "name": "Cinnamon Dragon.",
                     "entries": [
-                        "You can take a Magic action to exhale flame. Each creature in a 30\u2013foot Cone must make a Dexterity saving throw taking Fire damage equal to three rolls of your Martial Arts die on a failed save or half as much on a successful one."
+                        "You can take a Magic action to exhale flame. Each creature in a 30–foot Cone must make a Dexterity saving throw taking Fire damage equal to three rolls of your Martial Arts die on a failed save or half as much on a successful one."
                     ]
                 },
                 {
@@ -2443,12 +2443,12 @@
                     "type": "entries",
                     "name": "Blue Lightning.",
                     "entries": [
-                        "Whenever you take a Reaction that isn\u2019t making an Opportunity Attack or casting a spell, you can make one Unarmed Strike as part of that Reaction."
+                        "Whenever you take a Reaction that isn’t making an Opportunity Attack or casting a spell, you can make one Unarmed Strike as part of that Reaction."
                     ]
                 },
                 {
                     "type": "entries",
-                    "name": "Drunkard\u2019s Luck.",
+                    "name": "Drunkard’s Luck.",
                     "entries": [
                         "Once every turn, when you fail a d20 Test, you can take a Reaction to reroll the test with Advantage and must use the new roll."
                     ]
@@ -2480,7 +2480,7 @@
             ]
         },
         {
-            "name": "Level 3: Slayer\u2019s Sense",
+            "name": "Level 3: Slayer’s Sense",
             "source": "AliFosche",
             "className": "Ranger",
             "classSource": "XPHB",
@@ -2492,7 +2492,7 @@
             ]
         },
         {
-            "name": "Level 3: Slayer\u2019s Prey",
+            "name": "Level 3: Slayer’s Prey",
             "source": "AliFosche",
             "className": "Ranger",
             "classSource": "XPHB",
@@ -2520,7 +2520,7 @@
             "subclassSource": "AliFosche",
             "level": 7,
             "entries": [
-                "You gain extra resilience against your prey's assaults on your mind and body. Whenever the target of your Hunter\u2019s Mark forces you to make a saving throw, you can add 1d6 to the roll."
+                "You gain extra resilience against your prey's assaults on your mind and body. Whenever the target of your Hunter’s Mark forces you to make a saving throw, you can add 1d6 to the roll."
             ]
         },
         {
@@ -2536,7 +2536,7 @@
             ]
         },
         {
-            "name": "Level 11: Magic\u2013User Nemesis",
+            "name": "Level 11: Magic–User Nemesis",
             "source": "AliFosche",
             "className": "Ranger",
             "classSource": "XPHB",
@@ -2548,7 +2548,7 @@
             ]
         },
         {
-            "name": "Level 15: Slayer\u2019s Counter",
+            "name": "Level 15: Slayer’s Counter",
             "source": "AliFosche",
             "className": "Ranger",
             "classSource": "XPHB",
@@ -2759,7 +2759,7 @@
             "subclassSource": "AliFosche",
             "level": 17,
             "entries": [
-                "You\u2019re blessed with the power of the storm and gain a Fly speed equal to your walking speed. In addition, When you finish a Long Rest you gain immunity to one of the following damage types: Cold, Lightning, or Thunder."
+                "You’re blessed with the power of the storm and gain a Fly speed equal to your walking speed. In addition, When you finish a Long Rest you gain immunity to one of the following damage types: Cold, Lightning, or Thunder."
             ]
         },
         {
@@ -2815,7 +2815,7 @@
                     "type": "list",
                     "items": [
                         "{@b Bleed Out (Cost: 3d6).} For 1 minute, the target takes {@damage 3d4} necrotic damage at the start of its turn. At the end of each of its turns, it must make a Constitution saving throw, ending the effect on a success.",
-                        "{@b Weaken (Costs: 2d6).} The target must succeed on a Dexterity saving throw. On a failed save, it has disadvantage on Strength\u2013based D20 Tests and subtracts {@dice 1d6} from all its damage rolls until the end of its next turn."
+                        "{@b Weaken (Costs: 2d6).} The target must succeed on a Dexterity saving throw. On a failed save, it has disadvantage on Strength–based D20 Tests and subtracts {@dice 1d6} from all its damage rolls until the end of its next turn."
                     ]
                 }
             ]
@@ -2829,7 +2829,7 @@
             "subclassSource": "AliFosche",
             "level": 13,
             "entries": [
-                "As an action, you gain Truesight with a range of 30 feet for 10 minutes. Once you use this feature, you can\u2019t do so again until you finish a Short or Long rest."
+                "As an action, you gain Truesight with a range of 30 feet for 10 minutes. Once you use this feature, you can’t do so again until you finish a Short or Long rest."
             ]
         },
         {
@@ -2853,7 +2853,7 @@
             "subclassSource": "AliFosche",
             "level": 3,
             "entries": [
-                "You gain proficiency with the {@item disguise kit|xphb} and the {@item forgery kit|xphb}. Moreover, you gain proficiency in the {@skill Deception} skill and can unerringly mimic the voice and accent of a creature that you hear speak for 1 minute. A creature is able to know you\u2019re faking with a Wisdom ({@skill Insight}) check contested by your Charisma ({@skill Deception})."
+                "You gain proficiency with the {@item disguise kit|xphb} and the {@item forgery kit|xphb}. Moreover, you gain proficiency in the {@skill Deception} skill and can unerringly mimic the voice and accent of a creature that you hear speak for 1 minute. A creature is able to know you’re faking with a Wisdom ({@skill Insight}) check contested by your Charisma ({@skill Deception})."
             ]
         },
         {
@@ -2869,8 +2869,8 @@
                 {
                     "type": "list",
                     "items": [
-                        "{@b Pawn\u2019s Opening.} Immediately after you deal your Sneak Attack damage, you can take the {@action Help} action on a creature within 30 feet of you (no action required).",
-                        "{@b Knight\u2019s Defense.} Immediately after you deal your Sneak Attack damage, a creature of your choice within 30 feet of you can use its reaction to move up to half its speed without provoking opportunity attacks."
+                        "{@b Pawn’s Opening.} Immediately after you deal your Sneak Attack damage, you can take the {@action Help} action on a creature within 30 feet of you (no action required).",
+                        "{@b Knight’s Defense.} Immediately after you deal your Sneak Attack damage, a creature of your choice within 30 feet of you can use its reaction to move up to half its speed without provoking opportunity attacks."
                     ]
                 }
             ]
@@ -2888,8 +2888,8 @@
                 {
                     "type": "list",
                     "items": [
-                        "{@b Rook\u2019s Castling (Cost: 1d6).} You push the target of the attack up to 10 feet away from you in a straight line, provided that it is up to one size larger than you.",
-                        "{@b Bishop\u2019s Check (Cost: 2d6).} The target has disadvantage on the first saving throw it makes before the end of its next turn."
+                        "{@b Rook’s Castling (Cost: 1d6).} You push the target of the attack up to 10 feet away from you in a straight line, provided that it is up to one size larger than you.",
+                        "{@b Bishop’s Check (Cost: 2d6).} The target has disadvantage on the first saving throw it makes before the end of its next turn."
                     ]
                 }
             ]
@@ -2903,7 +2903,7 @@
             "subclassSource": "AliFosche",
             "level": 13,
             "entries": [
-                "You\u2019ve become the perfect schemer. You gain the following benefits:",
+                "You’ve become the perfect schemer. You gain the following benefits:",
                 {
                     "type": "list",
                     "items": [
@@ -2926,7 +2926,7 @@
                 {
                     "type": "list",
                     "items": [
-                        "{@b King\u2019s Gambit (6d6).} Both you and the target of your Sneak Attack become vulnerable to the next instance of damage you take before the start of your next turn."
+                        "{@b King’s Gambit (6d6).} Both you and the target of your Sneak Attack become vulnerable to the next instance of damage you take before the start of your next turn."
                     ]
                 }
             ]
@@ -2980,7 +2980,7 @@
                 {
                     "type": "list",
                     "items": [
-                        "{@b Smoke Cloud (Cost: 1d6).} You create a 10\u2013foot radius sphere centered on the target of your attack. The smoke lasts until the end of your next turn.",
+                        "{@b Smoke Cloud (Cost: 1d6).} You create a 10–foot radius sphere centered on the target of your attack. The smoke lasts until the end of your next turn.",
                         "{@b Ambush (Costs: 2d6).} Until the start of your next turn, each attack made against the target of your Sneak Attack gains advantage."
                     ]
                 }
@@ -4217,7 +4217,7 @@
             "subclassSource": "AliFosche",
             "level": 10,
             "entries": [
-                "Taking damage can\u2019t break your concentration on Conjuration spells."
+                "Taking damage can’t break your concentration on Conjuration spells."
             ]
         },
         {
@@ -4229,7 +4229,7 @@
             "subclassSource": "AliFosche",
             "level": 14,
             "entries": [
-                "When you cast {@spell Summon Construct|xphb}, {@spell Summon Dragon|xphb}, {@spell Summon Elemental|xphb} or {@spell Summon Fey|xphb} using a spell slot, you can modify the spell to summon two creatures instead of one. Each creature uses the stat block and rules denoted by the spell and appears in a different unoccupied space of your choice within the spell\u2019s range, but the summoned creatures\u2019 hit points are halved. If you lose concentration on the spell, both creatures disappear."
+                "When you cast {@spell Summon Construct|xphb}, {@spell Summon Dragon|xphb}, {@spell Summon Elemental|xphb} or {@spell Summon Fey|xphb} using a spell slot, you can modify the spell to summon two creatures instead of one. Each creature uses the stat block and rules denoted by the spell and appears in a different unoccupied space of your choice within the spell’s range, but the summoned creatures’ hit points are halved. If you lose concentration on the spell, both creatures disappear."
             ]
         },
         {
@@ -4290,7 +4290,7 @@
             "subclassSource": "AliFosche",
             "level": 10,
             "entries": [
-                "When a creature within 30 feet of you that you can see hits deals damage to you, you can take a Reaction to force it to make a Wisdom saving throw against your spell save DC. On a failed save, the damage you take is reduced to 0 and another creature of your choice within 30 feet takes the same amount of damage. Once you use this Reaction, you can\u2019t do so again until you finish a Long rest. You can restore your use of this feature by casting an Enchantment spell with a spell slot."
+                "When a creature within 30 feet of you that you can see hits deals damage to you, you can take a Reaction to force it to make a Wisdom saving throw against your spell save DC. On a failed save, the damage you take is reduced to 0 and another creature of your choice within 30 feet takes the same amount of damage. Once you use this Reaction, you can’t do so again until you finish a Long rest. You can restore your use of this feature by casting an Enchantment spell with a spell slot."
             ]
         },
         {
@@ -4373,7 +4373,7 @@
                             "type": "item",
                             "name": "Undead Fortitude",
                             "entries": [
-                                "The creature\u2019s hit point maximum and current hit points increase by a number equal to the level of the spell slot used plus your Intelligence modifier."
+                                "The creature’s hit point maximum and current hit points increase by a number equal to the level of the spell slot used plus your Intelligence modifier."
                             ]
                         },
                         {
@@ -4474,12 +4474,12 @@
                             "type": "item",
                             "name": "Speed",
                             "entries": [
-                                "The bearer\u2019s speed increases by 10 feet."
+                                "The bearer’s speed increases by 10 feet."
                             ]
                         }
                     ]
                 },
-                "You can change the stone\u2019s benefit when you cast a Transmutation spell using a spell slot."
+                "You can change the stone’s benefit when you cast a Transmutation spell using a spell slot."
             ]
         },
         {
@@ -4503,7 +4503,7 @@
             "subclassSource": "AliFosche",
             "level": 6,
             "entries": [
-                "Your Transmuter\u2019s Stone is more versatile. When you create it, you can choose up to two benefits. You can choose each option other than Resistance only once, and if you choose Resistance twice, you must choose different damage types. You can change either or both benefits when you cast a Transmutation spell using a spell slot. In addition, the following are now among your benefit options for Transmuter\u2019s Stone.",
+                "Your Transmuter’s Stone is more versatile. When you create it, you can choose up to two benefits. You can choose each option other than Resistance only once, and if you choose Resistance twice, you must choose different damage types. You can change either or both benefits when you cast a Transmutation spell using a spell slot. In addition, the following are now among your benefit options for Transmuter’s Stone.",
                 {
                     "type": "list",
                     "items": [
@@ -4565,7 +4565,7 @@
             "subclassSource": "AliFosche",
             "level": 14,
             "entries": [
-                "While you carry your Transmuter\u2019s Stone, you can take a Magic Action to consume the reserve of transmutation magic stored inside and choose one of the following benefits. After you use your Transmuter\u2019s Stone in this way, the stone crumbles to dust. You can prevent the stone\u2019s destruction by expending a level 5+ spell slot.",
+                "While you carry your Transmuter’s Stone, you can take a Magic Action to consume the reserve of transmutation magic stored inside and choose one of the following benefits. After you use your Transmuter’s Stone in this way, the stone crumbles to dust. You can prevent the stone’s destruction by expending a level 5+ spell slot.",
                 {
                     "type": "list",
                     "items": [
@@ -4573,7 +4573,7 @@
                             "type": "item",
                             "name": "Major Transmutation",
                             "entries": [
-                                "An object you touch\u2014 no larger than a 10-foot Cube or eight connected 5-foot Cubes \u2014and transmute it into another nonmagical object of similar size and mass and of equal or lesser value."
+                                "An object you touch— no larger than a 10-foot Cube or eight connected 5-foot Cubes —and transmute it into another nonmagical object of similar size and mass and of equal or lesser value."
                             ]
                         },
                         {
@@ -4948,7 +4948,7 @@
                 {
                     "type": "list",
                     "items": [
-                        "You ignore the armor\u2019s Strength requirement.",
+                        "You ignore the armor’s Strength requirement.",
                         "You can don or doff the armor as a {@action Utilize} action. The armor can't be removed against your will.",
                         "You can use the Arcane Armor as a Spellcasting Focus for your Artificer spells."
                     ]
@@ -5329,11 +5329,11 @@
             "subclassSource": "AliFosche",
             "level": 15,
             "entries": [
-                "When you take the {@action Attack} action, you can transfer some of your Soul Weapon\u2019s bonus to your AC. For every 1 you reduce your attack and damage rolls by (maximum of 3), you gain +1 to your AC. This effect lasts until the start of your next turn. Also, when you finish a Long rest, you gain one of the following benefits until the end of your next long rest.",
+                "When you take the {@action Attack} action, you can transfer some of your Soul Weapon’s bonus to your AC. For every 1 you reduce your attack and damage rolls by (maximum of 3), you gain +1 to your AC. This effect lasts until the start of your next turn. Also, when you finish a Long rest, you gain one of the following benefits until the end of your next long rest.",
                 {
                     "type": "list",
                     "items": [
-                        "You have resistance to Psychic damage, and you can\u2019t be {@condition charmed} or {@condition frightened}.",
+                        "You have resistance to Psychic damage, and you can’t be {@condition charmed} or {@condition frightened}.",
                         "When you hit with your Soul Weapon the target takes {@damage 1d6} extra Psychic damage."
                     ]
                 }
@@ -5360,7 +5360,7 @@
             "subclassSource": "AliFosche",
             "level": 3,
             "entries": [
-                "You gain amazing insights into spell effects beyond the reach of most artificers. Choose one of the following classes: Cleric, Druid or Wizard. This class\u2019s spells become part of your Breakthrough List. You can choose another class to add to your Breakthrough List at level 5 and level 9. When you prepare your spells, you can prepare one additional spell for each level and those spells must be chosen from your Breakthrough List. You can cast each of those spells once without expending a spell slot and regain the ability to do so when you finish a Long Rest. The spells of your Breakthrough List are considered to be Artificer spells for you, and Intelligence is your spellcasting ability for them."
+                "You gain amazing insights into spell effects beyond the reach of most artificers. Choose one of the following classes: Cleric, Druid or Wizard. This class’s spells become part of your Breakthrough List. You can choose another class to add to your Breakthrough List at level 5 and level 9. When you prepare your spells, you can prepare one additional spell for each level and those spells must be chosen from your Breakthrough List. You can cast each of those spells once without expending a spell slot and regain the ability to do so when you finish a Long Rest. The spells of your Breakthrough List are considered to be Artificer spells for you, and Intelligence is your spellcasting ability for them."
             ]
         },
         {
@@ -5994,7 +5994,7 @@
                 ]
             },
             "entries": [
-                "You animate dead creatures that appear as a Large horde of intangible corpses or spirits in an unoccupied space you can see within range. The horde lasts for the duration and you choose the dead\u2019s form, such as ghosts or skeletons. When you move on your turn, you can also move the horde up to 30 feet to an unoccupied space you can see. Whenever the horde moves within 5 feet of a creature you can see and whenever a creature you can see enters a space within 5 feet of the horde or ends its turn there, you can force that creature to make a Strength saving throw. On a failed save, the creature takes {@damage 4d6} necrotic damage and is {@condition restrained} while it remains within 5 feet of the horde. On a successful save, it only takes half that damage. The horde can restrain only one creature at a time and a restrained creature can repeat its saving throw at the end of each of its turns, ending the effect on a success."
+                "You animate dead creatures that appear as a Large horde of intangible corpses or spirits in an unoccupied space you can see within range. The horde lasts for the duration and you choose the dead’s form, such as ghosts or skeletons. When you move on your turn, you can also move the horde up to 30 feet to an unoccupied space you can see. Whenever the horde moves within 5 feet of a creature you can see and whenever a creature you can see enters a space within 5 feet of the horde or ends its turn there, you can force that creature to make a Strength saving throw. On a failed save, the creature takes {@damage 4d6} necrotic damage and is {@condition restrained} while it remains within 5 feet of the horde. On a successful save, it only takes half that damage. The horde can restrain only one creature at a time and a restrained creature can repeat its saving throw at the end of each of its turns, ending the effect on a success."
             ],
             "entriesHigherLevel": [
                 {
@@ -6145,13 +6145,13 @@
                         "{@b Far Step.} As a Bonus Action, the target can teleport 60 feet in a space it can see.",
                         "{@b Magnify Senses.} The target has Blindsight out of a range of 30 feet.",
                         "{@b Bless.} When the target makes an attack roll or a saving throw, it adds {@dice 1d4} to it.",
-                        "{@b Fount of Moonlight.} The target\u2019s melee attacks deal {@damage 2d6} extra Radiant damage.",
+                        "{@b Fount of Moonlight.} The target’s melee attacks deal {@damage 2d6} extra Radiant damage.",
                         "{@b Greater Invisibility.} The target has the {@condition invisible} condition.",
-                        "{@b Unfeeling.} The target gains 10 temporary Hit Points, damage can\u2019t break their concentration if part of it removes these temporary Hit Points.",
+                        "{@b Unfeeling.} The target gains 10 temporary Hit Points, damage can’t break their concentration if part of it removes these temporary Hit Points.",
                         "{@b Haste.} The target speed is doubled and it gains an additional action that can be used to take only the Attack (one attack only), Dash, Disengage, Hide, or Utilize action."
                     ]
                 },
-                "The effect lasts until the start of your next turn. After the spell ends, you\u2019re incapable of casting any spell by using a spell slot until you finish a short or long rest."
+                "The effect lasts until the start of your next turn. After the spell ends, you’re incapable of casting any spell by using a spell slot until you finish a short or long rest."
             ],
             "entriesHigherLevel": [
                 {
@@ -6461,7 +6461,7 @@
             ]
         },
         {
-            "name": "Nyx's Zephyr\u2019s Strike",
+            "name": "Nyx's Zephyr’s Strike",
             "source": "AliFosche",
             "level": 1,
             "school": "T",
@@ -6590,9 +6590,9 @@
                 {
                     "type": "list",
                     "items": [
-                        "{@b Tool Proficiency.} You gain proficiency with three different Artisan\u2019s Tools of your choice from the Fast Crafting table.",
-                        "{@b Discount.} Whenever you craft a common or uncommon magic item, you receive a 25 percent discount on the crafting\u2019s cost.",
-                        "{@b Fast Crafting.} When you finish a Long rest, you can craft one piece of gear from the Fast Crafting table, provided you have proficiency with the Artisan\u2019s Tools associated with it. The item lasts until you finish another Long rest, at which point it falls apart."
+                        "{@b Tool Proficiency.} You gain proficiency with three different Artisan’s Tools of your choice from the Fast Crafting table.",
+                        "{@b Discount.} Whenever you craft a common or uncommon magic item, you receive a 25 percent discount on the crafting’s cost.",
+                        "{@b Fast Crafting.} When you finish a Long rest, you can craft one piece of gear from the Fast Crafting table, provided you have proficiency with the Artisan’s Tools associated with it. The item lasts until you finish another Long rest, at which point it falls apart."
                     ]
                 }
             ]
@@ -6608,7 +6608,7 @@
                     "items": [
                         "{@b Distracting Melody.} When you take the Help action to assist an ally's attack roll, the enemy you're distracting can be within 30 feet of you, rather than within 5 feet of you, provided the enemy can see or hear you.",
                         "{@b Reactive Teamwork.} Once during your turn, immediately after you hit a creature with an attack roll, you can take the Help action as part of the attack.",
-                        "{@b Thieves\u2019 Cant.} You know {@language thieves' cant}."
+                        "{@b Thieves’ Cant.} You know {@language thieves' cant}."
                     ]
                 }
             ]
@@ -6618,7 +6618,7 @@
             "source": "AliFosche",
             "category": "Origin",
             "entries": [
-                "You\u2019re trained to deal particularly damaging strikes. Once every turn, when you deal damage with a weapon or unarmed strike, you can deal {@damage 1d4} extra damage. This damage increases when you reach level 5 to {@damage 1d6}, level 11 to {@damage 1d8} and level 17 to {@damage 1d10}."
+                "You’re trained to deal particularly damaging strikes. Once every turn, when you deal damage with a weapon or unarmed strike, you can deal {@damage 1d4} extra damage. This damage increases when you reach level 5 to {@damage 1d6}, level 11 to {@damage 1d8} and level 17 to {@damage 1d10}."
             ]
         },
         {
@@ -6637,7 +6637,7 @@
                     "items": [
                         "{@b Ability Score Increase.} Increase your Intelligence, Wisdom or Charisma by 1, to a maximum of 20.",
                         "{@b Ambitious Magic.} You learn a level 1 spell of your choice from the Enchantment or Necromancy school. You can cast this spell without expending a spell slot, and you must finish a Long rest before you can cast it in this way again. Your spellcasting ability is the one increased by this feat.",
-                        "{@b Life Channel.} When a creature fails the saving throw against one of your spells that deals damage, you can expend and roll a number of hit dice up to the spell\u2019s level and increase one damage roll of the spell by the total rolled."
+                        "{@b Life Channel.} When a creature fails the saving throw against one of your spells that deals damage, you can expend and roll a number of hit dice up to the spell’s level and increase one damage roll of the spell by the total rolled."
                     ]
                 }
             ]
@@ -6658,7 +6658,7 @@
                     "items": [
                         "{@b Ability Score Increase.} Increase your Intelligence, Wisdom or Charisma by 1, to a maximum of 20.",
                         "{@b Insightful Magic.} You learn a level 1 spell of your choice from the Illusion or Transmutation school. You can cast this spell without expending a spell slot, and you must finish a Long rest before you can cast it in this way again. Your spellcasting ability is the one increased by this feat.",
-                        "{@b Balance Fate.} When you roll a 9 or lower on an attack roll or ability check, you can treat the roll as a 10 instead. Once you use this feature, you can\u2019t use it again until you finish a Long rest unless you expend a level 1+ spell slot to restore the use of it."
+                        "{@b Balance Fate.} When you roll a 9 or lower on an attack roll or ability check, you can treat the roll as a 10 instead. Once you use this feature, you can’t use it again until you finish a Long rest unless you expend a level 1+ spell slot to restore the use of it."
                     ]
                 }
             ]
@@ -6678,8 +6678,8 @@
                     "type": "list",
                     "items": [
                         "{@b Ability Score Increase.} Increase your Intelligence, Wisdom or Charisma by 1, to a maximum of 20.",
-                        "{@b Protective Magic.} You learn a level 1 spell of your choice from the abjuration or divination school. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. The spell\u2019s spellcasting ability is the one you increased with this feat.",
-                        "{@b Protective Ward.} When a creature you can see within 30 feet of you takes damage, you can take a Reaction to expend a spell slot and magically protect it. Roll a number of d6s equal to the spell slot\u2019s level and reduce the damage by the total rolled plus your Proficiency Bonus."
+                        "{@b Protective Magic.} You learn a level 1 spell of your choice from the abjuration or divination school. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. The spell’s spellcasting ability is the one you increased with this feat.",
+                        "{@b Protective Ward.} When a creature you can see within 30 feet of you takes damage, you can take a Reaction to expend a spell slot and magically protect it. Roll a number of d6s equal to the spell slot’s level and reduce the damage by the total rolled plus your Proficiency Bonus."
                     ]
                 }
             ]
@@ -6724,7 +6724,7 @@
                     "type": "list",
                     "items": [
                         "{@b Ability Score Increase.} Increase your Strength or Dexterity by 1, to a maximum of 20.",
-                        "{@b Bomb Maker.} When you finish a Long rest, you create a number of Acid, Alchemist\u2019s Fire or Holy Water equal to your Proficiency Bonus. These items last until you finish another Long Rest, at which point they fall apart.",
+                        "{@b Bomb Maker.} When you finish a Long rest, you create a number of Acid, Alchemist’s Fire or Holy Water equal to your Proficiency Bonus. These items last until you finish another Long Rest, at which point they fall apart.",
                         "{@b Empowered Reagents.} You can add the modifier of the ability score increased by this feat to the damage you deal throwing a vial or flask.",
                         "{@b Far Lobber.} When you throw a vial or flask, you can target an object or creature you can see within 40 feet of yourself."
                     ]
@@ -6753,7 +6753,7 @@
             ]
         },
         {
-            "name": "Chromatic Dragon\u2019s Gift (TAF)",
+            "name": "Chromatic Dragon’s Gift (TAF)",
             "source": "AliFosche",
             "category": "General",
             "entries": [
@@ -6762,7 +6762,7 @@
                     "type": "list",
                     "items": [
                         "{@b Ability Score Increase.} Increase your Strength or Dexterity by 1, to a maximum of 20.",
-                        "{@b Chromatic Infusion.} As a Bonus Action, you can infuse a weapon or unarmed strike with one of the following damage types: Acid, Cold, Fire, Lightning or Poison. For 1 minute, the weapon or unarmed strike deals an extra {@damage 1d4} damage of the chosen type. Once you use this trait, you can\u2019t use it again until you finish a Long rest.",
+                        "{@b Chromatic Infusion.} As a Bonus Action, you can infuse a weapon or unarmed strike with one of the following damage types: Acid, Cold, Fire, Lightning or Poison. For 1 minute, the weapon or unarmed strike deals an extra {@damage 1d4} damage of the chosen type. Once you use this trait, you can’t use it again until you finish a Long rest.",
                         "{@b Reactive Resistance.} When you take Acid, Cold, Fire, Lightning or Poison damage, you can take a Reaction to give you resistance to that instance of damage. You can use this reaction a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long rest."
                     ]
                 }
@@ -6849,7 +6849,7 @@
             ]
         },
         {
-            "name": "Metallic Dragon\u2019s Gift (TAF)",
+            "name": "Metallic Dragon’s Gift (TAF)",
             "source": "AliFosche",
             "category": "General",
             "entries": [
@@ -6858,7 +6858,7 @@
                     "type": "list",
                     "items": [
                         "{@b Ability Score Increase.} Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20.",
-                        "{@b Metallic Healing.} As a Bonus Action, roll a number of d6s equal to your proficiency bonus. A creature you touch regains a number of hit points equal to the total rolled. Once you use this trait, you can\u2019t use it again until you finish a Long rest.",
+                        "{@b Metallic Healing.} As a Bonus Action, roll a number of d6s equal to your proficiency bonus. A creature you touch regains a number of hit points equal to the total rolled. Once you use this trait, you can’t use it again until you finish a Long rest.",
                         "{@b Protective Wings.} When a creature you can see within 10 feet of you is hit by an attack, you can use your reaction to protect it with spectral wings. You grant a bonus to its AC equal to your Proficiency Bonus against that attack roll. You can use this feature a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long rest."
                     ]
                 }
@@ -7010,7 +7010,7 @@
                     "items": [
                         "{@b Ability Score Increase.} Increase your Intelligence, Wisdom or Charisma by 1, to a maximum of 30.",
                         "{@b Create Spell.} You can mimic the archmages of old by inventing a spell never seen before. To create the spell, you must study for 10 days and expend 100 gp for each level of the new spell in order to buy magical components needed for the creation.",
-                        "{@b Signature Spell.} Once your new spell is created, you always have it prepared and it doesn\u2019t count against the number of your prepared spells."
+                        "{@b Signature Spell.} Once your new spell is created, you always have it prepared and it doesn’t count against the number of your prepared spells."
                     ]
                 }
             ]
