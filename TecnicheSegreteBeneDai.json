@@ -3680,6 +3680,37 @@
                 "When you hit with a weapon attack or deal Psychic damage you can expend one use of your Bardic Inspiration to deal extra Psychic damage equal to three rolls of your Bardic Inspiration die."
             ]
         },
+{
+            "name": "Level 3: Psychic Blades",
+            "source": "AliFosche",
+            "className": "Bard",
+            "classSource": "XPHB",
+            "subclassShortName": "Whispers",
+            "subclassSource": "AliFosche",
+            "level": 3,
+            "entries": [
+                "Your mastery of psychic magic gives you the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Psychic Blade",
+                            "entries": [
+                                "You always have the {@spell shadow blade} spell prepared."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Mind Breaker",
+                            "entries": [
+                                "When you hit with a weapon attack or deal Psychic damage you can expend one use of your Bardic Inspiration to deal extra Psychic damage equal to three rolls of your Bardic Inspiration die."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         {
             "name": "Level 3: Words of Terror",
             "source": "AliFosche",
@@ -3689,7 +3720,7 @@
             "subclassSource": "AliFosche",
             "level": 3,
             "entries": [
-                "If you speak for 1 minute to a creature with an Intelligence ability score of at least 6, you can attempt to seed paranoia in its mind. At the end of the conversation, the target must succeed on a Wisdom saving throw against your spell DC or it takes {@damage 1d6} psychic damage and becomes {@condition frightened} of you. The {@condition frightened} effect ends if the target ends a turn without seeing you or experiencing harm from you."
+                "If you speak for 1 minute to a creature with an Intelligence ability score of at least 6, you can attempt to seed paranoia in its mind. At the end of the conversation, the target must succeed on a Wisdom saving throw against your spell save DC or be {@condition frightened} by you. The target is {@condition frightened} in this way for 1 hour, until it or one of its allies are harmed. If the target succeeds on its saving throw, the target has no hint that you tried to frighten it. Once you use this feature, you can't use it again until you finish a Long Rest, unless you spend a level 2+ spell slot (no action required) to restore the use of it."
             ]
         },
         {
@@ -3721,7 +3752,7 @@
                         }
                     ]
                 },
-                "You can use this feature a number of times equal to your Charisma modifier (minimum of once) and regain all expended uses when you finish a Long rest."
+                "You can use this feature a number of times equal to your Charisma modifier (minimum of once) and regain all expended uses when you finish a Long Rest."
             ]
         },
         {
@@ -3733,7 +3764,7 @@
             "subclassSource": "AliFosche",
             "level": 6,
             "entries": [
-                "Immediately after you deal damage with your Psychic Blades feature, you can teleport 15 feet to an unoccupied space you can see."
+                "Immediately you deal damage with your Psychic Blades feature, you can teleport 15 feet in an unoccupied space you can see."
             ]
         },
         {
@@ -3745,7 +3776,7 @@
             "subclassSource": "AliFosche",
             "level": 14,
             "entries": [
-                "As a Magic Action, you whisper in the mind of a creature within 30 feet of you. It must make a Wisdom saving throw against your spell DC. On a failed save, your whispers sound like the target's own doubts and fears magnified. The target takes {@damage 8d6} psychic damage and becomes {@condition stunned} until the end of its next turn."
+                "As a Magic Action, you whisper in the mind of a creature within 30 feet of you. It must make a Wisdom saving throw against your spell DC. On a failed save, your whispers sound like the target's most dark secrets and fears. It is {@condition charmed} by you and obeys your commands for 8 hours or until you or your allies harm it. The target won't risk its life for you, but can grant you favors and gifts. When the effect ends, it has no understanding of this fear. On a successful save, your whisper sounds like unintelligible mumbling and has no effect. Once you use this feature, you can't use it again until you finish a Long Rest."
             ]
         },
         {
